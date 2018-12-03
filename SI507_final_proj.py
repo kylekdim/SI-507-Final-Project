@@ -10,6 +10,9 @@ from bs4 import BeautifulSoup
 import sqlite3
 import csv
 
+STAFFJSON = 'staff.json'
+DBNAME = 'staff.db'
+
 def get_history_data():    
     base_url = "https://www.egr.msu.edu/"
     url_end = "people/directory/all"
@@ -136,7 +139,7 @@ def setup_db():
     conn.commit()
 
     # ==================================
-    # -------- Create Staff Table -------
+    # -------- Create Staff Table ------
     # ==================================
 
     statement = '''
@@ -144,13 +147,7 @@ def setup_db():
             'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
             'Name' TEXT NOT NULL,
             'Title' TEXT NOT NULL,
-            'Email' TEXT,
-            'Street Address' TEXT,
-            'Room' REAL,
-            'City' TEXT,
-            'State' INTEGER,
-            'Zip' REAL,
-            'Phone' TEXT,
+            'Email' TEXT
             );
         '''
     try:
@@ -159,29 +156,72 @@ def setup_db():
         print("Table creation failed at 'Staff'. Please try again.")
         
     conn.commit()
+            
+            #'Street Address' TEXT,
+            #'Room' REAL,
+            #'City' TEXT,
+            #'State' INTEGER,
+            #'Zip' REAL,
+            #'Phone' TEXT,
 
+    #===========================================
+    #------------ Load Json Data ---------------
+    #===========================================
+
+    json_file = open(STAFFJSON, 'r')
+    json_content = json_file.read()
+    json_data = json.loads(json_content)
+
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+    except:
+        print("Failure. Please try again.")
+
+
+
+    for name in json_data:
+        print(name)
+        Name = name
+        Title = json_data[name]["title"]
+        print(Title)
+        Email = json_data[name]["email"]
+        print(Email)
+
+        insert_statement = '''
+            INSERT INTO Staff(Name, Title, Email) VALUES (?, ?, ?);
+        '''
+
+        # execute + commit
+        cur.execute(insert_statement, [Name, Title, Email])
+        conn.commit()
+    conn.close()
 
 #----------------------------
 # Function Calls 
 #----------------------------
 
 #### Execute funciton, get_umsi_data, here ####
-history_titles = {}
+egr_titles = {}
 
 results = get_history_data()
 
+#print(results) results are class instances
+
 for person in results:
-    history_titles[person.name]  = {
+    egr_titles[person.name]  = {
         "title": person.title,
         "email": person.email
     }
 
 #### Write out file here ####
 print("Creating a file...")
-history_staff_file = open("directory_dict.json", "w") # create a json file
-history_staff_file.write(json.dumps(history_titles, indent = 4)) # dump the dictionary and format it
-history_staff_file.close() # close the file
+egr_staff_file = open("staff.json", "w") # create a json file
+egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
+egr_staff_file.close() # close the file
 print("The file has been created successfully.")
+
+setup_db()
 
 #-----------------------------
 # END OF CODE
