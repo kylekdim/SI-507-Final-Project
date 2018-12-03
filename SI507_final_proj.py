@@ -9,23 +9,26 @@ import json
 import urllib
 from bs4 import BeautifulSoup
 
-def get_history_data(page):    
-    base_url = "https://lsa.umich.edu/"
-    url_end = "history/people.html#page=" + str(page)
-    url = "https://www.egr.msu.edu/people/directory/all"
+def get_history_data():    
+    base_url = "https://www.egr.msu.edu/"
+    url_end = "people/directory/all"
+    url = base_url + url_end
 
     # scrape with Beautiful Soup
     page_content = make_request_using_cache(url) #dictonary with html
     soup_content = BeautifulSoup(page_content, "html.parser")
 
-    print(soup_content) 
+    #print(soup_content) 
 
-    # get the Contact details
-    div_content = soup_content.find(id = "people-list")
+    #get the Contact details
+    #div_content = soup_content.find(class_ = "view-content")
 
     #print(div_content)
+    #table_body = div_content.find("tbody")
+    #table_rows = table_body.find_all("tr")
 
-    person_class = div_content.find_all(class_ = "person")
+    person_class = soup_content.find_all("td", class_ = "views-field views-field-title views-align-left")
+    #print(person_class)
 
     results_list = []
     
@@ -38,16 +41,19 @@ def get_history_data(page):
         details_page_soup = BeautifulSoup(details_page_text, "html.parser") #call beautiful soup function to parse the request data
 
         # get staff member's name
-        name_section = details_page_soup.find(class_ = "pageTitle")
-        name = name_section.find("h1").text
+        name_section = details_page_soup.find(class_ = "profile-title")
+        name = name_section.find(class_ = "active").text
 
         # get staff member's title
-        title_section = details_page_soup.find(class_ = "info")
-        title = title_section.find(class_ = "title").text
+        title_section = details_page_soup.find(class_ = "profile-pro-title")
+        title = title_section.find(class_ = "field-content").text
 
         # get staff member's email
-        email_section = details_page_soup.find(class_ = "info")
-        email = email_section.find("a")["href"]
+        try:
+            email_section = details_page_soup.find(class_ = "views-field views-field-field-ep-email")
+            email = email_section.find("a")["href"]
+        except:
+            email = ""
 
         # create instance for staff member
         results_list.append(Member(name, title, email))
@@ -81,13 +87,15 @@ def make_request_using_cache(url):
 
     if unique_ident in CACHE_DICTION:
         # access the existing data
-        print("Getting cached data from file...")
+        print("Getting cached data from..." + url)
         return CACHE_DICTION[unique_ident]
     else:
-        print("Making a request for new data...")
+        print("Making a request for new data from..." + url)
         # make the request and cache the new data
         resp = requests.get(url, headers=header)
-        print(resp.content)
+        
+        #print(resp.content)
+        
         CACHE_DICTION[unique_ident] = resp.text
         dumped_json_cache = json.dumps(CACHE_DICTION)
         fw = open(CACHE_FNAME,"w")
@@ -109,12 +117,13 @@ class Member:
 #### Execute funciton, get_umsi_data, here ####
 history_titles = {}
 
-for i in range(1, 26):
-    for person in get_history_data(i):
-        history_titles[person.name]  = {
-            "title": person.title,
-            "email": person.email
-        }
+results = get_history_data()
+
+for person in results:
+    history_titles[person.name]  = {
+        "title": person.title,
+        "email": person.email
+    }
 
 #### Write out file here ####
 print("Creating a file...")
