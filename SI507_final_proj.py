@@ -2,12 +2,13 @@
 #Name: Kyle Chang
 #Section: Wed 10 AM
 
-#P26 is last page
 
 import requests
 import json
 import urllib
 from bs4 import BeautifulSoup
+import sqlite3
+import csv
 
 def get_history_data():    
     base_url = "https://www.egr.msu.edu/"
@@ -109,6 +110,56 @@ class Member:
         self.name = name
         self.title = title
         self.email = email
+
+
+#==========================================
+# ---------- Initial Database Setup -------
+#==========================================
+
+def setup_db():
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+    except:
+        print("Database creation failed at startup. Please try again.")
+
+    statement = '''
+        DROP TABLE IF EXISTS 'Staff';
+    '''
+    cur.execute(statement)
+
+    #statement = '''
+        #DROP TABLE IF EXISTS 'Countries';
+    #'''
+    
+    #cur.execute(statement)
+    conn.commit()
+
+    # ==================================
+    # -------- Create Staff Table -------
+    # ==================================
+
+    statement = '''
+        CREATE TABLE 'Staff' (
+            'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
+            'Name' TEXT NOT NULL,
+            'Title' TEXT NOT NULL,
+            'Email' TEXT,
+            'Street Address' TEXT,
+            'Room' REAL,
+            'City' TEXT,
+            'State' INTEGER,
+            'Zip' REAL,
+            'Phone' TEXT,
+            );
+        '''
+    try:
+        cur.execute(statement)
+    except:
+        print("Table creation failed at 'Staff'. Please try again.")
+        
+    conn.commit()
+
 
 #----------------------------
 # Function Calls 
