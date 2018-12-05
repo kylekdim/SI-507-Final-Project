@@ -12,10 +12,11 @@ import csv
 
 STAFFJSON = 'staff.json'
 DBNAME = 'staff.db'
+CACHE_FNAME = 'cache.json'
 
 def get_history_data():    
-    base_url = "https://www.egr.msu.edu/"
-    url_end = "people/directory/all"
+    base_url = "https://www.egr.msu.edu"
+    url_end = "/people/directory/all"
     url = base_url + url_end
 
     # scrape with Beautiful Soup
@@ -39,7 +40,7 @@ def get_history_data():
     #Examine content and set variables, converting to appropriate data types as needed
 
     for item in person_class:
-        url_person = item.find("a")["href"] # get the node
+        url_person = item.find("a")["href"] # get the folder structure in link
         details_url = base_url + url_person # format the URL
         details_page_text = make_request_using_cache(details_url) #call the request/cache pull function
         details_page_soup = BeautifulSoup(details_page_text, "html.parser") #call beautiful soup function to parse the request data
@@ -55,12 +56,28 @@ def get_history_data():
         # get staff member's email
         try:
             email_section = details_page_soup.find(class_ = "views-field views-field-field-ep-email")
-            email = email_section.find("a")["href"]
+            email_raw = email_section.find("a")["href"]
+            email = email_raw[7:] 
         except:
             email = ""
 
+        # get staff member's phone
+        try:
+            phone_section = details_page_soup.find(class_ = "views-field views-field-field-ep-phone-number")
+            phone = phone_section.find(class_ = "field-content").text
+        except:
+            phone = ""
+
+        #get the staff member's street address
+        try:
+            st_address_section = details_page_soup.find(class_ = "views-field views-field-field-ep-address-rm")
+            st_address = st_address_section.find(class_ = "field-content").text
+        except:
+            st_address = ""
+
+
         # create instance for staff member
-        results_list.append(Member(name, title, email))
+        results_list.append(Member(name, title, email, phone, st_address))
 
     return results_list
 
@@ -68,7 +85,6 @@ def get_history_data():
 # Cache Code:
 # ---------------------------
 
-CACHE_FNAME = "cache.json"
 #Open and load the cache if it exists
 try:
     cache_file = open(CACHE_FNAME, "r")
@@ -109,10 +125,12 @@ def make_request_using_cache(url):
 
 # Staff Member Class Declaration
 class Member:
-    def __init__(self, name, title, email):
+    def __init__(self, name, title, email, phone, st_address):
         self.name = name
         self.title = title
         self.email = email
+        self.phone = phone
+        self.st_address = st_address
 
 
 #==========================================
@@ -131,11 +149,11 @@ def setup_db():
     '''
     cur.execute(statement)
 
-    #statement = '''
-        #DROP TABLE IF EXISTS 'Countries';
-    #'''
+    statement = '''
+        DROP TABLE IF EXISTS 'Address';
+    '''
     
-    #cur.execute(statement)
+    cur.execute(statement)
     conn.commit()
 
     # ==================================
@@ -147,13 +165,31 @@ def setup_db():
             'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
             'Name' TEXT NOT NULL,
             'Title' TEXT NOT NULL,
-            'Email' TEXT
+            'Email' TEXT,
+            'Phone' TEXT
             );
         '''
     try:
         cur.execute(statement)
     except:
         print("Table creation failed at 'Staff'. Please try again.")
+
+    conn.commit()
+
+    # ==================================
+    # -------- Create Address Table ----
+    # ==================================
+
+    statement = '''
+        CREATE TABLE 'Address' (
+            'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
+            'StreetAddress' TEXT
+            );
+        '''
+    try:
+        cur.execute(statement)
+    except:
+        print("Table creation failed at 'Address'. Please try again.")
         
     conn.commit()
             
@@ -181,20 +217,33 @@ def setup_db():
 
 
     for name in json_data:
-        print(name)
+        #print(name)
         Name = name
         Title = json_data[name]["title"]
-        print(Title)
+        #print(Title)
         Email = json_data[name]["email"]
-        print(Email)
+        #print(Email)
+        Phone = json_data[name]["phone"]
 
         insert_statement = '''
-            INSERT INTO Staff(Name, Title, Email) VALUES (?, ?, ?);
+            INSERT INTO Staff(Name, Title, Email, Phone) VALUES (?, ?, ?, ?);
         '''
 
         # execute + commit
-        cur.execute(insert_statement, [Name, Title, Email])
+        cur.execute(insert_statement, [Name, Title, Email, Phone])
         conn.commit()
+
+    for name in json_data:
+        StreetAddress = json_data[name]["st_address"]
+
+        insert_statement = '''
+            INSERT INTO Address(StreetAddress) VALUES (?);
+        '''
+
+        # execute + commit
+        cur.execute(insert_statement, [StreetAddress])
+        conn.commit()
+
     conn.close()
 
 #----------------------------
@@ -211,7 +260,9 @@ results = get_history_data()
 for person in results:
     egr_titles[person.name]  = {
         "title": person.title,
-        "email": person.email
+        "email": person.email,
+        "phone": person.phone,
+        "st_address": person.st_address
     }
 
 #### Write out file here ####
@@ -222,6 +273,7 @@ egr_staff_file.close() # close the file
 print("The file has been created successfully.")
 
 setup_db()
+print("Database has been successfully populated")
 
 #-----------------------------
 # END OF CODE
