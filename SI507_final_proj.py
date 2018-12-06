@@ -75,9 +75,16 @@ def get_history_data():
         except:
             st_address = ""
 
+        #get the staff member's room number
+        try:
+            room_section = details_page_soup.find(class_ = "views-field views-field-field-ep-room-number")
+            room = room_section.find(class_ = "field-content").text
+        except:
+            room = ""
+
 
         # create instance for staff member
-        results_list.append(Member(name, title, email, phone, st_address))
+        results_list.append(Member(name, title, email, phone, st_address, room))
 
     return results_list
 
@@ -107,10 +114,10 @@ def make_request_using_cache(url):
 
     if unique_ident in CACHE_DICTION:
         # access the existing data
-        print("Getting cached data from..." + url)
+        print("Getting cached data from: " + url)
         return CACHE_DICTION[unique_ident]
     else:
-        print("Making a request for new data from..." + url)
+        print("Making a request for new data from: " + url)
         # make the request and cache the new data
         resp = requests.get(url, headers=header)
         
@@ -125,12 +132,13 @@ def make_request_using_cache(url):
 
 # Staff Member Class Declaration
 class Member:
-    def __init__(self, name, title, email, phone, st_address):
+    def __init__(self, name, title, email, phone, st_address, room):
         self.name = name
         self.title = title
         self.email = email
         self.phone = phone
         self.st_address = st_address
+        self.room = room
 
 
 #==========================================
@@ -183,7 +191,8 @@ def setup_db():
     statement = '''
         CREATE TABLE 'Address' (
             'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
-            'StreetAddress' TEXT
+            'StreetAddress' TEXT,
+            'Room' TEXT
             );
         '''
     try:
@@ -235,13 +244,14 @@ def setup_db():
 
     for name in json_data:
         StreetAddress = json_data[name]["st_address"]
+        Room = json_data[name]["room"]
 
         insert_statement = '''
-            INSERT INTO Address(StreetAddress) VALUES (?);
+            INSERT INTO Address(StreetAddress, Room) VALUES (?, ?);
         '''
 
         # execute + commit
-        cur.execute(insert_statement, [StreetAddress])
+        cur.execute(insert_statement, [StreetAddress, Room])
         conn.commit()
 
     conn.close()
@@ -262,7 +272,8 @@ for person in results:
         "title": person.title,
         "email": person.email,
         "phone": person.phone,
-        "st_address": person.st_address
+        "st_address": person.st_address,
+        "room": person.room
     }
 
 #### Write out file here ####

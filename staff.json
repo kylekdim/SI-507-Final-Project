@@ -3,2712 +3,3164 @@
         "title": "Web Developer",
         "email": "santhosh@egr.msu.edu",
         "phone": "(517) 355-3817",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2316"
     },
     "Umesh Adhikari": {
         "title": "Research Associate",
         "email": "adhika12@msu.edu",
         "phone": "517-353-1908",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "230"
     },
     "Aitor Aguirre": {
         "title": "Assistant Professor, Biomedical Engineering",
         "email": "aaguirre@msu.edu",
         "phone": "517-353-7072",
-        "st_address": "775 Woodlot Dr"
+        "st_address": "775 Woodlot Dr",
+        "room": "3318"
     },
     "H. Metin Aktulga": {
         "title": "Assistant Professor",
         "email": "hma@cse.msu.edu",
         "phone": "(517)355-1646",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1126"
     },
     "John Albrecht": {
         "title": "Associate Professor and Associate Chair for Research",
         "email": "jalbrech@msu.edu",
         "phone": "(517) 432-3646",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3422"
     },
     "Patton Manuel Allison": {
         "title": "Assistant Professor",
         "email": "alliso63@msu.edu",
         "phone": "517-432-3187",
-        "st_address": "1497 Engineering Research Ct. "
+        "st_address": "1497 Engineering Research Ct. ",
+        "room": "145 RCE"
     },
     "Evangelyn Alocilja": {
         "title": "Professor",
         "email": "alocilja@msu.edu",
         "phone": "(517) 355-0083",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "213"
     },
     "Annick Anctil": {
         "title": "Assistant Professor",
         "email": "anctilan@msu.edu",
         "phone": "(517) 432-4692",
-        "st_address": "1449 Engineering Research Ct."
+        "st_address": "1449 Engineering Research Ct.",
+        "room": "A132"
     },
     "Yolanda Anderson": {
         "title": "Teaching Specialist",
         "email": "ande1989@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "1107"
     },
     "Rebecca Anthony": {
         "title": "Assistant Professor; Adjunct Faculty of ChEMS",
         "email": "ranthony@msu.edu",
         "phone": "(517) 432-7491",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2453"
     },
     "Per Askeland": {
         "title": "Specialist-Research",
         "email": "askelano@egr.msu.edu",
         "phone": "(517) 432-5245",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Dean Aslam": {
         "title": "Professor",
         "email": "aslam@egr.msu.edu",
         "phone": "(517) 353-6329",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3211"
     },
     "Jes Asmussen": {
         "title": "Emeritus, University Distinguished Professor, Richard M. Hong Professor of Electrical Engineering",
         "email": "asmussen@egr.msu.edu",
         "phone": "(517) 355-4620",
-        "st_address": "Engineering Research Complex"
+        "st_address": "Engineering Research Complex",
+        "room": "B111"
     },
     "Ronald Averill": {
         "title": "Associate Professor and Associate Chair for the Undergraduate Program",
         "email": "averillr@egr.msu.edu",
         "phone": "(517) 353-7188",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328F"
     },
     "Selin Aviyente": {
         "title": "Professor and Associate Chair for Undergraduate Studies",
         "email": "aviyente@egr.msu.edu",
         "phone": "(517) 355-7649",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2210"
     },
     "Virginia Ayres": {
         "title": "Associate Professor",
         "email": "ayresv@egr.msu.edu",
         "phone": "(517) 355-5236",
-        "st_address": "Engineering Research Complex"
+        "st_address": "Engineering Research Complex",
+        "room": "C104"
     },
     "Seungik Baek": {
         "title": "Associate Professor",
         "email": "sbaek@egr.msu.edu",
         "phone": "(517) 432-3161",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3259"
     },
     "Marty Bailey": {
         "title": "Associate Director of Development",
         "email": "baile345@egr.msu.edu",
         "phone": "(517) 355-8339",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3536"
     },
     "Roy Bailiff": {
         "title": "Res/Instruc Equipment Technologist II",
         "email": "bailiff@msu.edu",
         "phone": "(517) 355-3521",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2505"
     },
     "Wendy Baker": {
         "title": "Executive Secretary for Associate Dean for Research and Graduate Studies, John Verboncoeur and Associate Dean for Administrative Affairs, Tom Voice",
         "email": "bakerwe@egr.msu.edu",
         "phone": "(517) 432-2464",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3410"
     },
     "Gilbert Baladi": {
         "title": "Professor",
         "email": "baladi@egr.msu.edu",
         "phone": "(517) 355-5147",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3556"
     },
     "Venkatesh Balan": {
         "title": "Adjunct Associate Professor",
         "email": "balan@egr.msu.edu",
         "phone": "(517) 884-6055",
-        "st_address": "3815 Technology Blvd."
+        "st_address": "3815 Technology Blvd.",
+        "room": "Suite A117"
     },
     "Shanker Balasubramaniam": {
         "title": "University Distinguished Professor",
         "email": "bshanker@egr.msu.edu",
         "phone": "(517) 432-8136",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Ziba Banafsheha": {
         "title": "Research Administrator",
         "email": "ziba@egr.msu.edu",
         "phone": "(517) 355-5104",
-        "st_address": "428 S Shaw Lane"
+        "st_address": "428 S Shaw Lane",
+        "room": "2527"
     },
     "Wolfgang Banzhaf": {
         "title": "Prof, JR Koza Chair - Tenure System",
         "email": "banzhafw@msu.edu ",
         "phone": "(517) 432-0212",
-        "st_address": "428 S. Shaw Ln"
+        "st_address": "428 S. Shaw Ln",
+        "room": "3267"
     },
     "Denise Barnstead": {
         "title": "Administrative Assistant/Supervisor",
         "email": "barnsted@egr.msu.edu",
         "phone": "(517) 432-7748",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1424"
     },
     "Sergey Baryshev": {
         "title": "Assistant Professor",
         "email": "serbar@msu.edu",
         "phone": "(517) 355-5066",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2120"
     },
     "Stephen Bates": {
         "title": "Senior Director of Development & Alumni Relations",
         "email": "batesst@egr.msu.edu",
         "phone": "(517) 355-8339",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3536"
     },
     "Rebecca Baynai": {
         "title": "Research Administrator",
         "email": "rebaynai@egr.msu.edu",
         "phone": "(517) 355-7435",
-        "st_address": "428 S Shaw Lane"
+        "st_address": "428 S Shaw Lane",
+        "room": "2527"
     },
     "James Beck": {
         "title": "Professor Emeritus",
         "email": "jamesverebeck@comcast.net",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Michael Becker": {
         "title": "Adjunct Visiting Scholar",
         "email": "becker26@msu.edu",
         "phone": "(517) 432-8181",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "B100"
     },
     "Bruce Beill": {
         "title": "Program Presenter",
         "email": "beill@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "-"
     },
     "Andre Benard": {
         "title": "Associate Professor",
         "email": "benard@egr.msu.edu",
         "phone": "(517) 432-1522",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2425"
     },
     "Kris Berglund": {
         "title": "University Distinguished Professor of Chemical Engineering",
         "email": "berglund@egr.msu.edu",
         "phone": "(517) 974-3030",
-        "st_address": "3815 Technology Blvd."
+        "st_address": "3815 Technology Blvd.",
+        "room": "Suite A114"
     },
     "Sudin Bhattacharya": {
         "title": "Assistant Professor, Biomedical Engineering and Pharmacology & Toxicology",
         "email": "sbhattac@msu.edu",
         "phone": "517-884-6952",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "1313"
     },
     "Jill Bielawski": {
         "title": "Educational Program Coordinator II",
         "email": "bielawsk@egr.msu.edu",
         "phone": "(517) 353-8133",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115 D"
     },
     "Thomas Bieler": {
         "title": "Professor",
         "email": "bieler@egr.msu.edu",
         "phone": "(517) 353-9767",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3527"
     },
     "Vishnu Boddeti": {
         "title": "Assistant Professor",
         "email": "vishnu@cse.msu.edu",
         "phone": "(517) 352-0609",
-        "st_address": "438 S. Shaw"
+        "st_address": "438 S. Shaw",
+        "room": "2507D"
     },
     "Tina Bird": {
         "title": "Administrative Assistant I",
         "email": "lacinat@msu.edu",
         "phone": "(517) 884-8474",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Subir Biswas": {
         "title": "Professor ",
         "email": "sbiswas@egr.msu.edu",
         "phone": "(517) 432-4614",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2308B"
     },
     "Monique Blackmer": {
         "title": "Office Assistant III",
         "email": "gosseli8@egr.msu.edu",
         "phone": "(517) 353-0845",
-        "st_address": "248 S Shaw Ln "
+        "st_address": "248 S Shaw Ln ",
+        "room": "1415"
     },
     "Maggie Blair-Ramsey": {
         "title": "Coordinator - Engineering Study Abroad Program",
         "email": "blairram@egr.msu.edu",
         "phone": "(517) 432-2012",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1108"
     },
     "Carl Boehlert": {
         "title": "Professor",
         "email": "boehlert@egr.msu.edu",
         "phone": "(517) 353-3703",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3529"
     },
     "Shaunak D. Bopardikar": {
         "title": "Assistant Professor",
         "email": "shaunak@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "1219"
     },
     "Giles Brereton": {
         "title": "Associate Professor",
         "email": "brereton@egr.msu.edu",
         "phone": "(517) 432-3340",
-        "st_address": "1497 Engineering Research CT"
+        "st_address": "1497 Engineering Research CT",
+        "room": "149"
     },
     "Daina Briedis": {
         "title": "Associate Professor; Assistant Dean of Student Advancement",
         "email": "briedis@egr.msu.edu",
         "phone": "(517) 353-3861",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2258"
     },
     "V. Bobby Bringi": {
         "title": "Research Professor",
         "email": "bringi@msu.edu",
         "phone": "(517) 336-4602",
-        "st_address": "3815 Technology Drive"
+        "st_address": "3815 Technology Drive",
+        "room": "Suite C110"
     },
     "Hannah M. Brodhead": {
         "title": "Specialist - Advisor-Fixed Term",
         "email": "brodhead@msu.edu",
         "phone": "(517) 884-8796",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "216"
     },
     "Neeraj Buch": {
         "title": "Associate Dean for Engineering Undergraduate Studies / Professor of Civil & Environmental Engineering",
         "email": "buch@egr.msu.edu",
         "phone": "(517) 355-5128",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1415"
     },
     "Rigoberto Burgue\u00f1o": {
         "title": "Professor Civil and Environmental Engineering/Adjunct Professor Mechanical Engineering",
         "email": "burgueno@egr.msu.edu",
         "phone": "(517) 353-1743",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3574"
     },
     "Lindsay Burns": {
         "title": "Administrative Assistant III/S",
         "email": "burnslin@egr.msu.edu",
         "phone": "(517) 353-9861",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Tamara Reid Bush": {
         "title": "Associate Professor",
         "email": "reidtama@msu.edu",
         "phone": "(517) 353-9544",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2455"
     },
     "Scott Calabrese Barton": {
         "title": "Professor",
         "email": "scb@egr.msu.edu",
         "phone": "(517) 355-0222",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3243"
     },
     "Theo Caldwell": {
         "title": "Assistant Dean, Student Inclusion and Diversity",
         "email": "tc@egr.msu.edu",
         "phone": "(517) 355-5156",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3424"
     },
     "Changyong Cao": {
         "title": "Assistant Professor",
         "email": "ccao@msu.edu",
         "phone": "517-353-9504",
-        "st_address": "448 Wilson Road"
+        "st_address": "448 Wilson Road",
+        "room": "130"
     },
     "Jacqueline Carlson": {
         "title": "Director of DECS",
         "email": "carlson@egr.msu.edu",
         "phone": "(517) 355-3818",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1338B"
     },
     "Kari Ceo-Grulke": {
         "title": "Unit HR Coordinator",
         "email": "ceogrulk@msu.edu",
         "phone": "517-884-6983",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4000"
     },
     "Prem Chahal": {
         "title": "Associate Professor",
         "email": "chahal@egr.msu.edu",
         "phone": "(517) 355-0248",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2214B"
     },
     "Joyce Chai": {
         "title": "Professor",
         "email": "jchai@cse.msu.edu",
         "phone": "(517) 432-9239",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2138"
     },
     "Nisachon Chaiwang": {
         "title": "Department Technician",
         "email": "chaiwang@egr.msu.edu",
         "phone": "517-884-6982",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4000"
     },
     "Sunil Chakrapani": {
         "title": "Assistant professor",
         "email": "csk@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2120"
     },
     "Christina Chan": {
         "title": "George W. Bissell Professor",
         "email": "krischan@egr.msu.edu",
         "phone": "(517) 432-4530",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1257"
     },
     "Karim Chatti": {
         "title": "Professor",
         "email": "chatti@msu.edu",
         "phone": "(517) 355-6534",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3557"
     },
     "Xanthippi Chatzistavrou": {
         "title": "Assistant Professor",
         "email": "chatzist@msu.edu",
         "phone": "(517) 353-5397",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3517"
     },
     "Betty Cheng": {
         "title": "Professor",
         "email": "chengb@cse.msu.edu",
         "phone": "(517) 355-8344",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1129"
     },
     "Shiwang Cheng": {
         "title": "Assistant Professor",
         "email": "chengsh9@egr.msu.edu",
         "phone": "(517) 353-7130",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3518"
     },
     "Jongeun Choi": {
         "title": "Associate Professor",
         "email": "jchoi@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2555"
     },
     "Kathy Chomas": {
         "title": "Administrative Assistant II",
         "email": "chomask@msu.edu",
         "phone": "517-432-8220",
-        "st_address": "2857 Jolly Rd."
+        "st_address": "2857 Jolly Rd.",
+        "room": "112"
     },
     "Sandra Christlieb": {
         "title": "Specialist",
         "email": "sandra@egr.msu.edu",
         "phone": "517-432-2414",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1108A"
     },
     "Haseung Chung": {
         "title": "Assistant Professor",
         "email": "chunghas@egr.msu.edu",
         "phone": "(517) 432-6583",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2244"
     },
     "Bradley Clark": {
         "title": "Specialist - Outreach-Fixed Term",
         "email": "clarkb2@msu.edu",
         "phone": "(517) 432-4693",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2112"
     },
     "J. Kelly Climer": {
         "title": "Systems Analyst II",
         "email": "climer@cse.msu.edu",
         "phone": "(517) 353-9574",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3315"
     },
     "Gary Cloud": {
         "title": "University Distinguished Professor Emeritus",
         "email": "cloud@egr.msu.edu",
         "phone": "(517) 355-9574",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3511"
     },
     "Katy Luchini Colbry": {
         "title": "Assistant Dean for Graduate Student Services",
         "email": "colbryka@egr.msu.edu",
         "phone": "(517) 432-1064",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2420"
     },
     "Kyle Colby": {
         "title": "Support Office",
         "email": "colbykyl@egr.msu.edu",
         "phone": "(517) 353-8891",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1303"
     },
     "Margaret Conner": {
         "title": "Graduate Secretary",
         "email": "conner@egr.msu.edu",
         "phone": "(517) 884-6976",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4000"
     },
     "Christopher H. Contag": {
         "title": "Hannah Distinguished Professor of Biomedical Engineering and Microbiology & Molecular Genetics; Chair, Biomedical Engineering; Director, Institute for Quantitative Health Science & Engineering",
         "email": "contagch@egr.msu.edu",
         "phone": "517-884-6933",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4040"
     },
     "Judith Cordes": {
         "title": "Senior Specialist & Coordinator, Women in Engineering Program",
         "email": "cordes@egr.msu.edu",
         "phone": "(517) 432-1354  ",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1108A"
     },
     "Judith Corley-Lay": {
         "title": "Director, National Center for Pavement Preservation",
         "email": "corleyla@egr.msu.edu",
         "phone": "(517) 432-8220",
-        "st_address": "2857 Jolly Rd."
+        "st_address": "2857 Jolly Rd.",
+        "room": "114"
     },
     "Martin Crimp": {
         "title": "Professor",
         "email": "crimp@egr.msu.edu",
         "phone": "(517) 355-0294",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3513"
     },
     "Alison Cupples": {
         "title": "Associate Professor",
         "email": "cupplesa@egr.msu.edu",
         "phone": "(517) 432-3370",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A135"
     },
     "Jeff Curtiss": {
         "title": "Facilities Coordinator",
         "email": "curti108@msu.edu",
         "phone": "(517) 353-8689",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3426"
     },
     "Bruce Dale": {
         "title": "University Distinguished Professor; MSU AgBioResearch",
         "email": "bdale@egr.msu.edu",
         "phone": "(517) 353-6777",
-        "st_address": "3815 Technology Blvd."
+        "st_address": "3815 Technology Blvd.",
+        "room": "Suite A118"
     },
     "James Daly": {
         "title": "Teaching Specialist",
         "email": "dalyjame@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3501"
     },
     "Roozbeh Dargazany": {
         "title": "Assistant Professor",
         "email": "roozbeh@msu.edu",
         "phone": "(517) 432-0180",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3567 Engineering"
     },
     "Simon Davies": {
         "title": "Specialist-Research",
         "email": "davies@egr.msu.edu",
         "phone": "(517) 355-0228",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A127"
     },
     "Carmellia Davis-King": {
         "title": "Co-Curricular Director, CoRe Experience",
         "email": "kingcarm@egr.msu.edu",
         "phone": "(517) 355-6616 Ext.2 ",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "W5"
     },
     "Kalyanmoy Deb": {
         "title": "Koenig Endowed Chair Professor for Electrical and Computer Engineering; Adjunct Faculty for Computer Science & Engineering and Mechanical Engineering ",
         "email": "kdeb@msu.edu",
         "phone": "(517) 432-2144",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "Room 3247"
     },
     "John Deller": {
         "title": "Professor",
         "email": "deller@egr.msu.edu",
         "phone": "(517) 353-8840",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3209"
     },
     "Barbara DeLong": {
         "title": "Secretary III",
         "email": "delong24@msu.edu",
         "phone": "(517) 355-4720",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "216"
     },
     "Yiming Deng": {
         "title": "Associate Professor",
         "email": "dengyimi@egr.msu.edu",
         "phone": "(517) 432-0492",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2507"
     },
     "John Denny": {
         "title": "Specialist; Academic Advisor",
         "email": "",
         "phone": "(517) 355-6616 ext.2",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "W7"
     },
     "Karl Dersch": {
         "title": "Research Assistant I",
         "email": "derschk@egr.msu.edu",
         "phone": "(517) 353-1959",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "C138"
     },
     "Alejandro Diaz": {
         "title": "Professor ",
         "email": "diaz@egr.msu.edu",
         "phone": "(517) 353-0825",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328J"
     },
     "Laura Dillon": {
         "title": "Professor",
         "email": "ldillon@cse.msu.edu",
         "phone": "(517) 353-4387",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3132"
     },
     "Hu Ding": {
         "title": "Assistant Professor",
         "email": "huding@cse.msu.edu",
         "phone": "(517) 355-8389",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "2140"
     },
     "Kirk Dolan": {
         "title": "Associate Professor",
         "email": "dolank@msu.edu",
         "phone": "517-355-8474",
-        "st_address": "208 GM Trout Building"
+        "st_address": "208 GM Trout Building",
+        "room": " 135B"
     },
     "Luis Donado": {
         "title": "Admissions Counselor",
         "email": "donadoto@egr.msu.edu",
         "phone": "(517) 353-7282",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1410"
     },
     "Darrell W. Donahue": {
         "title": "Professor and Chair",
         "email": "ddonahue@msu.edu",
         "phone": "517-355-4720",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "216"
     },
     "Lixin Dong": {
         "title": "Associate Professor",
         "email": "ldong@egr.msu.edu",
         "phone": "(517) 353-3918",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2325C "
     },
     "John Dorgan": {
         "title": "David L. and Denise Lamp Endowed Chair Professor",
         "email": "jd@egr.msu.edu",
         "phone": "(517) 336-4651",
-        "st_address": "3815 Technology Blvd."
+        "st_address": "3815 Technology Blvd.",
+        "room": "Suite A122"
     },
     "Edward Drown": {
         "title": "Research Assistant I",
         "email": "drownedw@egr.msu.edu",
         "phone": "(517) 353-5411",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Lawrence Drzal": {
         "title": "University Distinguished Professor",
         "email": "drzal@egr.msu.edu",
         "phone": "(517) 353-7759",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Phillip Duxbury": {
         "title": "Professor; Adjunct Professor",
         "email": "duxbury@egr.msu.edu",
         "phone": "(517) 884-5632",
-        "st_address": "567 Wilson Road"
+        "st_address": "567 Wilson Road",
+        "room": "4260"
     },
     "Wayne Dyksen": {
         "title": "Director, Design Day; Professor",
         "email": "dyksen@cse.msu.edu",
         "phone": "(517) 353-5573",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3149"
     },
     "Kevin Eisenbeis": {
         "title": "Director; Environmental Health & Safety; Consultant; Adjunct",
         "email": "eisenb14@egr.msu.edu",
         "phone": "(517) 432-5275",
-        "st_address": "408 W. Circle Drive"
+        "st_address": "408 W. Circle Drive",
+        "room": "105A"
     },
     "Anne Eisenlohr": {
         "title": "Teaching Specialist",
         "email": "eisena@egr.msu.edu",
         "phone": "(517) 353-4688",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3525"
     },
     "Philip Eisenlohr": {
         "title": "Associate Professor",
         "email": "eisenlohr@egr.msu.edu",
         "phone": "(517) 432-4506",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3520"
     },
     "Richard Enbody": {
         "title": "Associate Professor",
         "email": "enbody@cse.msu.edu",
         "phone": "(517) 353-3389",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3145"
     },
     "Abraham Engeda": {
         "title": "Professor",
         "email": "engeda@egr.msu.edu",
         "phone": "(517) 432-1834",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2442"
     },
     "Rachel Esch": {
         "title": "Administrative Assistant",
         "email": "eschrach@egr.msu.edu",
         "phone": "(517) 353-7282",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1410"
     },
     "Abdol Esfahanian": {
         "title": "Associate Professor; Associate Chairperson",
         "email": "esfahani@cse.msu.edu",
         "phone": "(517) 432-9476",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115E"
     },
     "Qi Hua Fan": {
         "title": "Associate Professor",
         "email": "qfan@msu.edu",
         "phone": "(517) 432-4651",
-        "st_address": "1449 ENGINEERING RESEARCH CT"
+        "st_address": "1449 ENGINEERING RESEARCH CT",
+        "room": "#C138 "
     },
     "Maddalena Fanelli": {
         "title": "Teaching Specialist",
         "email": "mfanelli@egr.msu.edu",
         "phone": "(517) 355-3444",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1261"
     },
     "Brian Feeny": {
         "title": "Professor ",
         "email": "feeny@egr.msu.edu",
         "phone": "(517) 353-9451",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328C"
     },
     "Donna Fernandez": {
         "title": "Office Assistant III",
         "email": "fernan76@egr.msu.edu",
         "phone": "(517) 355-5135",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Robert C. Ferrier, Jr.": {
         "title": "Assistant Professor",
         "email": "ferrier5@msu.edu",
         "phone": "",
-        "st_address": "469 Wilson Rd"
+        "st_address": "469 Wilson Rd",
+        "room": "302A"
     },
     "Melissa Flegel": {
         "title": "Secretary II",
         "email": "jopkemel@egr.msu.edu",
         "phone": "(517) 355-1789",
-        "st_address": "1497 Engineering Research CT"
+        "st_address": "1497 Engineering Research CT",
+        "room": "151"
     },
     "Sean Fochtman": {
         "title": "Specialist; Advisor",
         "email": "fochtma3@egr.msu.edu",
         "phone": "(517) 355-5242",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2212"
     },
     "Joyce Foley": {
         "title": "Research Administrator I",
         "email": "foley@egr.msu.edu",
         "phone": "(517) 432-1337",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120D"
     },
     "Steven Foley": {
         "title": "Project Manager; Windows Administrator",
         "email": "foleys@egr.msu.edu",
         "phone": "(517) 353-8892",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1303"
     },
     "John Foss": {
         "title": "Professor Emeritus",
         "email": "foss@egr.msu.edu",
         "phone": "(517) 355-3337",
-        "st_address": "1439 Engineering Research CT"
+        "st_address": "1439 Engineering Research CT",
+        "room": "A118"
     },
     "Kyle Foster, MEng.": {
         "title": "Director",
         "email": "fosterky@egr.msu.edu",
         "phone": "(517) 355-8310",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1108"
     },
     "Shanelle N. Foster": {
         "title": "Assistant Professor",
         "email": "hogansha@egr.msu.edu",
         "phone": "(517) 432-4589",
-        "st_address": "428  S. Shaw Ln"
+        "st_address": "428  S. Shaw Ln",
+        "room": "3212"
     },
     "Theodore Foster": {
         "title": "Program Presenter",
         "email": "fostert@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "-"
     },
     "Bernadette Friedrich": {
         "title": "Director of Student Advancement",
         "email": "friedric@egr.msu.edu",
         "phone": "(517) 355-5163",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1340"
     },
     "Larry Galehouse": {
         "title": "Specialist-Outreach",
         "email": "galehou3@egr.msu.edu",
         "phone": "(517) 432-8220",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "-"
     },
     "Neal Galehouse": {
         "title": "Specialist-Outreach",
         "email": "galehou1@egr.msu.edu",
         "phone": "517-432-8220",
-        "st_address": "2857 Jolly Rd."
+        "st_address": "2857 Jolly Rd.",
+        "room": "111"
     },
     "Rao Ganni": {
         "title": "Adjunct Professor Mechanical Engineering / FRIB/NSCL Faculty",
         "email": "ganni@frib.msu.edu",
         "phone": "(517) 355-9672",
-        "st_address": "640 S.Shaw Lane"
+        "st_address": "640 S.Shaw Lane",
+        "room": "5320"
     },
     "Tong (Tony) Gao": {
         "title": "Assistant Professor",
         "email": "gaotong@egr.msu.edu",
         "phone": "517-353-9173",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2459"
     },
     "Elias Garratt": {
         "title": "Assistant Professor",
         "email": "garratte@msu.edu",
         "phone": "",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "C137"
     },
     "Timothy Gates": {
         "title": "Associate Professor",
         "email": "gatestim@egr.msu.edu",
         "phone": "(517) 353-7224",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3573"
     },
     "Laura Genik": {
         "title": "Director, Applied Engineering Sciences",
         "email": "ljgenik@egr.msu.edu",
         "phone": "(517) 432-4450",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1428"
     },
     "Mehrnaz Ghamami": {
         "title": "Assistant Professor",
         "email": "ghamamim@egr.msu.edu",
         "phone": "(517) 355-1288",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3502"
     },
     "Ehsan Ghane": {
         "title": "Assistant Professor",
         "email": "ghane@msu.edu",
         "phone": "517-353-4458",
-        "st_address": "524 S. Shaw Lane "
+        "st_address": "524 S. Shaw Lane ",
+        "room": "220"
     },
     "Brian Gietzel": {
         "title": "Research/Instructional Equipment Technician",
         "email": "gietzelb@msu.edu",
         "phone": "(517) 355-5107",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3546"
     },
     "Assaf Gilad": {
         "title": "Professor, Biomedical Engineering ",
         "email": "gilad@msu.edu",
         "phone": "517-884-7468",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "2314"
     },
     "Aluel Go": {
         "title": "Visiting Outreach Specialist",
         "email": "goaluel@egr.msu.edu",
         "phone": "(517) 353-0643",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "120A"
     },
     "Erik Goodman": {
         "title": "Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
         "email": "goodman@egr.msu.edu",
         "phone": "(517) 355-6453",
-        "st_address": "567 Wilson Road"
+        "st_address": "567 Wilson Road",
+        "room": "1440"
     },
     "Gaile Griffore": {
         "title": "Academic Specialist Advisor",
         "email": "griffore@egr.msu.edu",
         "phone": "(517) 355-3338",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2560"
     },
     "Timothy Grotjohn": {
         "title": "Professor",
         "email": "grotjohn@egr.msu.edu",
         "phone": "(517) 353-8906",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Craig Gunn": {
         "title": "Senior Academic Specialist - Curriculum Development",
         "email": "gunn@egr.msu.edu",
         "phone": "(517) 355-5160",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2443"
     },
     "Yang Guo": {
         "title": "Assistant Professor",
         "email": "yguo@egr.msu.edu",
         "phone": "517-432-3164",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2457"
     },
     "Daniel Guyer": {
         "title": "Professor",
         "email": "guyer@egr.msu.edu",
         "phone": "(517) 353-4517",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "211"
     },
     "Alan Haddow": {
         "title": "Associate Professor Emeritus",
         "email": "haddow@msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Patte Hahn": {
         "title": "Educational Program Coordinator",
         "email": "hahnp@egr.msu.edu",
         "phone": "(517) 432-8220",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "113"
     },
     "Syed Waqar Haider": {
         "title": "Associate Professor",
         "email": "syedwaqa@egr.msu.edu",
         "phone": "(517) 353-9782",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3562"
     },
     "Matt Hale": {
         "title": "Windows Administrator",
         "email": "halemat1@egr.msu.edu",
         "phone": "(517) 353-8892",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1303"
     },
     "Nicole Hall": {
         "title": "Research Assistant",
         "email": "zarbnico@msu.edu",
         "phone": "(517) 353-3334",
-        "st_address": "474 S. Shaw Lane"
+        "st_address": "474 S. Shaw Lane",
+        "room": "3325"
     },
     "Ming Han": {
         "title": "Associate Professor",
         "email": "mhan@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2120"
     },
     "Mahmoodul Haq": {
         "title": "Assistant Professor of CEE; Adjunct Assistant Professor of ECE, ChEMS and ME",
         "email": "haqmahmo@egr.msu.edu",
         "phone": "(517) 355-2250",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3569"
     },
     "Masako Harada": {
         "title": "Assistant Professor, Biomedical Engineering",
         "email": "haradam1@egr.msu.edu",
         "phone": "517-884-6940",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4114"
     },
     "Lee Harle": {
         "title": "Assistant Professor",
         "email": "harle@msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Timothy Harrigan": {
         "title": "Associate Professor",
         "email": "harriga1@msu.edu",
         "phone": "(517) 353-0767",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "206"
     },
     "Syed Hashsham": {
         "title": "Edwin Willits Professor",
         "email": "hashsham@egr.msu.edu",
         "phone": "(517) 355-8241",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A126"
     },
     "Lars Haubold": {
         "title": "Adjunct Visiting Scholar",
         "email": "haubold@egr.msu.edu",
         "phone": "(517) 432-8179",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "A105"
     },
     "Roger Haut": {
         "title": "University Distinguished Professor Emeritus",
         "email": "haut@egr.msu.edu",
         "phone": "(517) 355-0320",
-        "st_address": "939 Fee Road"
+        "st_address": "939 Fee Road",
+        "room": "A407"
     },
     "Martin Hawley": {
         "title": "Professor",
         "email": "hawley@egr.msu.edu",
         "phone": "(517) 355-9687",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Andy Hazel": {
         "title": "Research Administrator",
         "email": "andyh@egr.msu.edu",
         "phone": "(517) 353-5473",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2527"
     },
     "Heather Hazzard": {
         "title": "Business Manager",
         "email": "hazzardc@msu.edu",
         "phone": "(517) 884-6979",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4111"
     },
     "Alicia Heeney": {
         "title": "Executive Secretary II",
         "email": "heeney@egr.msu.edu",
         "phone": "(517) 355-5128",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1415"
     },
     "Lisa Henry": {
         "title": "Administrative Assistant",
         "email": "henryli@egr.msu.edu",
         "phone": "(517) 355-8310",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1108"
     },
     "Candyce Hill": {
         "title": "Specialist Advisor-Fixed Term",
         "email": "hillcand@egr.msu.edu",
         "phone": "(517) 355-6616 Ext. 2",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "W4"
     },
     "Philip Hill": {
         "title": "Specialist",
         "email": "hillphi1@msu.edu",
         "phone": "(517) 353-4507",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "113"
     },
     "Timothy Hinds": {
         "title": "Director, CoRe Experience",
         "email": "hinds@egr.msu.edu",
         "phone": "(517) 432-4139",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "W8B"
     },
     "Lori Hitchens": {
         "title": "Executive Staff Assistant for Dean of College of Engineering, Leo Kempel",
         "email": "hitchen4@egr.msu.edu",
         "phone": "(517) 355-5114",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3410"
     },
     "Brenda Hodge": {
         "title": "Secretary",
         "email": "hodgeb@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3115"
     },
     "Tim Hogan": {
         "title": "Professor and Associate Chair for Graduate Studies; Adjunct Faculty of ChEMS",
         "email": "hogant@egr.msu.edu",
         "phone": "(517) 432-3176",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Stacy Hollon": {
         "title": "Secretary ",
         "email": "hollonst@msu.edu",
         "phone": "517-355-5220",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Min Hong": {
         "title": "Adjunct Professor",
         "email": "hong@egr.msu.edu",
         "phone": "",
-        "st_address": "427 N. Shaw Lane"
+        "st_address": "427 N. Shaw Lane",
+        "room": "1"
     },
     "Timothy Howery": {
         "title": "Program Presenter",
         "email": "howery@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "-"
     },
     "Xuefei Huang": {
         "title": "Professor, Biomedical Engineering and Chemistry",
         "email": "xuefei@chemistry.msu.edu",
         "phone": "517-353-1076",
-        "st_address": "578 S Shaw Ln"
+        "st_address": "578 S Shaw Ln",
+        "room": "425A"
     },
     "Nicole Hurst": {
         "title": "Accountant",
         "email": "minottni@egr.msu.edu",
         "phone": "517-884-6962",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4000"
     },
     "Amanda Idema": {
         "title": "Assistant Dean for Undergraduate Student Affairs",
         "email": "agidema@msu.edu",
         "phone": "(517) 355-6616 Ext. 3",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1415"
     },
     "Anthony Ingle": {
         "title": "Teaching Specialist",
         "email": "ingleant@egr.msu.edu",
         "phone": "(517) 432-3130",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3577"
     },
     "Farhad Jaberi": {
         "title": "Professor ",
         "email": "jaberi@egr.msu.edu",
         "phone": "(517) 432-4678",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2240"
     },
     "Shelly Jackson": {
         "title": "Office Assistant ",
         "email": "jacks973@egr.msu.edu",
         "phone": "(517) 355-8339",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3536"
     },
     "Linos Jacovides": {
         "title": "Professor",
         "email": "jacovid1@egr.msu.edu",
         "phone": "(313) 806-7149",
-        "st_address": "428  S. Shaw Street"
+        "st_address": "428  S. Shaw Street",
+        "room": "2120"
     },
     "Kaleigh Jaeger-Hale": {
         "title": "Assistant Director for Alumni Relations",
         "email": "jaegerk1@egr.msu.edu",
         "phone": "(517) 355-8339",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3536"
     },
     "Joseph Jager": {
         "title": "Program Presenter",
         "email": "jager@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "-"
     },
     "Anil Jain": {
         "title": "University Distinguished Professor",
         "email": "jain@cse.msu.edu",
         "phone": "(517) 355-9282",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3143"
     },
     "Michael James": {
         "title": "Research Assistant II",
         "email": "jamesmi3@msu.edu",
         "phone": "(517) 353-8531",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "127"
     },
     "K Jayaraman": {
         "title": "Professor",
         "email": "jayarama@egr.msu.edu",
         "phone": "(517) 355-5138",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "4147"
     },
     "Jennifer Jennings": {
         "title": "Associate Director Corporate/Foundation Relations",
         "email": "jjenning@msu.edu",
         "phone": "(517) 432-6573",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3536"
     },
     "Sanghyup Jeong": {
         "title": "Assistant Professor",
         "email": "jeongsa1@egr.msu.edu",
         "phone": "(517) 432-6123",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "222"
     },
     "Sean Joseph": {
         "title": "Windows Adminstrator, Software Developer",
         "email": "joseph62@egr.msu.edu",
         "phone": "(517) 432-0380",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2312"
     },
     "Stephen Kamin ": {
         "title": "Teaching Specialist",
         "email": "sakamin@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Jennifer Keddle": {
         "title": "Administrative Assistant III/S",
         "email": "peterm19@egr.msu.edu",
         "phone": "(517) 355-5135",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Leo Kempel": {
         "title": "Dean",
         "email": "kempel@egr.msu.edu",
         "phone": "(517) 355-5114",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3410"
     },
     "Kylie Kenyon": {
         "title": "Project/Event Coordinator",
         "email": "kenyonky@egr.msu.edu",
         "phone": "(517) 355-5163",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1340"
     },
     "Hassan Khalil": {
         "title": "University Distinguished Professor",
         "email": "khalil@egr.msu.edu",
         "phone": "(517) 355-6689",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2308F"
     },
     "Firas Khasawneh": {
         "title": "Assistant Professor",
         "email": "khasawn3@msu.edu",
         "phone": "517-4320471",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2503"
     },
     "Andrew Kim": {
         "title": "Assistant to the Dean for Recruitment and K-12 Outreach",
         "email": "kima@egr.msu.edu",
         "phone": "(517) 353-7282",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1410"
     },
     "Seungdo Kim": {
         "title": "Associate Professor",
         "email": "kimseun@egr.msu.edu",
         "phone": "(517) 355-4621",
-        "st_address": "3815 Technology Blvd."
+        "st_address": "3815 Technology Blvd.",
+        "room": "Suite A119"
     },
     "Taeho Kim": {
         "title": "Assistant Professor",
         "email": "kimtae47@msu.edu",
         "phone": "(517) 355-3983",
-        "st_address": "775 Woodlot Dr"
+        "st_address": "775 Woodlot Dr",
+        "room": "2318"
     },
     "Dana Kirk": {
         "title": "Assistant Professor",
         "email": "kirkdana@msu.edu",
         "phone": "517-432-6530",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "218"
     },
     "James Klausner": {
         "title": "Professor, Chair of Mechanical Engineering",
         "email": "jfk@msu.edu",
         "phone": "(517) 884-8997",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2555"
     },
     "Venkatesh Kodur, Ph.D., P.E., F.CAE, F.INAE, F.ASCE, F.ACI, F.SEI": {
         "title": "University Distinguished Professor and Chairperson",
         "email": "kodur@egr.msu.edu",
         "phone": "(517) 353-9813",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3546"
     },
     "Roger Koenig": {
         "title": "Associate Professor",
         "email": "koenigr@msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Manoochehr Koochesfahani": {
         "title": "Professor ",
         "email": "koochesf@egr.msu.edu",
         "phone": "(517) 432-2464",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "A131 RCE"
     },
     "Mike Koschmider": {
         "title": "Res/Instruc Equipment Technologist I",
         "email": "koschmi2@egr.msu.edu",
         "phone": "517 355-3521",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1240"
     },
     "Meagan Kroll": {
         "title": "Graduate Secretary",
         "email": "krollm@egr.msu.edu",
         "phone": "(517) 353-9556",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Suzanne Kroll": {
         "title": "Accounting Clerk II",
         "email": "krollsu@egr.msu.edu",
         "phone": "(517) 355-5132",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Deborah Kruch": {
         "title": "Research Administrator I",
         "email": "kruch@cse.msu.edu",
         "phone": "(517) 353-1679",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115B"
     },
     "Sandeep Kulkarni": {
         "title": "Professor",
         "email": "sandeep@cse.msu.edu",
         "phone": "(517) 355-2387",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1135"
     },
     "Sharon Kus": {
         "title": "Administrative Assistant",
         "email": "kus@egr.msu.edu",
         "phone": "(517) 884-7933",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1338"
     },
     "M. Emin Kutay": {
         "title": "Associate Professor",
         "email": "kutay@egr.msu.edu",
         "phone": "(517) 353-9297",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3554"
     },
     "Patrick Kwon - Associate Chair for Graduate Studies": {
         "title": "Professor",
         "email": "pkwon@egr.msu.edu",
         "phone": "(517) 355-0173",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2440"
     },
     "Rebecca H. Lahr": {
         "title": "Assistant Professor",
         "email": "rlahr@msu.edu",
         "phone": "",
-        "st_address": "1449 Engineering Research Ct."
+        "st_address": "1449 Engineering Research Ct.",
+        "room": "A111"
     },
     "Wei Lai": {
         "title": "Associate Professor",
         "email": "laiwei@egr.msu.edu",
         "phone": "(517) 355-5126",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3524"
     },
     "Nizar Lajnef": {
         "title": "Associate Professor",
         "email": "lajnefni@egr.msu.edu",
         "phone": "(517) 353-8883",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3568"
     },
     "Jamie Lake": {
         "title": "Secretary II",
         "email": "lakejami@egr.msu.edu",
         "phone": "517-355-3338",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2560"
     },
     "Darlene Lane": {
         "title": "Administrative Assistant I",
         "email": "lanedarl@egr.msu.edu",
         "phone": "(517) 432-8220",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "100"
     },
     "Jim Lang": {
         "title": "Industrial Liason for Design Projects",
         "email": "langjame@egr.msu.edu",
         "phone": "810-224-0055",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2555"
     },
     "Lori Larner": {
         "title": "Research Administrator I",
         "email": "larner1@egr.msu.edu",
         "phone": "(517) 355-0228",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A127"
     },
     "Michael Lavagnino": {
         "title": "Academic Specialist",
         "email": "lavagnin@msu.edu",
         "phone": "517-432-5026",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2418"
     },
     "Andre Lee": {
         "title": "Associate Professor",
         "email": "leea@egr.msu.edu",
         "phone": "(517) 355-5112",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3514"
     },
     "Daniel Lee": {
         "title": "Senior Specialist",
         "email": "leed@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "-"
     },
     "Ilsoon Lee": {
         "title": "Associate Professor",
         "email": "leeil@egr.msu.edu",
         "phone": "(517) 355-9291",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1258"
     },
     "Lik Chuan Lee": {
         "title": "Assistant Professor",
         "email": "lclee@egr.msu.edu",
         "phone": "517-432-4563",
-        "st_address": "423 S.Shaw Lane"
+        "st_address": "423 S.Shaw Lane",
+        "room": "2445"
     },
     "Shu-Guang Li": {
         "title": "Professor",
         "email": "lishug@egr.msu.edu",
         "phone": "(517) 432-1929",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A133"
     },
     "Tongtong Li": {
         "title": "Associate Professor",
         "email": "tongli@egr.msu.edu",
         "phone": "(517) 355-7688",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2308K"
     },
     "Wen Li": {
         "title": "Associate Professor,   Associate Chair for Space Management, Public Relations and Special Initiatives Announcement",
         "email": "wenli@egr.msu.edu",
         "phone": "(517) 353-7832",
-        "st_address": "775 Woodlot Dr. "
+        "st_address": "775 Woodlot Dr. ",
+        "room": "4313"
     },
     "Zhaojian Li": {
         "title": "Assistant Professor",
         "email": "lizhaoj1@egr.msu.edu",
         "phone": "517-432-1821",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3260"
     },
     "Wei Liao": {
         "title": "Associate Professor",
         "email": "liaow@msu.edu",
         "phone": "(517) 432-7205",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "202"
     },
     "Kyle Liechty": {
         "title": "Co-op / Intern Coordinator",
         "email": "liechtyk@msu.edu",
         "phone": "(517) 355-5163, 517.432.6572",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1340"
     },
     "Peter Lillehoj": {
         "title": "Associate Professor",
         "email": "lillehoj@egr.msu.edu",
         "phone": "(517) 432-2976",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2461"
     },
     "Brenda Lippincott": {
         "title": "Executive Assistant",
         "email": "robinsob@msu.edu",
         "phone": "517-884-6978",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4030"
     },
     "Carl Lira": {
         "title": "Associate Professor",
         "email": "lira@egr.msu.edu",
         "phone": "(517) 355-9731",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2261"
     },
     "Dahsin Liu": {
         "title": "Professor Emeritus",
         "email": "liu@egr.msu.edu",
         "phone": "(517) 353-6716",
-        "st_address": "2727 Alliance Drive"
+        "st_address": "2727 Alliance Drive",
+        "room": "Suite B"
     },
     "Kevin J. Liu": {
         "title": "Assistant Professor",
         "email": "kjl@cse.msu.edu",
         "phone": "(517)355-5240",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2128"
     },
     "Xiang-Yang Alex Liu": {
         "title": "Professor",
         "email": "alexliu@cse.msu.edu",
         "phone": "(517) 353-5152",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2132"
     },
     "Xiaoming Liu": {
         "title": "Assistant Professor",
         "email": "liuxm@cse.msu.edu",
         "phone": "(517) 355-2359",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1126"
     },
     "Yan \"Susie\" Liu": {
         "title": "Associate Professor",
         "email": "liuyan6@msu.edu",
         "phone": "(517) 432-7387",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "203"
     },
     "Yunhao Liu": {
         "title": "MSU Foundation Professor and Chairperson",
         "email": "",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115"
     },
     "John Lloyd": {
         "title": "Professor Emeritus",
         "email": "lloyd@msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328D"
     },
     "David Long": {
         "title": "Professor; Adjunct Professor",
         "email": "long@egr.msu.edu",
         "phone": "(517) 353-9618",
-        "st_address": "288 Farm Lane"
+        "st_address": "288 Farm Lane",
+        "room": "141"
     },
     "Alfred Loos": {
         "title": "Professor",
         "email": "aloos@egr.msu.edu",
         "phone": "(517) 432-0844",
-        "st_address": "2727 Alliance Drive"
+        "st_address": "2727 Alliance Drive",
+        "room": "Suite B"
     },
     "Renfu Lu": {
         "title": "Adjunct Professor ",
         "email": "lur@msu.edu",
         "phone": "(517) 432-8062",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "224"
     },
     "Weiyi Lu": {
         "title": "Assistant Professor",
         "email": "wylu@egr.msu.edu",
         "phone": "(517) 353-6448",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3571"
     },
     "John Luginsland ": {
         "title": "Professor",
         "email": "luginsla@msu.edu",
         "phone": "",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2120"
     },
     "Richard Lunt": {
         "title": "Johansen Crosby Endowed Associate Professor",
         "email": "rlunt@egr.msu.edu",
         "phone": "(517) 432-2132",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "4135"
     },
     "Sophia Lunt": {
         "title": "Adjunct Assistant Professor",
         "email": "sophia@msu.edu",
         "phone": "(517) 432-4886",
-        "st_address": "603 Wilson Rd."
+        "st_address": "603 Wilson Rd.",
+        "room": "522A"
     },
     "Nihar Mahapatra": {
         "title": "Associate Professor",
         "email": "nrm@egr.msu.edu",
         "phone": "(517) 432-4617",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1211"
     },
     "Titun Roy Maiti": {
         "title": "Specialist--Advisor for CSE",
         "email": "titun@egr.msu.edu",
         "phone": "(517) 353-5455",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3201"
     },
     "Rachel Mangiavellano": {
         "title": "Career Consultant",
         "email": "leonerac@vps.msu.edu",
         "phone": "(517) 432-6575",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1340"
     },
     "Phanikumar Mantha": {
         "title": "Professor/Associate Chair for Graduate Studies",
         "email": "phani@egr.msu.edu",
         "phone": "(517) 432-0851",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A130"
     },
     "Bradley Marks": {
         "title": "Professor",
         "email": "marksbp@egr.msu.edu",
         "phone": "(517) 432-7703",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "210"
     },
     "Jamie Lynn Marks": {
         "title": "Administrative Assistant",
         "email": "marksjam@anr.msu.edu",
         "phone": "(517) 355-4722",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "216"
     },
     "Steve Marquie ": {
         "title": "Research Assistant I",
         "email": "wb9tow@egr.msu.edu",
         "phone": "(517) 355-8128",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "126"
     },
     "Kelli Martin": {
         "title": "Director",
         "email": "kelli@egr.msu.edu",
         "phone": "(517) 353-9492",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2527A"
     },
     "Tomoko Marumo": {
         "title": "Visiting Scholar-Fixed Term",
         "email": "marumoto@msu.edu",
         "phone": "",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4000"
     },
     "Andrew Mason": {
         "title": "Professor",
         "email": "mason@egr.msu.edu",
         "phone": "(517) 355-6502",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1217"
     },
     "Darren Mason": {
         "title": "Adjunct Associate Professor",
         "email": "masond@egr.msu.edu",
         "phone": "(517) 355-5107",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2527"
     },
     "Susan Masten": {
         "title": "Professor/Associate Chair for Undergraduate Studies",
         "email": "masten@egr.msu.edu",
         "phone": "(517) 355-2254",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3505 Engineering"
     },
     "Kim McClung": {
         "title": "Research Administrator I",
         "email": "mcclungk@egr.msu.edu",
         "phone": "(517) 355-5135",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Mark McCullen": {
         "title": "Specialist; Teacher",
         "email": "mccullen@cse.msu.edu",
         "phone": "(517) 355-2354",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2142"
     },
     "Adam Mcdougall": {
         "title": "Network Administrator",
         "email": "mcdouga9@egr.msu.edu",
         "phone": "(517) 353-4844",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2203"
     },
     "Robert McGough": {
         "title": "Associate Professor",
         "email": "mcgough@egr.msu.edu",
         "phone": "(517) 432-3333",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1213"
     },
     "John McGrath": {
         "title": "Professor Emeritus",
         "email": "mcgrath@msu.edu",
         "phone": "",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2328A"
     },
     "Philip Mckinley": {
         "title": "Professor",
         "email": "mckinley@cse.msu.edu",
         "phone": "(517) 353-4396",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1133"
     },
     "Ilce Medina Meza": {
         "title": "Assistant Professor, Biosystems and Agricultural Engineering, Health Engineering",
         "email": "ilce@msu.edu",
         "phone": "",
-        "st_address": "469 Wilson Rd"
+        "st_address": "469 Wilson Rd",
+        "room": "302C"
     },
     "Ricardo Mejia-Alvarez": {
         "title": "Assistant Professor",
         "email": "rimejal@msu.edu",
         "phone": "217-649-6583",
-        "st_address": "1449 Engineering Research Complex"
+        "st_address": "1449 Engineering Research Complex",
+        "room": "A117"
     },
     "Nathan P. Mellott": {
         "title": "Teaching Specialist",
         "email": "mellott3@egr.msu.edu",
         "phone": "(517) 353-6715",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3522 "
     },
     "Dennis Miller": {
         "title": "Professor",
         "email": "millerd@egr.msu.edu",
         "phone": "(517) 353-3928",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1243"
     },
     "Steve Miller": {
         "title": "Specialist",
         "email": "mill1229@msu.edu",
         "phone": "(517) 353-4456",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "218"
     },
     "Jade Mitchell": {
         "title": "Assistant Professor",
         "email": "jade@msu.edu",
         "phone": "(517) 353-4544",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "206"
     },
     "Vanessa Mitchner": {
         "title": "Web Developer",
         "email": "mitchvlr@egr.msu.edu",
         "phone": "(517) 355-3817",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2316"
     },
     "Joydeep Mitra": {
         "title": "Associate Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
         "email": "mitraj@egr.msu.edu",
         "phone": "(517) 353-8528",
-        "st_address": "1439 Engineering Research CT"
+        "st_address": "1439 Engineering Research CT",
+        "room": "C105"
     },
     "Hamidreza Modares": {
         "title": "Assistant Professor",
         "email": "modaresh@msu.edu",
         "phone": "",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2328E Engineering"
     },
     "Jill Moore": {
         "title": "Research Administrator ",
         "email": "densmo14@egr.msu.edu",
         "phone": "517-353-3995",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Sharlissa Moore": {
         "title": "Assistant Professor",
         "email": "moores60@msu.edu",
         "phone": "(517) 432\u20101158",
-        "st_address": "842 Chestnut Rd"
+        "st_address": "842 Chestnut Rd",
+        "room": "S369L"
     },
     "Kevin Moran": {
         "title": "Specialist - Research",
         "email": "morank@msu.edu",
         "phone": "517-884-1544",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "C9-G"
     },
     "Donald Morelli": {
         "title": "Chairperson and Professor",
         "email": "dmorelli@egr.msu.edu",
         "phone": "(517) 884-1603",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Jenahvive K. Morgan": {
         "title": "Specialist - Teacher-Fixed Term",
         "email": "jenahviv@msu.edu",
         "phone": "(517) 884-8765",
-        "st_address": "219 Wilson Rd"
+        "st_address": "219 Wilson Rd",
+        "room": "G79C"
     },
     "Daniel Morris": {
         "title": "Associate Professor",
         "email": "dmorris@msu.edu",
         "phone": "(517) 432-4427",
-        "st_address": "469 Wilson Rd"
+        "st_address": "469 Wilson Rd",
+        "room": "334"
     },
     "Garth Motschenbacher": {
         "title": "Director of Employer Relations",
         "email": "motschen@egr.msu.edu",
         "phone": "(517) 355-5163",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1340"
     },
     "Patricia Mroczek": {
         "title": "Communications Manager",
         "email": "mroczekp@egr.msu.edu",
         "phone": "(517) 432-1303",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3415"
     },
     "Norbert Mueller": {
         "title": "Associate Professor",
         "email": "mueller@egr.msu.edu",
         "phone": "(517) 432-9139",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2448"
     },
     "Ranjan Mukherjee": {
         "title": "Professor",
         "email": "mukherji@egr.msu.edu",
         "phone": "(517) 355-1834",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2430"
     },
     "Ramakrishna Mukkamala": {
         "title": "Professor",
         "email": "rama@egr.msu.edu",
         "phone": "(517) 353-3120",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2216"
     },
     "Michael S. Murillo": {
         "title": "Professor",
         "email": "murillom@msu.edu",
         "phone": "(517) 432-0196",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "Room 1508C EB"
     },
     "Matt Mutka": {
         "title": "Professor",
         "email": "mutka@cse.msu.edu",
         "phone": "(517) 353-6484",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115"
     },
     "Ahmed Naguib": {
         "title": "Professor ",
         "email": "naguib@egr.msu.edu",
         "phone": "(517) 432-1616",
-        "st_address": "1439 Engineering Research CT"
+        "st_address": "1439 Engineering Research CT",
+        "room": "C128"
     },
     "Joshua Nahum": {
         "title": "Teaching Specialist",
         "email": "nahumjos@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3504"
     },
     "Jeffrey Nanzer": {
         "title": "Dennis P. Nyquist Assistant Professor",
         "email": "nanzer@msu.edu",
         "phone": "517-432-8089",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2214E"
     },
     "Ramani Narayan": {
         "title": "University Distinguished Professor",
         "email": "narayan@egr.msu.edu",
         "phone": "(517) 432-0775",
-        "st_address": "3815 Technology Blvd."
+        "st_address": "3815 Technology Blvd.",
+        "room": "Suite A109"
     },
     "Lindsay Naylor": {
         "title": "Specialist - Advisor-Fixed Term",
         "email": "naylorli@msu.edu",
         "phone": "(517) 432-4916",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3512"
     },
     "Pouyan Nejadhashemi": {
         "title": "Associate Professor",
         "email": "pouyan@msu.edu",
         "phone": "(517) 432-7653",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "225"
     },
     "Robert Nelsen": {
         "title": "Research Administrator",
         "email": "rnelsen@egr.msu.edu",
         "phone": "(517) 355-5103",
-        "st_address": "428 S Shaw Lane"
+        "st_address": "428 S Shaw Lane",
+        "room": "2527"
     },
     "Joseph Nguyen": {
         "title": "INSTEQ&SUP Tech II",
         "email": "nguyenj@egr.msu.edu",
         "phone": "(517) 353-0688",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3570"
     },
     "Jason Nicholas": {
         "title": "Associate Professor",
         "email": "jdn@egr.msu.edu",
         "phone": "(517) 355-1615",
-        "st_address": "1498 Engineering Research CT"
+        "st_address": "1498 Engineering Research CT",
+        "room": "C9C"
     },
     "Stacey L. Nye": {
         "title": "Administrative Business Professional/S",
         "email": "",
         "phone": "(517) 353-6484",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115"
     },
     "John Odoherty": {
         "title": "Consultant",
         "email": "odohert1@egr.msu.edu",
         "phone": "(517) 432-8220",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "3546"
     },
     "Robert Ofoli": {
         "title": "Associate Professor",
         "email": "ofoli@egr.msu.edu",
         "phone": "(517) 432-1575",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1248"
     },
     "Charles Ofria": {
         "title": "Professor",
         "email": "ofria@cse.msu.edu",
         "phone": "(517) 355-8389",
-        "st_address": "567 Wilson Road"
+        "st_address": "567 Wilson Road",
+        "room": "1441C"
     },
     "Kevin Ohl": {
         "title": "Specialist",
         "email": "ohlk@cse.msu.edu",
         "phone": "(517) 353-0682",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1107"
     },
     "Sebnem Onsay": {
         "title": "Teaching Specialist",
         "email": "onsayse@cse.msu.edu",
         "phone": "(517) 353-3177",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3503"
     },
     "Charles Owen": {
         "title": "Associate Professor",
         "email": "cbowen@cse.msu.edu",
         "phone": "(517) 353-6488",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1138"
     },
     "Tiffany Owen": {
         "title": "Academic Program Coordinator",
         "email": "owentif2@egr.msu.edu",
         "phone": "(517) 884-6976",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4000"
     },
     "David Palme": {
         "title": "Research Administrator",
         "email": "dpalme@egr.msu.edu",
         "phone": "(517) 355-5103",
-        "st_address": "428 S Shaw Lane"
+        "st_address": "428 S Shaw Lane",
+        "room": "2527"
     },
     "Fei Pan": {
         "title": "Assistant Professor",
         "email": "feipan@msu.edu",
         "phone": "(517) 432-1257",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "223"
     },
     "Yanlyang Pan": {
         "title": "Research Tech/Lab Manager",
         "email": "pany@egr.msu.edu",
         "phone": "(517) 353-1836",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A129"
     },
     "John Papapolymerou": {
         "title": "Chairperson/MSU Foundation Professor",
         "email": "jpapapol@egr.msu.edu",
         "phone": "(517)-355-5066",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Roxanne Peacock": {
         "title": "Research/Instructional Equipment Technician I",
         "email": "peacock@egr.msu.edu",
         "phone": "(517) 432-3336",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2215"
     },
     "Mary Pease": {
         "title": "Office Coordinator II",
         "email": "peasem@egr.msu.edu",
         "phone": "(517) 432-7749",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1415"
     },
     "Lars Peereboom": {
         "title": "Research Associate",
         "email": "peereboo@egr.msu.edu",
         "phone": "(517) 355-5130",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2246"
     },
     "Galit Pelled": {
         "title": "Professor, Biomedical Engineering and Neuroscience",
         "email": "pelledga@msu.edu",
         "phone": "517-884-7464",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "2112"
     },
     "Thomas Pence": {
         "title": "Professor",
         "email": "pence@egr.msu.edu",
         "phone": "(517) 353-3889",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2452"
     },
     "Fang Z. Peng": {
         "title": "University Distinguished Professor",
         "email": "fzpeng@egr.msu.edu",
         "phone": "(517) 355-1608",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Charles Petty": {
         "title": "Professor",
         "email": "petty@egr.msu.edu",
         "phone": "(517) 353-5486",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1245"
     },
     "Geralynn Phelps": {
         "title": "Assistant Director, Women in Engineering, Recruitment and K-12 Outreach",
         "email": "geralynn@egr.msu.edu",
         "phone": "(517) 884-0055",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1410D"
     },
     "Dennis Phillilps": {
         "title": "Teaching Specialist",
         "email": "dennisp@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3502"
     },
     "Percy Pierre": {
         "title": "Professor",
         "email": "pierre@egr.msu.edu",
         "phone": "(517) 432-5148",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2325B"
     },
     "Yadu Pokhrel": {
         "title": "Assistant Professor",
         "email": "ypokhrel@egr.msu.edu",
         "phone": "(517) 355-2360",
-        "st_address": "1449 Engineering Research Ct."
+        "st_address": "1449 Engineering Research Ct.",
+        "room": "A134"
     },
     "Vijayabarathi Ponnambalam": {
         "title": "Research Associate",
         "email": "vijaypon@msu.edu",
         "phone": "",
-        "st_address": "1497 Engineering Research CT"
+        "st_address": "1497 Engineering Research CT",
+        "room": "E172"
     },
     "Laura Post": {
         "title": "Secretary III",
         "email": "lpost@egr.msu.edu",
         "phone": "(517) 355-5108",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3546"
     },
     "Merle Potter": {
         "title": "Professor - Emeritus",
         "email": "merlecp@att.net",
         "phone": "",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2555"
     },
     "Shahram Pouya": {
         "title": "Post Doc",
         "email": "pouya@egr.msu.edu",
         "phone": "(517) 353-8738",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A22"
     },
     "Meredith Prince": {
         "title": "Research Administrator I",
         "email": "princeme@egr.msu.edu",
         "phone": "517-884-6981",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "2040"
     },
     "Nicole Proctor-Kanyama": {
         "title": "Associate Director of Development",
         "email": "proctorn@egr.msu.edu",
         "phone": "(517) 355-8339",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3536"
     },
     "William Punch": {
         "title": "Associate Professor",
         "email": "punch@cse.msu.edu ",
         "phone": "(517) 353-3541",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3147"
     },
     "Erin Purcell": {
         "title": "Assistant Professor, Biomedical Engineering and Electrical Engineering ",
         "email": "epurcell@msu.edu",
         "phone": "517-432-8137",
-        "st_address": "775 Woodlot Dr"
+        "st_address": "775 Woodlot Dr",
+        "room": "2119"
     },
     "Yue Qi": {
         "title": "Associate Dean for Inclusion and Diversity; Professor, Chemical Engineering and Material Science",
         "email": "yueqi@egr.msu.edu",
         "phone": "(517) 432-1243",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3509 "
     },
     "Zhen Qiu": {
         "title": "Assistant Professor, Biomedical Engineering",
         "email": "qiuzhen@egr.msu.edu",
         "phone": "517-884-6942",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4316"
     },
     "Clark Radcliffe": {
         "title": "Professor Emeritus",
         "email": "radcliffe@egr.msu.edu",
         "phone": "(517) 355-5198",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328D"
     },
     "Hayder Radha": {
         "title": "Professor",
         "email": "radha@egr.msu.edu",
         "phone": "(517) 432-9958",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3219"
     },
     "Kunwar Rajendra": {
         "title": "Adjunct Professor",
         "email": "rajendr2@msu.edu",
         "phone": "(517) 353-9562",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2308G"
     },
     "Rajiv Ranganathan": {
         "title": "Assistant Professor",
         "email": "rrangana@msu.edu",
         "phone": "517-353-6491",
-        "st_address": "308 W Circle Drive"
+        "st_address": "308 W Circle Drive",
+        "room": "203"
     },
     "Laurie Rashid": {
         "title": "Secretary II",
         "email": "rashidl@egr.msu.edu",
         "phone": "(517) 355-5067",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Sia Ravanbakhsh": {
         "title": "Research Assistant II/Lab Manager",
         "email": "ravanbak@egr.msu.edu",
         "phone": "(517) 432-4914",
-        "st_address": "2851 Jolly Road"
+        "st_address": "2851 Jolly Road",
+        "room": "-"
     },
     "Geoffrey Recktenwald": {
         "title": "Academic Specialist - Teaching",
         "email": "GDR@egr.msu.edu",
         "phone": "(517) 432-3658",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328B"
     },
     "Luke Reese": {
         "title": "Associate Professor",
         "email": "reesel@msu.edu",
         "phone": "517-353-3258",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "103C"
     },
     "Dawn Reinhold": {
         "title": "Associate Professor",
         "email": "reinhold@egr.msu.edu",
         "phone": "(517) 432-7732",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "205"
     },
     "Jian Ren": {
         "title": "Associate Professor",
         "email": "renjian@egr.msu.edu",
         "phone": "(517) 353-4379",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2211"
     },
     "William Resh": {
         "title": " Professor",
         "email": "reshwill@egr.msu.edu",
         "phone": "(517) 432-3920",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2328H"
     },
     "Aimee Reynolds": {
         "title": "Office Assistant III",
         "email": "reyaimee@egr.msu.edu",
         "phone": "(517) 355-6616 Ext. 2",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "W8A"
     },
     "Michael Rich": {
         "title": "Senior Specialist and Laboratory Manager/Outreach",
         "email": "rich@egr.msu.edu",
         "phone": "(517) 353-4696",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Sara Roccabianca": {
         "title": "Assistant Professor",
         "email": "roccabis@egr.msu.edu",
         "phone": "517-432-3185",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2463"
     },
     "Aljoscha Roch": {
         "title": "Assistant Professor",
         "email": "rochaljo@msu.edu",
         "phone": "",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2120 "
     },
     "Brian Rook": {
         "title": "Research Assistant II",
         "email": "rook@egr.msu.edu",
         "phone": "(517) 432-4939",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100"
     },
     "Joan Rose": {
         "title": "Homer Nowlin Chair In Water Research",
         "email": "rosejo@msu.edu",
         "phone": "(517) 432-4412",
-        "st_address": "480 Wilson Road"
+        "st_address": "480 Wilson Road",
+        "room": "-"
     },
     "Ronald Rosenberg": {
         "title": "Associate Dean Emeritus",
         "email": "rosenber@egr.msu.edu",
         "phone": "(517) 355-3425",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1422"
     },
     "Arun A. Ross": {
         "title": "Professor",
         "email": "rossarun@cse.msu.edu",
         "phone": "(517) 353-9731",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3142"
     },
     "Edward Rothwell": {
         "title": "Dennis P. Nyquist Endowed Professor",
         "email": "rothwell@egr.msu.edu",
         "phone": "(517) 355-5231",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2114A"
     },
     "Steven Safferman": {
         "title": "Associate Professor",
         "email": "steves@msu.edu",
         "phone": "(517) 432-0812",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "212"
     },
     "Christopher Saffron": {
         "title": "Associate Professor; Adjunct Faculty of ChEMS",
         "email": "saffronc@msu.edu",
         "phone": "(517) 432-7414",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "204"
     },
     "Himanshu Sahasrabudhe": {
         "title": "Assistant professor",
         "email": "sahasra1@egr.msu.edu",
         "phone": "517-432-0189",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2241"
     },
     "Fathi Salem": {
         "title": "Professor",
         "email": "salem@egr.msu.edu",
         "phone": "(517) 355-7695",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2308D"
     },
     "Joyce Chechamma Samuel": {
         "title": "Specialist - Advisor-Continuing | Assistant Director of Advising ",
         "email": "samueljo@msu.edu",
         "phone": "(517) 432-1352",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3508"
     },
     "Debjani Sarkar": {
         "title": "Specialist - Advisor-Continuing | Promotions Coordinator, CoRe Experience",
         "email": "sarkarde@egr.msu.edu",
         "phone": "(517) 353-9266",
-        "st_address": "219 Wilson Rd"
+        "st_address": "219 Wilson Rd",
+        "room": "G79C"
     },
     "Paul Satoh": {
         "title": "Adjunct Professor",
         "email": "satoh@egr.msu.edu",
         "phone": "(517) 372-9200 Ext.277  ",
-        "st_address": "1129 Farm Lane"
+        "st_address": "1129 Farm Lane",
+        "room": "165"
     },
     "Peter Savolainen": {
         "title": "MSU Foundation Professor",
         "email": "pete@msu.edu",
         "phone": "517/355-5107",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3502"
     },
     "Arthur Schober": {
         "title": "Systems Administrator",
         "email": "schober2@egr.msu.edu",
         "phone": "(517) 432-0384",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2203"
     },
     "Harold Schock": {
         "title": "Professor, Director Energy and Automotive Research Labs",
         "email": "schock@egr.msu.edu",
         "phone": "(517) 353-9328",
-        "st_address": "1497 Engineering Research CT"
+        "st_address": "1497 Engineering Research CT",
+        "room": "150"
     },
     "Thomas Schuelke": {
         "title": "Professor and Center Executive Director; Adjunct Faculty of ChEMS",
         "email": "tschuelke@fraunhofer.org",
         "phone": "(517) 432-8173",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "B100"
     },
     "Daniel Segalman": {
         "title": "Professor",
         "email": "segalman@egr.msu.edu",
         "phone": "517-432-4462",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "3422"
     },
     "Robert Selden": {
         "title": "Rsc./Inst. Eq. Tech. 2",
         "email": "selden@egr.msu.edu",
         "phone": "(517) 353-7074",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1262"
     },
     "Nelson Sep\u00falveda": {
         "title": "Associate Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
         "email": "sepulve6@msu.edu",
         "phone": "(517) 432-2130",
-        "st_address": "Engineering Research Complex"
+        "st_address": "Engineering Research Complex",
+        "room": "C127"
     },
     "Erik M. Shapiro": {
         "title": "Adjunct Associate Professor",
         "email": "shapir86@msu.edu",
         "phone": "(517) 884-3270",
-        "st_address": "846 Service Rd."
+        "st_address": "846 Service Rd.",
+        "room": "184"
     },
     "Steven Shaw": {
         "title": "University Distinguished Professor Emeritus",
         "email": "shawsw@egr.msu.edu",
         "phone": "(517) 432-3920",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2328H"
     },
     "Nicole Shook": {
         "title": "Administrative Associate",
         "email": "marsh136@egr.msu.edu",
         "phone": "(517) 432-5265",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3410"
     },
     "Jacque Shoppell": {
         "title": "Assistant Director",
         "email": "shoppell@egr.msu.edu",
         "phone": "(517) 353-5084",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2527"
     },
     "Bryan Smith": {
         "title": "Associate Professor",
         "email": "smit2901@msu.edu",
         "phone": "(517) 353-7073",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "1116"
     },
     "Jason S. Smith": {
         "title": "Teaching Specialist",
         "email": "smith840@msu.edu",
         "phone": "(517) 884-8767",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "G58"
     },
     "Robin S. Smith": {
         "title": "Secretary",
         "email": "smit2185@egr.msu.edu",
         "phone": "(517) 355-8310",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1108"
     },
     "Steve Smith": {
         "title": "Graduate Secretary",
         "email": "smit2745@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3115"
     },
     "Parviz Soroushian": {
         "title": "Professor",
         "email": "soroushi@egr.msu.edu",
         "phone": "(517) 355-2216",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3576"
     },
     "Dana Spence": {
         "title": "Professor, Biomedical Engineering and Chemistry, Associate Chair for Graduate Studies, BME",
         "email": "dspence@chemistry.msu.edu",
         "phone": "(517)-353-1116",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4319"
     },
     "Ajit Srivastava": {
         "title": "Professor",
         "email": "srivasta@egr.msu.edu",
         "phone": "(517) 432-4826",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "216"
     },
     "Vaibhav Srivastava": {
         "title": "Assistant Professor",
         "email": "vaibhav@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1210"
     },
     "Robert Stedtfeld": {
         "title": "Visiting Research Associate",
         "email": "stedtfel@egr.msu.edu",
         "phone": "(517) 355-0228",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A18"
     },
     "Katherine Stevenson": {
         "title": "Academic Specialist - Teaching",
         "email": "kstevens@egr.msu.edu",
         "phone": "(517) 432-5260",
-        "st_address": "428 W.Shaw"
+        "st_address": "428 W.Shaw",
+        "room": "2467"
     },
     "Michelle Stewart": {
         "title": "Secretary",
         "email": "stewa578@egr.msu.edu",
         "phone": "517-884-7958",
-        "st_address": "428  S. Shaw Lane"
+        "st_address": "428  S. Shaw Lane",
+        "room": "2120"
     },
     "George Stockman": {
         "title": "Professor Emeritus",
         "email": "stockman@cse.msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115"
     },
     "Elias Strangas": {
         "title": "Professor",
         "email": "strangas@egr.msu.edu",
         "phone": "(517) 353-3517",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1218"
     },
     "Tom Stuecken": {
         "title": "Research Assistant III",
         "email": "stuecken@egr.msu.edu",
         "phone": "517 432-2698",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "C9-J"
     },
     "Truman Surbrook": {
         "title": "Professor",
         "email": "surbrook@egr.msu.edu",
         "phone": "(517) 353-3232",
-        "st_address": "524 S. Shaw Lane"
+        "st_address": "524 S. Shaw Lane",
+        "room": "120B"
     },
     "Greg M. Swain": {
         "title": "Adjunct Professor",
         "email": "swain@chemistry.msu.edu",
         "phone": "(517) 353-1090",
-        "st_address": "578 S Shaw Ln"
+        "st_address": "578 S Shaw Ln",
+        "room": "314 CEM"
     },
     "Rodney Tabaczynski": {
         "title": "Professor Emeritus",
         "email": "rtabaczy@msu.edu",
         "phone": "(517) 884-1551",
-        "st_address": "1497 Engineering Research CT"
+        "st_address": "1497 Engineering Research CT",
+        "room": "146"
     },
     "Wei-Che Tai": {
         "title": "Assistant Professor",
         "email": "taiweich@msu.edu",
         "phone": "(206)331-1080",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "4142 Engineering"
     },
     "Antonello Tamburrino": {
         "title": "Professor",
         "email": "tamburr1@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120"
     },
     "Pang-Ning Tan": {
         "title": "Associate Professor",
         "email": "ptan@cse.msu.edu",
         "phone": "(517) 432-9240",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2129"
     },
     "Xiaobo Tan": {
         "title": "MSU Foundation Professor, Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
         "email": "xbtan@egr.msu.edu",
         "phone": "(517) 432-5671",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3213"
     },
     "Jiliang Tang": {
         "title": "Assistant Professor",
         "email": "",
         "phone": "(517)432-0608",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115"
     },
     "Xing Yang (Dennis) Tang": {
         "title": "Information Technology Professional",
         "email": "tangdenn@egr.msu.edu",
         "phone": "(517) 432-8220",
-        "st_address": "2857 Jolly Rd."
+        "st_address": "2857 Jolly Rd.",
+        "room": "104"
     },
     "Tetyana Tarabara": {
         "title": "Software Developer",
         "email": "tarabar1@egr.msu.edu",
         "phone": "(517) 432-0380",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2312"
     },
     "Volodymyr Tarabara": {
         "title": "Professor",
         "email": "tarabara@msu.edu",
         "phone": "(517) 432-1755",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3564"
     },
     "Laura Taylor": {
         "title": "Administrative Assistant III/S",
         "email": "taylorl@egr.msu.edu",
         "phone": "(517) 355-5111",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3546"
     },
     "Brian Thompson": {
         "title": "Professor Emeritus",
         "email": "thompson@egr.msu.edu",
         "phone": "(517) 355-2179",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2450"
     },
     "Brad Tobin": {
         "title": "Administrative Assistant",
         "email": "tobinbra@egr.msu.edu",
         "phone": "(517) 884-7937",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2100"
     },
     "Francie Todd": {
         "title": "Director of Marketing",
         "email": "toddfr@egr.msu.edu",
         "phone": "(517) 353-8512",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3415"
     },
     "Yiying Tong": {
         "title": "Associate Professor",
         "email": "ytong@cse.msu.edu",
         "phone": "(517) 353-0831",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1140"
     },
     "Eric Torng": {
         "title": "Associate Professor; Graduate Director",
         "email": "torng@cse.msu.edu",
         "phone": "(517) 353-3543",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2144"
     },
     "Elisa Toulson ": {
         "title": "Associate Professor",
         "email": "toulson@msu.edu",
         "phone": "(517) 884-1549",
-        "st_address": "1497 Engineering Research Court"
+        "st_address": "1497 Engineering Research Court",
+        "room": "143"
     },
     "Ciera Trice": {
         "title": "Program Assistant",
         "email": "mageewig@egr.msu.edu",
         "phone": "(517) 355-8310",
-        "st_address": "428 S. Shaw Ln"
+        "st_address": "428 S. Shaw Ln",
+        "room": "1108"
     },
     "Zachary Trost": {
         "title": "Information Technology Professional",
         "email": "trostz@msu.edu",
         "phone": "517-432-8220",
-        "st_address": "2857 Jolly Rd."
+        "st_address": "2857 Jolly Rd.",
+        "room": "105"
     },
     "Jeffrey Tsang": {
         "title": "Specialist Advisor-Fixed Term",
         "email": "tsangjef@egr.msu.edu",
         "phone": "(517) 355-6616 Ext. 2",
-        "st_address": "219 Wilson Road"
+        "st_address": "219 Wilson Road",
+        "room": "W6"
     },
     "Guan-Hua (Scott) Tu": {
         "title": "Assistant Professor",
         "email": "ghtu@cse.msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3115"
     },
     "Lalita Udpa": {
         "title": "Professor",
         "email": "udpal@egr.msu.edu",
         "phone": "(517) 355-9261",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2100C"
     },
     "Satish Udpa": {
         "title": "Executive Vice President for Administrative Services",
         "email": "udpa@adminsv.msu.edu",
         "phone": "(517) 355-5014",
-        "st_address": "426 Auditorium Road"
+        "st_address": "426 Auditorium Road",
+        "room": "Room 412"
     },
     "A. Cagri Ulusoy": {
         "title": "Assistant Professor",
         "email": "ulusoy@msu.edu",
         "phone": "(517)-884-8833",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3207"
     },
     "R Vandam": {
         "title": "Program Presenter",
         "email": "vandamr@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "3546"
     },
     "Teresa Isela VanderSloot": {
         "title": "Director, Women in Engineering, Recruitment and K-12 Outreach",
         "email": "iselava1@msu.edu",
         "phone": "(517) 884-0054",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1410A"
     },
     "Pauline Vandyke": {
         "title": "Administrative Assistant/Supervisor",
         "email": "vandyke@egr.msu.edu",
         "phone": "(517) 355-5230",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2120C"
     },
     "John Verboncoeur": {
         "title": "Associate Dean for Research and Graduate Studies; Professor, Electrical & Computer Engineering; Computational Mathematics, Science and Engineering",
         "email": "johnv@egr.msu.edu",
         "phone": "(517) 355-5133",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3410"
     },
     "Thomas Voice": {
         "title": "Associate Dean for Administrative Affairs; Professor, Civil and Environmental Engineering",
         "email": "voice@msu.edu",
         "phone": "(517) 355-5133",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3410"
     },
     "Justin Vrooman": {
         "title": "Systems Administrator",
         "email": "vroomanj@egr.msu.edu",
         "phone": "(517) 432-1217",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2203"
     },
     "Jonathan Wakeman": {
         "title": "Research Administration",
         "email": "wakeman5@msu.edu",
         "phone": "517-353-3813",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "2040"
     },
     "Cora Walby": {
         "title": "Administrative Assistant",
         "email": "bebiakco@egr.msu.edu",
         "phone": "(517) 432-4135",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1338"
     },
     "Jonathan Walby": {
         "title": "Hardware Support",
         "email": "walbyjon@egr.msu.edu",
         "phone": "(517) 353-9769",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1325C"
     },
     "Mary Anne Walker": {
         "title": "Director, Global Engineering Office",
         "email": "mawalker@msu.edu",
         "phone": "(517) 432-3536",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3511"
     },
     "S. Patrick Walton": {
         "title": "C. Robert and Kathryn M. Weir Associate Professor; Associate Chair, ChEMS",
         "email": "spwalton@egr.msu.edu",
         "phone": "(517) 432-8733",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3249"
     },
     "Bingsen Wang": {
         "title": "Assistant Professor",
         "email": "bingsen@egr.msu.edu",
         "phone": "(517) 355-0911",
-        "st_address": "Engineering Research Complex"
+        "st_address": "Engineering Research Complex",
+        "room": "C133"
     },
     "Chang Wang": {
         "title": "Adjunct Professor Mechanical Engineering/Professor Mathematics",
         "email": "cywang@mth.msu.edu",
         "phone": "(517) 353-3837",
-        "st_address": "619 Red Cedar Road"
+        "st_address": "619 Red Cedar Road",
+        "room": "A322"
     },
     "Yuping Wang": {
         "title": "Academic Specialist",
         "email": "yupingw@msu.edu",
         "phone": "",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2328G"
     },
     "Robert Watson": {
         "title": "Robotics Coordinator",
         "email": "watso119@msu.edu",
         "phone": "(517) 353-7282",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1410"
     },
     "Bailey Weber": {
         "title": "Secretary II",
         "email": "weberbai@msu.edu",
         "phone": "(517) 355-5107",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3546"
     },
     "Guowei Wei": {
         "title": "Associate Professor",
         "email": "wei@math.msu.edu",
         "phone": "(517) 353-4689",
-        "st_address": "619 Red Cedar Road"
+        "st_address": "619 Red Cedar Road",
+        "room": "D301"
     },
     "Juyang Weng": {
         "title": "Professor",
         "email": "weng@cse.msu.edu",
         "phone": "(517) 353-4388",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3144"
     },
     "Tim Whitehead": {
         "title": "Associate Professor",
         "email": "taw@egr.msu.edu",
         "phone": "(517) 432-2097",
-        "st_address": "775 Woodlot Dr"
+        "st_address": "775 Woodlot Dr",
+        "room": "4th Floor"
     },
     "Indrek Wichman": {
         "title": "Professor",
         "email": "wichman@egr.msu.edu  ",
         "phone": "(517) 353-9180",
-        "st_address": "1497 Engineering Research CT"
+        "st_address": "1497 Engineering Research CT",
+        "room": "147"
     },
     "Gregory Wierzba": {
         "title": "Associate Professor",
         "email": "wierzba@egr.msu.edu",
         "phone": "(517) 355-5225",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3215"
     },
     "Sharita Williamson": {
         "title": "Specialist; Academic Advisor",
         "email": "",
         "phone": "(517) 355-3274",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3579"
     },
     "Adam Willis": {
         "title": "Adjunct Professor Mechanical Engineering",
         "email": "adam.matthew.willis@gmail.com",
         "phone": "517-355-5132",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2555"
     },
     "William Woehrle": {
         "title": "Program Presenter",
         "email": "woehrle@egr.msu.edu",
         "phone": "(517) 355-3270",
-        "st_address": "2857 Jolly Road"
+        "st_address": "2857 Jolly Road",
+        "room": "3546"
     },
     "Shirley Wohlfert": {
         "title": "Secretary II",
         "email": "wohlfe16@egr.msu.edu",
         "phone": "(517) 884-7944",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2555"
     },
     "Thomas Wolff": {
         "title": "Associate Professor Emeritus",
         "email": "wolff@egr.msu.edu",
         "phone": "(517) 355-5110",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3550"
     },
     "Jennifer Woods": {
         "title": "Secretary",
         "email": "woodsj@egr.msu.edu",
         "phone": "(517) 432-3064",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2114"
     },
     "Robert Worden": {
         "title": "Professor, Biomedical Engineering and Chemical Engineering",
         "email": "worden@egr.msu.edu",
         "phone": "(517) 353-9015",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2263"
     },
     "Brian Wright": {
         "title": "Research/Instructional Equipment Technician II/Supervisor",
         "email": "wrightb@egr.msu.edu",
         "phone": "(517) 355-5233",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3231"
     },
     "Neil Wright": {
         "title": "Associate Professor ",
         "email": "ntwright@egr.msu.edu",
         "phone": "(517) 432-4917",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2242"
     },
     " Marilyn Wulfekulher": {
         "title": "Teaching Specialist",
         "email": "wulfekuh@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "1107"
     },
     "Irene Xagoraraki": {
         "title": "Associate Professor",
         "email": "xagorara@egr.msu.edu",
         "phone": "(517) 353-8539",
-        "st_address": "1449 Engineering Research Court"
+        "st_address": "1449 Engineering Research Court",
+        "room": "A124"
     },
     "Li Xiao": {
         "title": "Professor",
         "email": "lxiao@cse.msu.edu",
         "phone": "(517) 353-4386",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "1128"
     },
     "Xinran Xiao": {
         "title": "Professor",
         "email": "xinran@msu.edu",
         "phone": "(517) 884-1606",
-        "st_address": "2727 Alliance Drive"
+        "st_address": "2727 Alliance Drive",
+        "room": "Suite B"
     },
     "Guoliang Xing": {
         "title": "Associate Professor",
         "email": "glxing@cse.msu.edu",
         "phone": "(517) 353-4392",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3224"
     },
     "Junghoon Yeom": {
         "title": "Assistant Professor",
         "email": "jyeom@msu.edu",
         "phone": "517-432-9132",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2465"
     },
     "Sangmin Yoo": {
         "title": "Assistant Professor",
         "email": "syoo@egr.msu.edu",
         "phone": "",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "2308H"
     },
     "Hui-Chia Yu": {
         "title": "Assistant Professor",
         "email": "hcy@msu.edu",
         "phone": "(517) 432-0608",
-        "st_address": "428 S Shaw Ln"
+        "st_address": "428 S Shaw Ln",
+        "room": "2507C EB"
     },
     "Junlin Yuan": {
         "title": "Assistant Professor",
         "email": "junlin@egr.msu.edu",
         "phone": "517-353-6733",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2439"
     },
     "Imen Zaabar": {
         "title": "Teaching Specialist",
         "email": "zaabarim@cse.msu.edu",
         "phone": "",
-        "st_address": "438 S. Shaw Lane"
+        "st_address": "438 S. Shaw Lane",
+        "room": "3581"
     },
     "Mohsen Zayernouri": {
         "title": "Assistant Professor",
         "email": "zayern@egr.msu.edu",
         "phone": "517-432-0464",
-        "st_address": "428 S.Shaw Lane"
+        "st_address": "428 S.Shaw Lane",
+        "room": "2502"
     },
     "Alexandra Zevalkink": {
         "title": "Assistant Professor",
         "email": "alexzev@msu.edu",
         "phone": "(517) 432-7393",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3519"
     },
     "Mi Zhang": {
         "title": "Assistant Professor",
         "email": "mizhang@egr.msu.edu",
         "phone": "(517) 432-4682",
-        "st_address": "428  S. Shaw Street"
+        "st_address": "428  S. Shaw Street",
+        "room": "3530"
     },
     "Peng Zhang": {
         "title": "Assistant Professor",
         "email": "pz@egr.msu.edu",
         "phone": "517-353-3654",
-        "st_address": "428 S. Shaw Lane"
+        "st_address": "428 S. Shaw Lane",
+        "room": "3213"
     },
     "Jiayu Zhou": {
         "title": "Assistant Professor",
         "email": "jiayuz@cse.msu.edu",
         "phone": "(517) 353-4389",
-        "st_address": "428 S. Shaw Ln  Rm 3115"
+        "st_address": "428 S. Shaw Ln  Rm 3115",
+        "room": "2134"
     },
     "David Zhu": {
         "title": "Professor of Radiology, Psychology and Electrical & Computer Engineering",
         "email": "zhuda@msu.edu",
         "phone": "(517) 884-3345",
-        "st_address": "Michigan State University "
+        "st_address": "Michigan State University ",
+        "room": "Room 124"
     },
     "Guoming Zhu": {
         "title": "Professor",
         "email": "zhug@egr.msu.edu",
         "phone": "(517) 884-1552",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "148"
     },
     "Tom Zimmermann": {
         "title": "Assistant Professor",
         "email": "tomzim@egr.msu.edu",
         "phone": "517-353-3624",
-        "st_address": "1449 Engineering Research CT"
+        "st_address": "1449 Engineering Research CT",
+        "room": "C131"
     },
     "Kurt Zinn": {
         "title": "Professor, Biomedical Engineering and Radiology",
         "email": "zinnkurt@msu.edu",
         "phone": "517-884-8802",
-        "st_address": "775 Woodlot Drive"
+        "st_address": "775 Woodlot Drive",
+        "room": "4119"
     },
     "Ali Zockaie": {
         "title": "Assistant Professor",
         "email": "zockaiea@egr.msu.edu",
         "phone": "(517) 355-8422",
-        "st_address": "428 S. Shaw Ln."
+        "st_address": "428 S. Shaw Ln.",
+        "room": "3552"
     }
 }
