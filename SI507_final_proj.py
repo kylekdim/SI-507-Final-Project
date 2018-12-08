@@ -203,7 +203,8 @@ def setup_db():
     statement = '''
         CREATE TABLE 'Staff' (
             'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
-            'Name' TEXT NOT NULL,
+            'FirstName' TEXT NOT NULL,
+            'LastName' TEXT NOT NULL,
             'Title' TEXT NOT NULL,
             'StreetAddress' TEXT,
             'Room' TEXT,
@@ -265,7 +266,34 @@ def setup_db():
 
     for name in json_data:
         #print(name)
-        Name = name
+        raw_name = name
+        non_space_name = raw_name.strip()
+        name_list = non_space_name.split()
+
+        if "Jr." in name_list:
+            FirstName = "Robert C."
+            LastName = "Ferrier, Jr."
+        elif "MEng." in name_list:
+            FirstName = "Kyle"
+            LastName = "Foster, MEng."
+        elif "P.E.," in name_list:
+            FirstName = "Venkatesh"
+            LastName = "Kodur, Ph.D."
+        elif "Associate" in name_list:
+            FirstName = "Patrick"
+            LastName = "Kwon"
+
+        elif len(name_list) == 2:
+            FirstName = name_list[0]
+            LastName = name_list[1]
+        elif len(name_list) == 3:
+            FirstName = name_list[0] + " " + name_list[1]
+            LastName = name_list[2]
+        elif len(name_list) > 3:
+            FirstName = name_list[0] + " " + name_list[1] + " " + name_list[2]
+            LastName = name_list[3]
+
+
         Title = json_data[name]["title"]
         Department = json_data[name]["department"]
         #print(Title)
@@ -363,11 +391,11 @@ def setup_db():
 
 
         insert_statement = '''
-            INSERT INTO Staff(Name, Title, Department, StreetAddress, Room, Email, Phone) VALUES (?, ?, ?, ?, ?, ?, ?);
+            INSERT INTO Staff(FirstName, LastName, Title, Department, StreetAddress, Room, Email, Phone) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
         '''
 
         # execute + commit
-        cur.execute(insert_statement, [Name, Title, Department, StreetAddress, Room, Email, Phone])
+        cur.execute(insert_statement, [FirstName, LastName, Title, Department, StreetAddress, Room, Email, Phone])
         conn.commit()
 
     for name in json_data:
