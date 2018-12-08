@@ -202,15 +202,17 @@ def setup_db():
 
     statement = '''
         CREATE TABLE 'Staff' (
-            'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
+            'StaffId' INTEGER PRIMARY KEY AUTOINCREMENT,
             'FirstName' TEXT NOT NULL,
             'LastName' TEXT NOT NULL,
             'Title' TEXT NOT NULL,
             'StreetAddress' TEXT,
+            'BuildingId' INTEGER,
             'Room' TEXT,
             'Department' TEXT,
             'Email' TEXT,
-            'Phone' TEXT
+            'Phone' TEXT,
+            FOREIGN KEY(BuildingId) REFERENCES Building(BuildingId)
             );
         '''
     try:
@@ -226,7 +228,7 @@ def setup_db():
 
     statement = '''
         CREATE TABLE 'Building' (
-            'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
+            'BuildingId' INTEGER PRIMARY KEY AUTOINCREMENT,
             'BuildingName' TEXT,
             'StreetAddress' TEXT,
             'City' TEXT,
@@ -294,7 +296,9 @@ def setup_db():
             LastName = name_list[3]
 
 
-        Title = json_data[name]["title"]
+        raw_title = json_data[name]["title"]
+        Title = raw_title.strip() #get rid of leading whitespace in titles to get rid of dups
+
         Department = json_data[name]["department"]
         #print(Title)
         StreetAddress = json_data[name]["st_address"] 
@@ -527,6 +531,15 @@ def setup_db():
         else:
             print("will not add address:" + StreetAddress)
 
+    #populate the BuildingId column in the "Staff" table to populate the foreign key field with "Building"
+    add_BuildingId = '''
+        UPDATE Staff
+        SET (BuildingId) = (SELECT Building.BuildingId FROM Building WHERE Staff.StreetAddress = Building.StreetAddress)
+    '''
+
+    cur.execute(add_BuildingId)
+    conn.commit()
+
     conn.close()
 
 #----------------------------
@@ -534,43 +547,42 @@ def setup_db():
 #----------------------------
 
 #Try to expedite code when json file already exists:
-#try:
-    #setup_db()
-    #print("Database has been successfully populated")
+try:
+    setup_db()
+    print("Database has been successfully populated")
 
-#except:
+except:
+    print("Could not instantly create database with json file")
+    #### Execute funciton, get_umsi_data, here ####
+    egr_titles = {}
 
-print("Could not instantly create database with json file")
-#### Execute funciton, get_umsi_data, here ####
-egr_titles = {}
+    results = get_history_data()
 
-results = get_history_data()
+    #print(results) results are class instances
 
-#print(results) results are class instances
+    for person in results:
+        egr_titles[person.name]  = {
+            "title": person.title,
+            "department": person.department,
+            "email": person.email,
+            "phone": person.phone,
+            "st_address": person.st_address,
+            "room": person.room,
+            "city": person.city,
+            "state": person.state,
+            "zip_code": person.zip_code
+        }
 
-for person in results:
-    egr_titles[person.name]  = {
-        "title": person.title,
-        "department": person.department,
-        "email": person.email,
-        "phone": person.phone,
-        "st_address": person.st_address,
-        "room": person.room,
-        "city": person.city,
-        "state": person.state,
-        "zip_code": person.zip_code
-    }
+    #### Write out file here ####
+    print("Creating a file...")
+    egr_staff_file = open("staff.json", "w") # create a json file
+    egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
+    egr_staff_file.close() # close the file
+    print("The file has been created successfully.")
 
-#### Write out file here ####
-print("Creating a file...")
-egr_staff_file = open("staff.json", "w") # create a json file
-egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
-egr_staff_file.close() # close the file
-print("The file has been created successfully.")
+    setup_db()
+    print("Database has been successfully populated")
 
-setup_db()
-print("Database has been successfully populated")
-
-#-----------------------------
-# END OF CODE
-#-----------------------------
+    #-----------------------------
+    # END OF CODE
+    #-----------------------------
