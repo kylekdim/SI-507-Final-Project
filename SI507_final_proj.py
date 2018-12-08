@@ -271,7 +271,7 @@ def setup_db():
         #print(Title)
         StreetAddress = json_data[name]["st_address"] 
         if "Engineering Research Complex" in StreetAddress: #filter out any entries with this address; it is referring to the main complex
-            StreetAddress = "1449 Engineering Research Ct."
+            StreetAddress = "1449 Engineering Research Ct"
         elif "428" in StreetAddress:
             StreetAddress = "428 S Shaw Ln"
         elif "524" in StreetAddress:
@@ -280,6 +280,8 @@ def setup_db():
             StreetAddress = "775 Woodlot Dr"
         elif "1497" in StreetAddress:
             StreetAddress = "1497 Engineering Research Ct"
+        elif "1439" in StreetAddress:
+            StreetAddress = "1439 Engineering Research Ct"
         elif "1449" in StreetAddress:
             StreetAddress = "1449 Engineering Research Ct"
         elif "438" in StreetAddress:
@@ -382,6 +384,9 @@ def setup_db():
         elif "1497" in StreetAddress:
             BuildingName = "Engineering Research Complex - South"
             StreetAddress = "1497 Engineering Research Ct"
+        elif "1439" in StreetAddress:
+            BuildingName = "Engineering Research Complex - Aux"
+            StreetAddress = "1439 Engineering Research Ct"
         elif "1449" in StreetAddress:
             BuildingName = "Engineering Research Complex - Main"
             StreetAddress = "1449 Engineering Research Ct"
@@ -478,14 +483,14 @@ def setup_db():
         State = json_data[name]["state"]
         ZipCode = json_data[name]["zip_code"]
 
-        if StreetAddress[:3] not in addresses: #added this part to change address table to unique entries only
+        if StreetAddress[:5] not in addresses: #added this part to change address table to unique entries only
             addresses= addresses + StreetAddress
 
             insert_statement = '''
                 INSERT INTO Building(BuildingName, StreetAddress, City, State, ZipCode) VALUES (?, ?, ?, ?, ?);
             '''
 
-            print(StreetAddress[:2])
+            #print(StreetAddress[:2])
 
             # execute + commit
             cur.execute(insert_statement, [BuildingName, StreetAddress, City, State, ZipCode])
