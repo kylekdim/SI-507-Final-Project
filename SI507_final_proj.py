@@ -272,11 +272,93 @@ def setup_db():
         StreetAddress = json_data[name]["st_address"] 
         if "Engineering Research Complex" in StreetAddress: #filter out any entries with this address; it is referring to the main complex
             StreetAddress = "1449 Engineering Research Ct."
+        elif "428" in StreetAddress:
+            StreetAddress = "428 S Shaw Ln"
+        elif "524" in StreetAddress:
+            StreetAddress = "524 S Shaw Ln"
+        elif "775" in StreetAddress:
+            StreetAddress = "775 Woodlot Dr"
+        elif "1497" in StreetAddress:
+            StreetAddress = "1497 Engineering Research Ct"
+        elif "1449" in StreetAddress:
+            StreetAddress = "1449 Engineering Research Ct"
+        elif "438" in StreetAddress:
+            StreetAddress = "438 S Shaw Ln"
+        elif "3815" in StreetAddress:
+            StreetAddress = "3815 Technology Blvd"
+        elif "2857" in StreetAddress:
+            StreetAddress = "2857 Jolly Rd"
+        elif "248" in StreetAddress: #this is a typo, 248 does not exist
+            StreetAddress = "428 S Shaw Ln"
+        elif "448" in StreetAddress:
+            StreetAddress = "448 Wilson Rd"
+        elif "219" in StreetAddress:
+            StreetAddress = "219 Wilson Rd"
+        elif "208" in StreetAddress: #this is a typo, there was no street address, only building
+            StreetAddress = "469 Wilson Rd"
+        elif "567" in StreetAddress:
+            StreetAddress = "567 Wilson Rd"
+        elif "408" in StreetAddress:
+            StreetAddress = "408 W Circle Dr"
+        elif "469" in StreetAddress:
+            StreetAddress = "469 Wilson Rd"
+        elif "1439" in StreetAddress:
+            StreetAddress = "1439 Engineering Research Ct"
+        elif "640" in StreetAddress:
+            StreetAddress = "640 S Shaw Ln"
+        elif "474" in StreetAddress:
+            StreetAddress = "474 S Shaw Ln"
+        elif "939" in StreetAddress:
+            StreetAddress = "939 Fee Rd"
+        elif "427" in StreetAddress:
+            StreetAddress = "427 N Shaw Ln"
+        elif "578" in StreetAddress:
+            StreetAddress = "578 S Shaw Ln"
+        elif "423" in StreetAddress:
+            StreetAddress = "423 S Shaw Ln"
+        elif "2727" in StreetAddress:
+            StreetAddress = "2727 Alliance Dr"
+        elif "288" in StreetAddress:
+            StreetAddress = "288 Farm Ln"
+        elif "603" in StreetAddress:
+            StreetAddress = "603 Wilson Rd"
+        elif "842" in StreetAddress:
+            StreetAddress = "842 Chestnut Rd"
+        elif "308" in StreetAddress:
+            StreetAddress = "308 W Circle Dr"
+        elif "480" in StreetAddress:
+            StreetAddress = "480 Wilson Rd"
+        elif "1129" in StreetAddress:
+            StreetAddress = "1129 Farm Ln"
+        elif "846" in StreetAddress:
+            StreetAddress = "846 Service Rd"
+        elif "426" in StreetAddress:
+            StreetAddress = "426 Auditorium Rd"
+        elif "619" in StreetAddress:
+            StreetAddress = "619 Red Cedar Rd"
+        elif "Michigan" in StreetAddress:
+            StreetAddress = "220 Trowbridge Rd"
 
         Room = json_data[name]["room"]
+        Room = Room.strip()
         Email = json_data[name]["email"]
         #print(Email)
-        Phone = json_data[name]["phone"]
+        temp_num =[]
+        RawPhone = json_data[name]["phone"]
+        PhoneA = RawPhone.replace('-', '')
+        PhoneB = PhoneA.replace(')', '')
+        PhoneC = PhoneB.replace('(', '')
+        PhoneUnformatted = PhoneC.replace(' ', '')
+
+        for num in PhoneUnformatted:
+            temp_num.append(num)
+        temp_num.insert(0,"(")
+        temp_num.insert(4,") ")
+        temp_num.insert(8,"-")
+        Phone = ''.join(temp_num)
+        if Phone == "() -":
+            Phone =''
+
 
         insert_statement = '''
             INSERT INTO Staff(Name, Title, Department, StreetAddress, Room, Email, Phone) VALUES (?, ?, ?, ?, ?, ?, ?);
@@ -290,74 +372,109 @@ def setup_db():
         StreetAddress = json_data[name]["st_address"]
         if "428" in StreetAddress:
             BuildingName = "College of Engineering - Main Building"
+            StreetAddress = "428 S Shaw Ln"
         elif "524" in StreetAddress:
             BuildingName = "Farrall Agricultural Engineering Hall"
+            StreetAddress = "524 S Shaw Ln"
         elif "775" in StreetAddress:
             BuildingName = "Bio Engineering Facility"
+            StreetAddress = "775 Woodlot Dr"
         elif "1497" in StreetAddress:
             BuildingName = "Engineering Research Complex - South"
+            StreetAddress = "1497 Engineering Research Ct"
         elif "1449" in StreetAddress:
             BuildingName = "Engineering Research Complex - Main"
+            StreetAddress = "1449 Engineering Research Ct"
         elif "438" in StreetAddress:
             BuildingName = "Biosystems and Agricultural Engineering Building"
+            StreetAddress = "438 S Shaw Ln"
         elif "3815" in StreetAddress:
             BuildingName = "Michigan Biotechnology Institute"
+            StreetAddress = "3815 Technology Blvd"
         elif "2857" in StreetAddress:
             BuildingName = "MSU Engineering Research Facility"
-        elif "248" in StreetAddress:
-            BuildingName = "College of Engineering - Building 2"
+            StreetAddress = "2857 Jolly Rd"
+        elif "248" in StreetAddress: #this is a typo, 248 does not exist
+            BuildingName = "College of Engineering - Main Building"
+            StreetAddress = "428 S Shaw Ln"
         elif "448" in StreetAddress:
             BuildingName = "School of Packaging"
+            StreetAddress = "448 Wilson Rd"
         elif "219" in StreetAddress:
             BuildingName = "Wilson Hall"
-        elif "208" in StreetAddress:
-            BuildingName = "Trout Building"
+            StreetAddress = "219 Wilson Rd"
+        elif "208" in StreetAddress: #this is a typo, there was no street address, only building
+            BuildingName = "GM Trout Building"
+            StreetAddress = "469 Wilson Rd"
         elif "567" in StreetAddress:
             BuildingName = "Biomedical and Physical Science Building"
+            StreetAddress = "567 Wilson Rd"
         elif "408" in StreetAddress:
             BuildingName = "Olds Hall"
+            StreetAddress = "408 W Circle Dr"
         elif "469" in StreetAddress:
-            BuildingName = "FSHN Buiding"
+            BuildingName = "GM Trout Building"
+            StreetAddress = "469 Wilson Rd"
         elif "1439" in StreetAddress:
             BuildingName = "Engineering Research Complex - West"
+            StreetAddress = "1439 Engineering Research Ct"
         elif "640" in StreetAddress:
             BuildingName = "Cyclotron Building"
+            StreetAddress = "640 S Shaw Ln"
         elif "474" in StreetAddress:
             BuildingName = "Anthony Hall"
+            StreetAddress = "474 S Shaw Ln"
         elif "939" in StreetAddress:
             BuildingName = "West Fee Hall"
+            StreetAddress = "939 Fee Rd"
         elif "427" in StreetAddress:
             BuildingName = "International Center"
+            StreetAddress = "427 N Shaw Ln"
         elif "578" in StreetAddress:
             BuildingName = "Chemistry Building"
+            StreetAddress = "578 S Shaw Ln"
         elif "423" in StreetAddress:
             BuildingName = "Engineering Library"
+            StreetAddress = "423 S Shaw Ln"
         elif "2727" in StreetAddress:
             BuildingName = "MSU Foundation Building"
+            StreetAddress = "2727 Alliance Dr"
         elif "288" in StreetAddress:
             BuildingName = "Natural Science Building"
+            StreetAddress = "288 Farm Ln"
         elif "603" in StreetAddress:
             BuildingName = "Molecular Plant Sciences Building"
+            StreetAddress = "603 Wilson Rd"
         elif "842" in StreetAddress:
             BuildingName = "Case Hall"
+            StreetAddress = "842 Chestnut Rd"
         elif "308" in StreetAddress:
             BuildingName = "IM Sports Circle"
+            StreetAddress = "308 W Circle Dr"
         elif "480" in StreetAddress:
             BuildingName = "Natural Resources Building"
+            StreetAddress = "480 Wilson Rd"
         elif "1129" in StreetAddress:
             BuildingName = "Food Safety And Toxicology Building"
+            StreetAddress = "1129 Farm Ln"
         elif "846" in StreetAddress:
             BuildingName = "MSU Clinical Center"
+            StreetAddress = "846 Service Rd"
         elif "426" in StreetAddress:
             BuildingName = "Hannah Administration Building"
+            StreetAddress = "426 Auditorium Rd"
         elif "619" in StreetAddress:
             BuildingName = "Wells Hall"
+            StreetAddress = "619 Red Cedar Rd"
         elif "Michigan" in StreetAddress:
             StreetAddress = "220 Trowbridge Rd"
             BuildingName = "Michigan State University - Main"
 
 
         City = json_data[name]["city"]
+        if City == "EAST LANSING":
+            City = "East Lansing"
+
         State = json_data[name]["state"]
         ZipCode = json_data[name]["zip_code"]
 
@@ -384,43 +501,43 @@ def setup_db():
 #----------------------------
 
 #Try to expedite code when json file already exists:
-try:
-    setup_db()
-    print("Database has been successfully populated")
+#try:
+    #setup_db()
+    #print("Database has been successfully populated")
 
-except:
+#except:
 
-    print("Could not instantly create database with json file")
-    #### Execute funciton, get_umsi_data, here ####
-    egr_titles = {}
+print("Could not instantly create database with json file")
+#### Execute funciton, get_umsi_data, here ####
+egr_titles = {}
 
-    results = get_history_data()
+results = get_history_data()
 
-    #print(results) results are class instances
+#print(results) results are class instances
 
-    for person in results:
-        egr_titles[person.name]  = {
-            "title": person.title,
-            "department": person.department,
-            "email": person.email,
-            "phone": person.phone,
-            "st_address": person.st_address,
-            "room": person.room,
-            "city": person.city,
-            "state": person.state,
-            "zip_code": person.zip_code
-        }
+for person in results:
+    egr_titles[person.name]  = {
+        "title": person.title,
+        "department": person.department,
+        "email": person.email,
+        "phone": person.phone,
+        "st_address": person.st_address,
+        "room": person.room,
+        "city": person.city,
+        "state": person.state,
+        "zip_code": person.zip_code
+    }
 
-    #### Write out file here ####
-    print("Creating a file...")
-    egr_staff_file = open("staff.json", "w") # create a json file
-    egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
-    egr_staff_file.close() # close the file
-    print("The file has been created successfully.")
+#### Write out file here ####
+print("Creating a file...")
+egr_staff_file = open("staff.json", "w") # create a json file
+egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
+egr_staff_file.close() # close the file
+print("The file has been created successfully.")
 
-    setup_db()
-    print("Database has been successfully populated")
+setup_db()
+print("Database has been successfully populated")
 
-    #-----------------------------
-    # END OF CODE
-    #-----------------------------
+#-----------------------------
+# END OF CODE
+#-----------------------------
