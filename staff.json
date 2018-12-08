@@ -1,3166 +1,4974 @@
 {
     "Santhosh Abraham": {
         "title": "Web Developer",
+        "department": "Division of Engineering Computing Services",
         "email": "santhosh@egr.msu.edu",
         "phone": "(517) 355-3817",
         "st_address": "428 S. Shaw Lane",
-        "room": "2316"
+        "room": "2316",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Umesh Adhikari": {
         "title": "Research Associate",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "adhika12@msu.edu",
         "phone": "517-353-1908",
         "st_address": "524 S. Shaw Lane",
-        "room": "230"
+        "room": "230",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Aitor Aguirre": {
         "title": "Assistant Professor, Biomedical Engineering",
+        "department": "Biomedical Engineering",
         "email": "aaguirre@msu.edu",
         "phone": "517-353-7072",
         "st_address": "775 Woodlot Dr",
-        "room": "3318"
+        "room": "3318",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "H. Metin Aktulga": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "hma@cse.msu.edu",
         "phone": "(517)355-1646",
         "st_address": "428 S. Shaw Lane",
-        "room": "1126"
+        "room": "1126",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Albrecht": {
         "title": "Associate Professor and Associate Chair for Research",
+        "department": "Electrical and Computer Engineering",
         "email": "jalbrech@msu.edu",
         "phone": "(517) 432-3646",
         "st_address": "428 S. Shaw Lane",
-        "room": "3422"
+        "room": "3422",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Patton Manuel Allison": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "alliso63@msu.edu",
         "phone": "517-432-3187",
         "st_address": "1497 Engineering Research Ct. ",
-        "room": "145 RCE"
+        "room": "145 RCE",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Evangelyn Alocilja": {
         "title": "Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "alocilja@msu.edu",
         "phone": "(517) 355-0083",
         "st_address": "524 S. Shaw Lane",
-        "room": "213"
+        "room": "213",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Annick Anctil": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "anctilan@msu.edu",
         "phone": "(517) 432-4692",
         "st_address": "1449 Engineering Research Ct.",
-        "room": "A132"
+        "room": "A132",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Yolanda Anderson": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "ande1989@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "1107"
+        "room": "1107",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Rebecca Anthony": {
         "title": "Assistant Professor; Adjunct Faculty of ChEMS",
+        "department": "Mechanical Engineering",
         "email": "ranthony@msu.edu",
         "phone": "(517) 432-7491",
         "st_address": "428 S. Shaw Lane",
-        "room": "2453"
+        "room": "2453",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Per Askeland": {
         "title": "Specialist-Research",
+        "department": "Composite Materials and Structures Center",
         "email": "askelano@egr.msu.edu",
         "phone": "(517) 432-5245",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Dean Aslam": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "aslam@egr.msu.edu",
         "phone": "(517) 353-6329",
         "st_address": "428 S. Shaw Lane",
-        "room": "3211"
+        "room": "3211",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jes Asmussen": {
         "title": "Emeritus, University Distinguished Professor, Richard M. Hong Professor of Electrical Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "asmussen@egr.msu.edu",
         "phone": "(517) 355-4620",
         "st_address": "Engineering Research Complex",
-        "room": "B111"
+        "room": "B111",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ronald Averill": {
         "title": "Associate Professor and Associate Chair for the Undergraduate Program",
+        "department": "Mechanical Engineering",
         "email": "averillr@egr.msu.edu",
         "phone": "(517) 353-7188",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328F"
+        "room": "2328F",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Selin Aviyente": {
         "title": "Professor and Associate Chair for Undergraduate Studies",
+        "department": "Electrical and Computer Engineering",
         "email": "aviyente@egr.msu.edu",
         "phone": "(517) 355-7649",
         "st_address": "428 S. Shaw Lane",
-        "room": "2210"
+        "room": "2210",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Virginia Ayres": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "ayresv@egr.msu.edu",
         "phone": "(517) 355-5236",
         "st_address": "Engineering Research Complex",
-        "room": "C104"
+        "room": "C104",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Seungik Baek": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "sbaek@egr.msu.edu",
         "phone": "(517) 432-3161",
         "st_address": "428 S. Shaw Lane",
-        "room": "3259"
+        "room": "3259",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Marty Bailey": {
         "title": "Associate Director of Development",
+        "department": "Engineering Development and Alumni Relations",
         "email": "baile345@egr.msu.edu",
         "phone": "(517) 355-8339",
         "st_address": "428 S. Shaw Lane",
-        "room": "3536"
+        "room": "3536",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Roy Bailiff": {
         "title": "Res/Instruc Equipment Technologist II",
+        "department": "Mechanical Engineering",
         "email": "bailiff@msu.edu",
         "phone": "(517) 355-3521",
         "st_address": "428 S. Shaw Lane",
-        "room": "2505"
+        "room": "2505",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Wendy Baker": {
         "title": "Executive Secretary for Associate Dean for Research and Graduate Studies, John Verboncoeur and Associate Dean for Administrative Affairs, Tom Voice",
+        "department": "Dean's Office",
         "email": "bakerwe@egr.msu.edu",
         "phone": "(517) 432-2464",
         "st_address": "428 S. Shaw Lane",
-        "room": "3410"
+        "room": "3410",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Gilbert Baladi": {
         "title": "Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "baladi@egr.msu.edu",
         "phone": "(517) 355-5147",
         "st_address": "428 S. Shaw Lane",
-        "room": "3556"
+        "room": "3556",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Venkatesh Balan": {
         "title": "Adjunct Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "balan@egr.msu.edu",
         "phone": "(517) 884-6055",
         "st_address": "3815 Technology Blvd.",
-        "room": "Suite A117"
+        "room": "Suite A117",
+        "city": "Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Shanker Balasubramaniam": {
         "title": "University Distinguished Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "bshanker@egr.msu.edu",
         "phone": "(517) 432-8136",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ziba Banafsheha": {
         "title": "Research Administrator",
+        "department": "Division of Engineering Research",
         "email": "ziba@egr.msu.edu",
         "phone": "(517) 355-5104",
         "st_address": "428 S Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Wolfgang Banzhaf": {
         "title": "Prof, JR Koza Chair - Tenure System",
+        "department": "Computer Science and Engineering",
         "email": "banzhafw@msu.edu ",
         "phone": "(517) 432-0212",
         "st_address": "428 S. Shaw Ln",
-        "room": "3267"
+        "room": "3267",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Denise Barnstead": {
         "title": "Administrative Assistant/Supervisor",
+        "department": "Undergraduate Studies",
         "email": "barnsted@egr.msu.edu",
         "phone": "(517) 432-7748",
         "st_address": "428 S. Shaw Lane",
-        "room": "1424"
+        "room": "1424",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sergey Baryshev": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "serbar@msu.edu",
         "phone": "(517) 355-5066",
         "st_address": "428 S Shaw Ln",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Stephen Bates": {
         "title": "Senior Director of Development & Alumni Relations",
+        "department": "Engineering Development and Alumni Relations",
         "email": "batesst@egr.msu.edu",
         "phone": "(517) 355-8339",
         "st_address": "428 S. Shaw Lane",
-        "room": "3536"
+        "room": "3536",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Rebecca Baynai": {
         "title": "Research Administrator",
+        "department": "Division of Engineering Research",
         "email": "rebaynai@egr.msu.edu",
         "phone": "(517) 355-7435",
         "st_address": "428 S Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "James Beck": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "jamesverebeck@comcast.net",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Michael Becker": {
         "title": "Adjunct Visiting Scholar",
+        "department": "Electrical and Computer Engineering",
         "email": "becker26@msu.edu",
         "phone": "(517) 432-8181",
         "st_address": "1449 Engineering Research CT",
-        "room": "B100"
+        "room": "B100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Bruce Beill": {
         "title": "Program Presenter",
+        "department": "Civil and Environmental Engineering",
         "email": "beill@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Andre Benard": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "benard@egr.msu.edu",
         "phone": "(517) 432-1522",
         "st_address": "428 S. Shaw Lane",
-        "room": "2425"
+        "room": "2425",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kris Berglund": {
         "title": "University Distinguished Professor of Chemical Engineering",
+        "department": "Chemical Engineering and Materials Science",
         "email": "berglund@egr.msu.edu",
         "phone": "(517) 974-3030",
         "st_address": "3815 Technology Blvd.",
-        "room": "Suite A114"
+        "room": "Suite A114",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sudin Bhattacharya": {
         "title": "Assistant Professor, Biomedical Engineering and Pharmacology & Toxicology",
+        "department": "Biomedical Engineering",
         "email": "sbhattac@msu.edu",
         "phone": "517-884-6952",
         "st_address": "775 Woodlot Drive",
-        "room": "1313"
+        "room": "1313",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jill Bielawski": {
         "title": "Educational Program Coordinator II",
+        "department": "Dean's Office",
         "email": "bielawsk@egr.msu.edu",
         "phone": "(517) 353-8133",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115 D"
+        "room": "3115 D",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Thomas Bieler": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "bieler@egr.msu.edu",
         "phone": "(517) 353-9767",
         "st_address": "428 S. Shaw Lane",
-        "room": "3527"
+        "room": "3527",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Vishnu Boddeti": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "vishnu@cse.msu.edu",
         "phone": "(517) 352-0609",
         "st_address": "438 S. Shaw",
-        "room": "2507D"
+        "room": "2507D",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48912"
     },
     "Tina Bird": {
         "title": "Administrative Assistant I",
+        "department": "Electrical and Computer Engineering",
         "email": "lacinat@msu.edu",
         "phone": "(517) 884-8474",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Subir Biswas": {
         "title": "Professor ",
+        "department": "Electrical and Computer Engineering",
         "email": "sbiswas@egr.msu.edu",
         "phone": "(517) 432-4614",
         "st_address": "428 S. Shaw Lane",
-        "room": "2308B"
+        "room": "2308B",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Monique Blackmer": {
         "title": "Office Assistant III",
+        "department": "Undergraduate Studies",
         "email": "gosseli8@egr.msu.edu",
         "phone": "(517) 353-0845",
         "st_address": "248 S Shaw Ln ",
-        "room": "1415"
+        "room": "1415",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Maggie Blair-Ramsey": {
         "title": "Coordinator - Engineering Study Abroad Program",
+        "department": "Diversity Programs Office",
         "email": "blairram@egr.msu.edu",
         "phone": "(517) 432-2012",
         "st_address": "428 S. Shaw Lane",
-        "room": "1108"
+        "room": "1108",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Carl Boehlert": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "boehlert@egr.msu.edu",
         "phone": "(517) 353-3703",
         "st_address": "428 S. Shaw Lane",
-        "room": "3529"
+        "room": "3529",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Shaunak D. Bopardikar": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "shaunak@egr.msu.edu",
         "phone": "",
         "st_address": "428 S Shaw Ln",
-        "room": "1219"
+        "room": "1219",
+        "city": "EAST LANSING",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "Giles Brereton": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "brereton@egr.msu.edu",
         "phone": "(517) 432-3340",
         "st_address": "1497 Engineering Research CT",
-        "room": "149"
+        "room": "149",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Daina Briedis": {
         "title": "Associate Professor; Assistant Dean of Student Advancement",
+        "department": "Undergraduate Studies",
         "email": "briedis@egr.msu.edu",
         "phone": "(517) 353-3861",
         "st_address": "428 S. Shaw Lane",
-        "room": "2258"
+        "room": "2258",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "V. Bobby Bringi": {
         "title": "Research Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "bringi@msu.edu",
         "phone": "(517) 336-4602",
         "st_address": "3815 Technology Drive",
-        "room": "Suite C110"
+        "room": "Suite C110",
+        "city": "Lansing",
+        "state": "MI",
+        "zip_code": "48910"
     },
     "Hannah M. Brodhead": {
         "title": "Specialist - Advisor-Fixed Term",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "brodhead@msu.edu",
         "phone": "(517) 884-8796",
         "st_address": "524 S. Shaw Lane",
-        "room": "216"
+        "room": "216",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Neeraj Buch": {
         "title": "Associate Dean for Engineering Undergraduate Studies / Professor of Civil & Environmental Engineering",
+        "department": "Undergraduate Studies",
         "email": "buch@egr.msu.edu",
         "phone": "(517) 355-5128",
         "st_address": "428 S. Shaw Lane",
-        "room": "1415"
+        "room": "1415",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Rigoberto Burgue\u00f1o": {
         "title": "Professor Civil and Environmental Engineering/Adjunct Professor Mechanical Engineering",
+        "department": "Civil and Environmental Engineering",
         "email": "burgueno@egr.msu.edu",
         "phone": "(517) 353-1743",
         "st_address": "428 S. Shaw Lane",
-        "room": "3574"
+        "room": "3574",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Lindsay Burns": {
         "title": "Administrative Assistant III/S",
+        "department": "Mechanical Engineering",
         "email": "burnslin@egr.msu.edu",
         "phone": "(517) 353-9861",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Tamara Reid Bush": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "reidtama@msu.edu",
         "phone": "(517) 353-9544",
         "st_address": "428 S. Shaw Lane",
-        "room": "2455"
+        "room": "2455",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Scott Calabrese Barton": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "scb@egr.msu.edu",
         "phone": "(517) 355-0222",
         "st_address": "428 S. Shaw Lane",
-        "room": "3243"
+        "room": "3243",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Theo Caldwell": {
         "title": "Assistant Dean, Student Inclusion and Diversity",
+        "department": "Undergraduate Studies",
         "email": "tc@egr.msu.edu",
         "phone": "(517) 355-5156",
         "st_address": "428 S. Shaw Lane",
-        "room": "3424"
+        "room": "3424",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Changyong Cao": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "ccao@msu.edu",
         "phone": "517-353-9504",
         "st_address": "448 Wilson Road",
-        "room": "130"
+        "room": "130",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jacqueline Carlson": {
         "title": "Director of DECS",
+        "department": "Division of Engineering Computing Services",
         "email": "carlson@egr.msu.edu",
         "phone": "(517) 355-3818",
         "st_address": "428 S. Shaw Lane",
-        "room": "1338B"
+        "room": "1338B",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kari Ceo-Grulke": {
         "title": "Unit HR Coordinator",
+        "department": "Biomedical Engineering",
         "email": "ceogrulk@msu.edu",
         "phone": "517-884-6983",
         "st_address": "775 Woodlot Drive",
-        "room": "4000"
+        "room": "4000",
+        "city": "East Lansing",
+        "state": "",
+        "zip_code": ""
     },
     "Prem Chahal": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "chahal@egr.msu.edu",
         "phone": "(517) 355-0248",
         "st_address": "428 S. Shaw Lane",
-        "room": "2214B"
+        "room": "2214B",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Joyce Chai": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "jchai@cse.msu.edu",
         "phone": "(517) 432-9239",
         "st_address": "428 S. Shaw Lane",
-        "room": "2138"
+        "room": "2138",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Nisachon Chaiwang": {
         "title": "Department Technician",
+        "department": "Biomedical Engineering",
         "email": "chaiwang@egr.msu.edu",
         "phone": "517-884-6982",
         "st_address": "775 Woodlot Drive",
-        "room": "4000"
+        "room": "4000",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Sunil Chakrapani": {
         "title": "Assistant professor",
+        "department": "Electrical and Computer Engineering",
         "email": "csk@egr.msu.edu",
         "phone": "",
         "st_address": "428 S Shaw Ln",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Christina Chan": {
         "title": "George W. Bissell Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "krischan@egr.msu.edu",
         "phone": "(517) 432-4530",
         "st_address": "428 S. Shaw Lane",
-        "room": "1257"
+        "room": "1257",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Karim Chatti": {
         "title": "Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "chatti@msu.edu",
         "phone": "(517) 355-6534",
         "st_address": "428 S. Shaw Lane",
-        "room": "3557"
+        "room": "3557",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Xanthippi Chatzistavrou": {
         "title": "Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "chatzist@msu.edu",
         "phone": "(517) 353-5397",
         "st_address": "428 S. Shaw Lane",
-        "room": "3517"
+        "room": "3517",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Betty Cheng": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "chengb@cse.msu.edu",
         "phone": "(517) 355-8344",
         "st_address": "428 S. Shaw Lane",
-        "room": "1129"
+        "room": "1129",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Shiwang Cheng": {
         "title": "Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "chengsh9@egr.msu.edu",
         "phone": "(517) 353-7130",
         "st_address": "428 S. Shaw Lane",
-        "room": "3518"
+        "room": "3518",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jongeun Choi": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "jchoi@egr.msu.edu",
         "phone": "",
         "st_address": "428 S.Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Kathy Chomas": {
         "title": "Administrative Assistant II",
+        "department": "Civil and Environmental Engineering",
         "email": "chomask@msu.edu",
         "phone": "517-432-8220",
         "st_address": "2857 Jolly Rd.",
-        "room": "112"
+        "room": "112",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Sandra Christlieb": {
         "title": "Specialist",
+        "department": "Undergraduate Studies",
         "email": "sandra@egr.msu.edu",
         "phone": "517-432-2414",
         "st_address": "428 S. Shaw Lane",
-        "room": "1108A"
+        "room": "1108A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Haseung Chung": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "chunghas@egr.msu.edu",
         "phone": "(517) 432-6583",
         "st_address": "428 S. Shaw Lane",
-        "room": "2244"
+        "room": "2244",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Bradley Clark": {
         "title": "Specialist - Outreach-Fixed Term",
+        "department": "Dean's Office",
         "email": "clarkb2@msu.edu",
         "phone": "(517) 432-4693",
         "st_address": "428 S. Shaw Lane",
-        "room": "2112"
+        "room": "2112",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "J. Kelly Climer": {
         "title": "Systems Analyst II",
+        "department": "Computer Science and Engineering",
         "email": "climer@cse.msu.edu",
         "phone": "(517) 353-9574",
         "st_address": "428 S. Shaw Lane",
-        "room": "3315"
+        "room": "3315",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Gary Cloud": {
         "title": "University Distinguished Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "cloud@egr.msu.edu",
         "phone": "(517) 355-9574",
         "st_address": "428 S. Shaw Lane",
-        "room": "3511"
+        "room": "3511",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Katy Luchini Colbry": {
         "title": "Assistant Dean for Graduate Student Services",
+        "department": "Dean's Office",
         "email": "colbryka@egr.msu.edu",
         "phone": "(517) 432-1064",
         "st_address": "428 S. Shaw Lane",
-        "room": "2420"
+        "room": "2420",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Kyle Colby": {
         "title": "Support Office",
+        "department": "Division of Engineering Computing Services",
         "email": "colbykyl@egr.msu.edu",
         "phone": "(517) 353-8891",
         "st_address": "428 S. Shaw Lane",
-        "room": "1303"
+        "room": "1303",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Margaret Conner": {
         "title": "Graduate Secretary",
+        "department": "Biomedical Engineering",
         "email": "conner@egr.msu.edu",
         "phone": "(517) 884-6976",
         "st_address": "775 Woodlot Drive",
-        "room": "4000"
+        "room": "4000",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1226"
     },
     "Christopher H. Contag": {
         "title": "Hannah Distinguished Professor of Biomedical Engineering and Microbiology & Molecular Genetics; Chair, Biomedical Engineering; Director, Institute for Quantitative Health Science & Engineering",
+        "department": "Biomedical Engineering",
         "email": "contagch@egr.msu.edu",
         "phone": "517-884-6933",
         "st_address": "775 Woodlot Drive",
-        "room": "4040"
+        "room": "4040",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1226"
     },
     "Judith Cordes": {
         "title": "Senior Specialist & Coordinator, Women in Engineering Program",
+        "department": "Undergraduate Studies",
         "email": "cordes@egr.msu.edu",
         "phone": "(517) 432-1354  ",
         "st_address": "428 S. Shaw Lane",
-        "room": "1108A"
+        "room": "1108A",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Judith Corley-Lay": {
         "title": "Director, National Center for Pavement Preservation",
+        "department": "Civil and Environmental Engineering",
         "email": "corleyla@egr.msu.edu",
         "phone": "(517) 432-8220",
         "st_address": "2857 Jolly Rd.",
-        "room": "114"
+        "room": "114",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Martin Crimp": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "crimp@egr.msu.edu",
         "phone": "(517) 355-0294",
         "st_address": "428 S. Shaw Lane",
-        "room": "3513"
+        "room": "3513",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Alison Cupples": {
         "title": "Associate Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "cupplesa@egr.msu.edu",
         "phone": "(517) 432-3370",
         "st_address": "1449 Engineering Research Court",
-        "room": "A135"
+        "room": "A135",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jeff Curtiss": {
         "title": "Facilities Coordinator",
+        "department": "Dean's Office",
         "email": "curti108@msu.edu",
         "phone": "(517) 353-8689",
         "st_address": "428 S. Shaw Lane",
-        "room": "3426"
+        "room": "3426",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Bruce Dale": {
         "title": "University Distinguished Professor; MSU AgBioResearch",
+        "department": "Chemical Engineering and Materials Science",
         "email": "bdale@egr.msu.edu",
         "phone": "(517) 353-6777",
         "st_address": "3815 Technology Blvd.",
-        "room": "Suite A118"
+        "room": "Suite A118",
+        "city": "Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "James Daly": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "dalyjame@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "3501"
+        "room": "3501",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Roozbeh Dargazany": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "roozbeh@msu.edu",
         "phone": "(517) 432-0180",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3567 Engineering"
+        "room": "3567 Engineering",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Simon Davies": {
         "title": "Specialist-Research",
+        "department": "Civil and Environmental Engineering",
         "email": "davies@egr.msu.edu",
         "phone": "(517) 355-0228",
         "st_address": "1449 Engineering Research Court",
-        "room": "A127"
+        "room": "A127",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Carmellia Davis-King": {
         "title": "Co-Curricular Director, CoRe Experience",
+        "department": "Undergraduate Studies",
         "email": "kingcarm@egr.msu.edu",
         "phone": "(517) 355-6616 Ext.2 ",
         "st_address": "219 Wilson Road",
-        "room": "W5"
+        "room": "W5",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48825"
     },
     "Kalyanmoy Deb": {
         "title": "Koenig Endowed Chair Professor for Electrical and Computer Engineering; Adjunct Faculty for Computer Science & Engineering and Mechanical Engineering ",
+        "department": "Electrical and Computer Engineering",
         "email": "kdeb@msu.edu",
         "phone": "(517) 432-2144",
         "st_address": "428 S. Shaw Lane",
-        "room": "Room 3247"
+        "room": "Room 3247",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Deller": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "deller@egr.msu.edu",
         "phone": "(517) 353-8840",
         "st_address": "428 S. Shaw Lane",
-        "room": "3209"
+        "room": "3209",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Barbara DeLong": {
         "title": "Secretary III",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "delong24@msu.edu",
         "phone": "(517) 355-4720",
         "st_address": "524 S. Shaw Lane",
-        "room": "216"
+        "room": "216",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Yiming Deng": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "dengyimi@egr.msu.edu",
         "phone": "(517) 432-0492",
         "st_address": "428 S. Shaw Lane",
-        "room": "2507"
+        "room": "2507",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Denny": {
         "title": "Specialist; Academic Advisor",
+        "department": "Undergraduate Studies",
         "email": "",
         "phone": "(517) 355-6616 ext.2",
         "st_address": "219 Wilson Road",
-        "room": "W7"
+        "room": "W7",
+        "city": "East Lansing ",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Karl Dersch": {
         "title": "Research Assistant I",
+        "department": "Electrical and Computer Engineering",
         "email": "derschk@egr.msu.edu",
         "phone": "(517) 353-1959",
         "st_address": "1449 Engineering Research CT",
-        "room": "C138"
+        "room": "C138",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Alejandro Diaz": {
         "title": "Professor ",
+        "department": "Mechanical Engineering",
         "email": "diaz@egr.msu.edu",
         "phone": "(517) 353-0825",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328J"
+        "room": "2328J",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Laura Dillon": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "ldillon@cse.msu.edu",
         "phone": "(517) 353-4387",
         "st_address": "428 S. Shaw Lane",
-        "room": "3132"
+        "room": "3132",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Hu Ding": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "huding@cse.msu.edu",
         "phone": "(517) 355-8389",
         "st_address": "438 S. Shaw Lane",
-        "room": "2140"
+        "room": "2140",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Kirk Dolan": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "dolank@msu.edu",
         "phone": "517-355-8474",
         "st_address": "208 GM Trout Building",
-        "room": " 135B"
+        "room": " 135B",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Luis Donado": {
         "title": "Admissions Counselor",
+        "department": "K-12 Outreach",
         "email": "donadoto@egr.msu.edu",
         "phone": "(517) 353-7282",
         "st_address": "428 S. Shaw Lane",
-        "room": "1410"
+        "room": "1410",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Darrell W. Donahue": {
         "title": "Professor and Chair",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "ddonahue@msu.edu",
         "phone": "517-355-4720",
         "st_address": "524 S. Shaw Lane",
-        "room": "216"
+        "room": "216",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Lixin Dong": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "ldong@egr.msu.edu",
         "phone": "(517) 353-3918",
         "st_address": "428 S. Shaw Lane",
-        "room": "2325C "
+        "room": "2325C ",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "John Dorgan": {
         "title": "David L. and Denise Lamp Endowed Chair Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "jd@egr.msu.edu",
         "phone": "(517) 336-4651",
         "st_address": "3815 Technology Blvd.",
-        "room": "Suite A122"
+        "room": "Suite A122",
+        "city": "Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Edward Drown": {
         "title": "Research Assistant I",
+        "department": "Composite Materials and Structures Center",
         "email": "drownedw@egr.msu.edu",
         "phone": "(517) 353-5411",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Lawrence Drzal": {
         "title": "University Distinguished Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "drzal@egr.msu.edu",
         "phone": "(517) 353-7759",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Phillip Duxbury": {
         "title": "Professor; Adjunct Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "duxbury@egr.msu.edu",
         "phone": "(517) 884-5632",
         "st_address": "567 Wilson Road",
-        "room": "4260"
+        "room": "4260",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Wayne Dyksen": {
         "title": "Director, Design Day; Professor",
+        "department": "Computer Science and Engineering",
         "email": "dyksen@cse.msu.edu",
         "phone": "(517) 353-5573",
         "st_address": "428 S. Shaw Lane",
-        "room": "3149"
+        "room": "3149",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kevin Eisenbeis": {
         "title": "Director; Environmental Health & Safety; Consultant; Adjunct",
+        "department": "Civil and Environmental Engineering",
         "email": "eisenb14@egr.msu.edu",
         "phone": "(517) 432-5275",
         "st_address": "408 W. Circle Drive",
-        "room": "105A"
+        "room": "105A",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Anne Eisenlohr": {
         "title": "Teaching Specialist",
+        "department": "Chemical Engineering and Materials Science",
         "email": "eisena@egr.msu.edu",
         "phone": "(517) 353-4688",
         "st_address": "428 S. Shaw Lane",
-        "room": "3525"
+        "room": "3525",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Philip Eisenlohr": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "eisenlohr@egr.msu.edu",
         "phone": "(517) 432-4506",
         "st_address": "428 S. Shaw Lane",
-        "room": "3520"
+        "room": "3520",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Richard Enbody": {
         "title": "Associate Professor",
+        "department": "Computer Science and Engineering",
         "email": "enbody@cse.msu.edu",
         "phone": "(517) 353-3389",
         "st_address": "428 S. Shaw Lane",
-        "room": "3145"
+        "room": "3145",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Abraham Engeda": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "engeda@egr.msu.edu",
         "phone": "(517) 432-1834",
         "st_address": "428 S. Shaw Lane",
-        "room": "2442"
+        "room": "2442",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Rachel Esch": {
         "title": "Administrative Assistant",
+        "department": "K-12 Outreach",
         "email": "eschrach@egr.msu.edu",
         "phone": "(517) 353-7282",
         "st_address": "428 S. Shaw Lane",
-        "room": "1410"
+        "room": "1410",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Abdol Esfahanian": {
         "title": "Associate Professor; Associate Chairperson",
+        "department": "Computer Science and Engineering",
         "email": "esfahani@cse.msu.edu",
         "phone": "(517) 432-9476",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115E"
+        "room": "3115E",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Qi Hua Fan": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "qfan@msu.edu",
         "phone": "(517) 432-4651",
         "st_address": "1449 ENGINEERING RESEARCH CT",
-        "room": "#C138 "
+        "room": "#C138 ",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Maddalena Fanelli": {
         "title": "Teaching Specialist",
+        "department": "Chemical Engineering and Materials Science",
         "email": "mfanelli@egr.msu.edu",
         "phone": "(517) 355-3444",
         "st_address": "428 S. Shaw Lane",
-        "room": "1261"
+        "room": "1261",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Brian Feeny": {
         "title": "Professor ",
+        "department": "Mechanical Engineering",
         "email": "feeny@egr.msu.edu",
         "phone": "(517) 353-9451",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328C"
+        "room": "2328C",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Donna Fernandez": {
         "title": "Office Assistant III",
+        "department": "Chemical Engineering and Materials Science",
         "email": "fernan76@egr.msu.edu",
         "phone": "(517) 355-5135",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Robert C. Ferrier, Jr.": {
         "title": "Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "ferrier5@msu.edu",
         "phone": "",
         "st_address": "469 Wilson Rd",
-        "room": "302A"
+        "room": "302A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Melissa Flegel": {
         "title": "Secretary II",
+        "department": "Mechanical Engineering",
         "email": "jopkemel@egr.msu.edu",
         "phone": "(517) 355-1789",
         "st_address": "1497 Engineering Research CT",
-        "room": "151"
+        "room": "151",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sean Fochtman": {
         "title": "Specialist; Advisor",
+        "department": "Electrical and Computer Engineering",
         "email": "fochtma3@egr.msu.edu",
         "phone": "(517) 355-5242",
         "st_address": "428 S. Shaw Lane",
-        "room": "2212"
+        "room": "2212",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Joyce Foley": {
         "title": "Research Administrator I",
+        "department": "Electrical and Computer Engineering",
         "email": "foley@egr.msu.edu",
         "phone": "(517) 432-1337",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120D"
+        "room": "2120D",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Steven Foley": {
         "title": "Project Manager; Windows Administrator",
+        "department": "Division of Engineering Computing Services",
         "email": "foleys@egr.msu.edu",
         "phone": "(517) 353-8892",
         "st_address": "428 S. Shaw Lane",
-        "room": "1303"
+        "room": "1303",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "John Foss": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "foss@egr.msu.edu",
         "phone": "(517) 355-3337",
         "st_address": "1439 Engineering Research CT",
-        "room": "A118"
+        "room": "A118",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kyle Foster, MEng.": {
         "title": "Director",
+        "department": "Diversity Programs Office",
         "email": "fosterky@egr.msu.edu",
         "phone": "(517) 355-8310",
         "st_address": "428 S. Shaw Lane",
-        "room": "1108"
+        "room": "1108",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Shanelle N. Foster": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "hogansha@egr.msu.edu",
         "phone": "(517) 432-4589",
         "st_address": "428  S. Shaw Ln",
-        "room": "3212"
+        "room": "3212",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Theodore Foster": {
         "title": "Program Presenter",
+        "department": "Civil and Environmental Engineering",
         "email": "fostert@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Bernadette Friedrich": {
         "title": "Director of Student Advancement",
+        "department": "Undergraduate Studies",
         "email": "friedric@egr.msu.edu",
         "phone": "(517) 355-5163",
         "st_address": "428 S. Shaw Lane",
-        "room": "1340"
+        "room": "1340",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Larry Galehouse": {
         "title": "Specialist-Outreach",
+        "department": "Civil and Environmental Engineering",
         "email": "galehou3@egr.msu.edu",
         "phone": "(517) 432-8220",
         "st_address": "2857 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Neal Galehouse": {
         "title": "Specialist-Outreach",
+        "department": "Civil and Environmental Engineering",
         "email": "galehou1@egr.msu.edu",
         "phone": "517-432-8220",
         "st_address": "2857 Jolly Rd.",
-        "room": "111"
+        "room": "111",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Rao Ganni": {
         "title": "Adjunct Professor Mechanical Engineering / FRIB/NSCL Faculty",
+        "department": "Mechanical Engineering",
         "email": "ganni@frib.msu.edu",
         "phone": "(517) 355-9672",
         "st_address": "640 S.Shaw Lane",
-        "room": "5320"
+        "room": "5320",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Tong (Tony) Gao": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "gaotong@egr.msu.edu",
         "phone": "517-353-9173",
         "st_address": "428 S.Shaw Lane",
-        "room": "2459"
+        "room": "2459",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Elias Garratt": {
         "title": "Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "garratte@msu.edu",
         "phone": "",
         "st_address": "1449 Engineering Research CT",
-        "room": "C137"
+        "room": "C137",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Timothy Gates": {
         "title": "Associate Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "gatestim@egr.msu.edu",
         "phone": "(517) 353-7224",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3573"
+        "room": "3573",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Laura Genik": {
         "title": "Director, Applied Engineering Sciences",
+        "department": "Undergraduate Studies",
         "email": "ljgenik@egr.msu.edu",
         "phone": "(517) 432-4450",
         "st_address": "428 S. Shaw Lane",
-        "room": "1428"
+        "room": "1428",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Mehrnaz Ghamami": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "ghamamim@egr.msu.edu",
         "phone": "(517) 355-1288",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3502"
+        "room": "3502",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Ehsan Ghane": {
         "title": "Assistant Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "ghane@msu.edu",
         "phone": "517-353-4458",
         "st_address": "524 S. Shaw Lane ",
-        "room": "220"
+        "room": "220",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Brian Gietzel": {
         "title": "Research/Instructional Equipment Technician",
+        "department": "Civil and Environmental Engineering",
         "email": "gietzelb@msu.edu",
         "phone": "(517) 355-5107",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3546"
+        "room": "3546",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Assaf Gilad": {
         "title": "Professor, Biomedical Engineering ",
+        "department": "Biomedical Engineering",
         "email": "gilad@msu.edu",
         "phone": "517-884-7468",
         "st_address": "775 Woodlot Drive",
-        "room": "2314"
+        "room": "2314",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Aluel Go": {
         "title": "Visiting Outreach Specialist",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "goaluel@egr.msu.edu",
         "phone": "(517) 353-0643",
         "st_address": "524 S. Shaw Lane",
-        "room": "120A"
+        "room": "120A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Erik Goodman": {
         "title": "Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "goodman@egr.msu.edu",
         "phone": "(517) 355-6453",
         "st_address": "567 Wilson Road",
-        "room": "1440"
+        "room": "1440",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Gaile Griffore": {
         "title": "Academic Specialist Advisor",
+        "department": "Mechanical Engineering",
         "email": "griffore@egr.msu.edu",
         "phone": "(517) 355-3338",
         "st_address": "428 S. Shaw Lane",
-        "room": "2560"
+        "room": "2560",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Timothy Grotjohn": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "grotjohn@egr.msu.edu",
         "phone": "(517) 353-8906",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Craig Gunn": {
         "title": "Senior Academic Specialist - Curriculum Development",
+        "department": "Mechanical Engineering",
         "email": "gunn@egr.msu.edu",
         "phone": "(517) 355-5160",
         "st_address": "428 S. Shaw Lane",
-        "room": "2443"
+        "room": "2443",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Yang Guo": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "yguo@egr.msu.edu",
         "phone": "517-432-3164",
         "st_address": "428 S.Shaw Lane",
-        "room": "2457"
+        "room": "2457",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Daniel Guyer": {
         "title": "Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "guyer@egr.msu.edu",
         "phone": "(517) 353-4517",
         "st_address": "524 S. Shaw Lane",
-        "room": "211"
+        "room": "211",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Alan Haddow": {
         "title": "Associate Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "haddow@msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Patte Hahn": {
         "title": "Educational Program Coordinator",
+        "department": "Civil and Environmental Engineering",
         "email": "hahnp@egr.msu.edu",
         "phone": "(517) 432-8220",
         "st_address": "2857 Jolly Road",
-        "room": "113"
+        "room": "113",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Syed Waqar Haider": {
         "title": "Associate Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "syedwaqa@egr.msu.edu",
         "phone": "(517) 353-9782",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3562"
+        "room": "3562",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Matt Hale": {
         "title": "Windows Administrator",
+        "department": "Division of Engineering Computing Services",
         "email": "halemat1@egr.msu.edu",
         "phone": "(517) 353-8892",
         "st_address": "428 S. Shaw Lane",
-        "room": "1303"
+        "room": "1303",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": ""
     },
     "Nicole Hall": {
         "title": "Research Assistant",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "zarbnico@msu.edu",
         "phone": "(517) 353-3334",
         "st_address": "474 S. Shaw Lane",
-        "room": "3325"
+        "room": "3325",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Ming Han": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "mhan@egr.msu.edu",
         "phone": "",
         "st_address": "428 S Shaw Ln",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "Mahmoodul Haq": {
         "title": "Assistant Professor of CEE; Adjunct Assistant Professor of ECE, ChEMS and ME",
+        "department": "Civil and Environmental Engineering",
         "email": "haqmahmo@egr.msu.edu",
         "phone": "(517) 355-2250",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3569"
+        "room": "3569",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Masako Harada": {
         "title": "Assistant Professor, Biomedical Engineering",
+        "department": "Biomedical Engineering",
         "email": "haradam1@egr.msu.edu",
         "phone": "517-884-6940",
         "st_address": "775 Woodlot Drive",
-        "room": "4114"
+        "room": "4114",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": ""
     },
     "Lee Harle": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "harle@msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Timothy Harrigan": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "harriga1@msu.edu",
         "phone": "(517) 353-0767",
         "st_address": "524 S. Shaw Lane",
-        "room": "206"
+        "room": "206",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Syed Hashsham": {
         "title": "Edwin Willits Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "hashsham@egr.msu.edu",
         "phone": "(517) 355-8241",
         "st_address": "1449 Engineering Research Court",
-        "room": "A126"
+        "room": "A126",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Lars Haubold": {
         "title": "Adjunct Visiting Scholar",
+        "department": "Electrical and Computer Engineering",
         "email": "haubold@egr.msu.edu",
         "phone": "(517) 432-8179",
         "st_address": "1449 Engineering Research CT",
-        "room": "A105"
+        "room": "A105",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Roger Haut": {
         "title": "University Distinguished Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "haut@egr.msu.edu",
         "phone": "(517) 355-0320",
         "st_address": "939 Fee Road",
-        "room": "A407"
+        "room": "A407",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Martin Hawley": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "hawley@egr.msu.edu",
         "phone": "(517) 355-9687",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Andy Hazel": {
         "title": "Research Administrator",
+        "department": "Division of Engineering Research",
         "email": "andyh@egr.msu.edu",
         "phone": "(517) 353-5473",
         "st_address": "428 S. Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Heather Hazzard": {
         "title": "Business Manager",
+        "department": "Biomedical Engineering",
         "email": "hazzardc@msu.edu",
         "phone": "(517) 884-6979",
         "st_address": "775 Woodlot Drive",
-        "room": "4111"
+        "room": "4111",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1226"
     },
     "Alicia Heeney": {
         "title": "Executive Secretary II",
+        "department": "Undergraduate Studies",
         "email": "heeney@egr.msu.edu",
         "phone": "(517) 355-5128",
         "st_address": "428 S. Shaw Lane",
-        "room": "1415"
+        "room": "1415",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Lisa Henry": {
         "title": "Administrative Assistant",
+        "department": "Diversity Programs Office",
         "email": "henryli@egr.msu.edu",
         "phone": "(517) 355-8310",
         "st_address": "428 S. Shaw Lane",
-        "room": "1108"
+        "room": "1108",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Candyce Hill": {
         "title": "Specialist Advisor-Fixed Term",
+        "department": "Undergraduate Studies",
         "email": "hillcand@egr.msu.edu",
         "phone": "(517) 355-6616 Ext. 2",
         "st_address": "219 Wilson Road",
-        "room": "W4"
+        "room": "W4",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Philip Hill": {
         "title": "Specialist",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "hillphi1@msu.edu",
         "phone": "(517) 353-4507",
         "st_address": "524 S. Shaw Lane",
-        "room": "113"
+        "room": "113",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1323"
     },
     "Timothy Hinds": {
         "title": "Director, CoRe Experience",
+        "department": "Undergraduate Studies",
         "email": "hinds@egr.msu.edu",
         "phone": "(517) 432-4139",
         "st_address": "219 Wilson Road",
-        "room": "W8B"
+        "room": "W8B",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Lori Hitchens": {
         "title": "Executive Staff Assistant for Dean of College of Engineering, Leo Kempel",
+        "department": "Dean's Office",
         "email": "hitchen4@egr.msu.edu",
         "phone": "(517) 355-5114",
         "st_address": "428 S. Shaw Lane",
-        "room": "3410"
+        "room": "3410",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Brenda Hodge": {
         "title": "Secretary",
+        "department": "Computer Science and Engineering",
         "email": "hodgeb@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Tim Hogan": {
         "title": "Professor and Associate Chair for Graduate Studies; Adjunct Faculty of ChEMS",
+        "department": "Electrical and Computer Engineering",
         "email": "hogant@egr.msu.edu",
         "phone": "(517) 432-3176",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824-1226"
     },
     "Stacy Hollon": {
         "title": "Secretary ",
+        "department": "Mechanical Engineering",
         "email": "hollonst@msu.edu",
         "phone": "517-355-5220",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Min Hong": {
         "title": "Adjunct Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "hong@egr.msu.edu",
         "phone": "",
         "st_address": "427 N. Shaw Lane",
-        "room": "1"
+        "room": "1",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Timothy Howery": {
         "title": "Program Presenter",
+        "department": "Civil and Environmental Engineering",
         "email": "howery@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Xuefei Huang": {
         "title": "Professor, Biomedical Engineering and Chemistry",
+        "department": "Biomedical Engineering",
         "email": "xuefei@chemistry.msu.edu",
         "phone": "517-353-1076",
         "st_address": "578 S Shaw Ln",
-        "room": "425A"
+        "room": "425A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Nicole Hurst": {
         "title": "Accountant",
+        "department": "Biomedical Engineering",
         "email": "minottni@egr.msu.edu",
         "phone": "517-884-6962",
         "st_address": "775 Woodlot Drive",
-        "room": "4000"
+        "room": "4000",
+        "city": "East Lansing",
+        "state": "",
+        "zip_code": ""
     },
     "Amanda Idema": {
         "title": "Assistant Dean for Undergraduate Student Affairs",
+        "department": "Undergraduate Studies",
         "email": "agidema@msu.edu",
         "phone": "(517) 355-6616 Ext. 3",
         "st_address": "428 S. Shaw Lane",
-        "room": "1415"
+        "room": "1415",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Anthony Ingle": {
         "title": "Teaching Specialist",
+        "department": "Civil and Environmental Engineering",
         "email": "ingleant@egr.msu.edu",
         "phone": "(517) 432-3130",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3577"
+        "room": "3577",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Farhad Jaberi": {
         "title": "Professor ",
+        "department": "Mechanical Engineering",
         "email": "jaberi@egr.msu.edu",
         "phone": "(517) 432-4678",
         "st_address": "428 S. Shaw Lane",
-        "room": "2240"
+        "room": "2240",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Shelly Jackson": {
         "title": "Office Assistant ",
+        "department": "Engineering Development and Alumni Relations",
         "email": "jacks973@egr.msu.edu",
         "phone": "(517) 355-8339",
         "st_address": "428 S. Shaw Lane",
-        "room": "3536"
+        "room": "3536",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Linos Jacovides": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "jacovid1@egr.msu.edu",
         "phone": "(313) 806-7149",
         "st_address": "428  S. Shaw Street",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Kaleigh Jaeger-Hale": {
         "title": "Assistant Director for Alumni Relations",
+        "department": "Engineering Development and Alumni Relations",
         "email": "jaegerk1@egr.msu.edu",
         "phone": "(517) 355-8339",
         "st_address": "428 S. Shaw Lane",
-        "room": "3536"
+        "room": "3536",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Joseph Jager": {
         "title": "Program Presenter",
+        "department": "Civil and Environmental Engineering",
         "email": "jager@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Anil Jain": {
         "title": "University Distinguished Professor",
+        "department": "Computer Science and Engineering",
         "email": "jain@cse.msu.edu",
         "phone": "(517) 355-9282",
         "st_address": "428 S. Shaw Lane",
-        "room": "3143"
+        "room": "3143",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Michael James": {
         "title": "Research Assistant II",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "jamesmi3@msu.edu",
         "phone": "(517) 353-8531",
         "st_address": "524 S. Shaw Lane",
-        "room": "127"
+        "room": "127",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1323"
     },
     "K Jayaraman": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "jayarama@egr.msu.edu",
         "phone": "(517) 355-5138",
         "st_address": "428 S. Shaw Lane",
-        "room": "4147"
+        "room": "4147",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jennifer Jennings": {
         "title": "Associate Director Corporate/Foundation Relations",
+        "department": "Engineering Development and Alumni Relations",
         "email": "jjenning@msu.edu",
         "phone": "(517) 432-6573",
         "st_address": "428 S. Shaw Lane",
-        "room": "3536"
+        "room": "3536",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sanghyup Jeong": {
         "title": "Assistant Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "jeongsa1@egr.msu.edu",
         "phone": "(517) 432-6123",
         "st_address": "524 S. Shaw Lane",
-        "room": "222"
+        "room": "222",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Sean Joseph": {
         "title": "Windows Adminstrator, Software Developer",
+        "department": "Division of Engineering Computing Services",
         "email": "joseph62@egr.msu.edu",
         "phone": "(517) 432-0380",
         "st_address": "428 S. Shaw Lane",
-        "room": "2312"
+        "room": "2312",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Stephen Kamin ": {
         "title": "Teaching Specialist",
+        "department": "Chemical Engineering and Materials Science",
         "email": "sakamin@egr.msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jennifer Keddle": {
         "title": "Administrative Assistant III/S",
+        "department": "Chemical Engineering and Materials Science",
         "email": "peterm19@egr.msu.edu",
         "phone": "(517) 355-5135",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Leo Kempel": {
         "title": "Dean",
+        "department": "Dean's Office",
         "email": "kempel@egr.msu.edu",
         "phone": "(517) 355-5114",
         "st_address": "428 S. Shaw Lane",
-        "room": "3410"
+        "room": "3410",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kylie Kenyon": {
         "title": "Project/Event Coordinator",
+        "department": "Undergraduate Studies",
         "email": "kenyonky@egr.msu.edu",
         "phone": "(517) 355-5163",
         "st_address": "428 S. Shaw Lane",
-        "room": "1340"
+        "room": "1340",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Hassan Khalil": {
         "title": "University Distinguished Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "khalil@egr.msu.edu",
         "phone": "(517) 355-6689",
         "st_address": "428 S. Shaw Lane",
-        "room": "2308F"
+        "room": "2308F",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Firas Khasawneh": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "khasawn3@msu.edu",
         "phone": "517-4320471",
         "st_address": "428 S. Shaw Lane",
-        "room": "2503"
+        "room": "2503",
+        "city": "East Lansing",
+        "state": "m",
+        "zip_code": "48824"
     },
     "Andrew Kim": {
         "title": "Assistant to the Dean for Recruitment and K-12 Outreach",
+        "department": "K-12 Outreach",
         "email": "kima@egr.msu.edu",
         "phone": "(517) 353-7282",
         "st_address": "428 S. Shaw Lane",
-        "room": "1410"
+        "room": "1410",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Seungdo Kim": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "kimseun@egr.msu.edu",
         "phone": "(517) 355-4621",
         "st_address": "3815 Technology Blvd.",
-        "room": "Suite A119"
+        "room": "Suite A119",
+        "city": "Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Taeho Kim": {
         "title": "Assistant Professor",
+        "department": "Biomedical Engineering",
         "email": "kimtae47@msu.edu",
         "phone": "(517) 355-3983",
         "st_address": "775 Woodlot Dr",
-        "room": "2318"
+        "room": "2318",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Dana Kirk": {
         "title": "Assistant Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "kirkdana@msu.edu",
         "phone": "517-432-6530",
         "st_address": "524 S. Shaw Lane",
-        "room": "218"
+        "room": "218",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "James Klausner": {
         "title": "Professor, Chair of Mechanical Engineering",
+        "department": "Mechanical Engineering",
         "email": "jfk@msu.edu",
         "phone": "(517) 884-8997",
         "st_address": "428 S.Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Venkatesh Kodur, Ph.D., P.E., F.CAE, F.INAE, F.ASCE, F.ACI, F.SEI": {
         "title": "University Distinguished Professor and Chairperson",
+        "department": "Civil and Environmental Engineering",
         "email": "kodur@egr.msu.edu",
         "phone": "(517) 353-9813",
         "st_address": "428 S. Shaw Lane",
-        "room": "3546"
+        "room": "3546",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Roger Koenig": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "koenigr@msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Manoochehr Koochesfahani": {
         "title": "Professor ",
+        "department": "Mechanical Engineering",
         "email": "koochesf@egr.msu.edu",
         "phone": "(517) 432-2464",
         "st_address": "428 S. Shaw Lane",
-        "room": "A131 RCE"
+        "room": "A131 RCE",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Mike Koschmider": {
         "title": "Res/Instruc Equipment Technologist I",
+        "department": "Mechanical Engineering",
         "email": "koschmi2@egr.msu.edu",
         "phone": "517 355-3521",
         "st_address": "428 S. Shaw Lane",
-        "room": "1240"
+        "room": "1240",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Meagan Kroll": {
         "title": "Graduate Secretary",
+        "department": "Electrical and Computer Engineering",
         "email": "krollm@egr.msu.edu",
         "phone": "(517) 353-9556",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Suzanne Kroll": {
         "title": "Accounting Clerk II",
+        "department": "Mechanical Engineering",
         "email": "krollsu@egr.msu.edu",
         "phone": "(517) 355-5132",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Deborah Kruch": {
         "title": "Research Administrator I",
+        "department": "Computer Science and Engineering",
         "email": "kruch@cse.msu.edu",
         "phone": "(517) 353-1679",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115B"
+        "room": "3115B",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sandeep Kulkarni": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "sandeep@cse.msu.edu",
         "phone": "(517) 355-2387",
         "st_address": "428 S. Shaw Lane",
-        "room": "1135"
+        "room": "1135",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sharon Kus": {
         "title": "Administrative Assistant",
+        "department": "Division of Engineering Computing Services",
         "email": "kus@egr.msu.edu",
         "phone": "(517) 884-7933",
         "st_address": "428 S. Shaw Lane",
-        "room": "1338"
+        "room": "1338",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "M. Emin Kutay": {
         "title": "Associate Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "kutay@egr.msu.edu",
         "phone": "(517) 353-9297",
         "st_address": "428 S. Shaw Lane",
-        "room": "3554"
+        "room": "3554",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Patrick Kwon - Associate Chair for Graduate Studies": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "pkwon@egr.msu.edu",
         "phone": "(517) 355-0173",
         "st_address": "428 S. Shaw Lane",
-        "room": "2440"
+        "room": "2440",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Rebecca H. Lahr": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "rlahr@msu.edu",
         "phone": "",
         "st_address": "1449 Engineering Research Ct.",
-        "room": "A111"
+        "room": "A111",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Wei Lai": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "laiwei@egr.msu.edu",
         "phone": "(517) 355-5126",
         "st_address": "428 S. Shaw Lane",
-        "room": "3524"
+        "room": "3524",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Nizar Lajnef": {
         "title": "Associate Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "lajnefni@egr.msu.edu",
         "phone": "(517) 353-8883",
         "st_address": "428 S. Shaw Lane",
-        "room": "3568"
+        "room": "3568",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jamie Lake": {
         "title": "Secretary II",
+        "department": "Mechanical Engineering",
         "email": "lakejami@egr.msu.edu",
         "phone": "517-355-3338",
         "st_address": "428 S.Shaw Lane",
-        "room": "2560"
+        "room": "2560",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Darlene Lane": {
         "title": "Administrative Assistant I",
+        "department": "Civil and Environmental Engineering",
         "email": "lanedarl@egr.msu.edu",
         "phone": "(517) 432-8220",
         "st_address": "2857 Jolly Road",
-        "room": "100"
+        "room": "100",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Jim Lang": {
         "title": "Industrial Liason for Design Projects",
+        "department": "Mechanical Engineering",
         "email": "langjame@egr.msu.edu",
         "phone": "810-224-0055",
         "st_address": "428 S.Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Lori Larner": {
         "title": "Research Administrator I",
+        "department": "Civil and Environmental Engineering",
         "email": "larner1@egr.msu.edu",
         "phone": "(517) 355-0228",
         "st_address": "1449 Engineering Research Court",
-        "room": "A127"
+        "room": "A127",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Michael Lavagnino": {
         "title": "Academic Specialist",
+        "department": "Mechanical Engineering",
         "email": "lavagnin@msu.edu",
         "phone": "517-432-5026",
         "st_address": "428 S.Shaw Lane",
-        "room": "2418"
+        "room": "2418",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Andre Lee": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "leea@egr.msu.edu",
         "phone": "(517) 355-5112",
         "st_address": "428 S. Shaw Lane",
-        "room": "3514"
+        "room": "3514",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Daniel Lee": {
         "title": "Senior Specialist",
+        "department": "Civil and Environmental Engineering",
         "email": "leed@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Ilsoon Lee": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "leeil@egr.msu.edu",
         "phone": "(517) 355-9291",
         "st_address": "428 S. Shaw Lane",
-        "room": "1258"
+        "room": "1258",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Lik Chuan Lee": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "lclee@egr.msu.edu",
         "phone": "517-432-4563",
         "st_address": "423 S.Shaw Lane",
-        "room": "2445"
+        "room": "2445",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Shu-Guang Li": {
         "title": "Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "lishug@egr.msu.edu",
         "phone": "(517) 432-1929",
         "st_address": "1449 Engineering Research Court",
-        "room": "A133"
+        "room": "A133",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Tongtong Li": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "tongli@egr.msu.edu",
         "phone": "(517) 355-7688",
         "st_address": "428 S. Shaw Lane",
-        "room": "2308K"
+        "room": "2308K",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Wen Li": {
         "title": "Associate Professor,   Associate Chair for Space Management, Public Relations and Special Initiatives Announcement",
+        "department": "Electrical and Computer Engineering",
         "email": "wenli@egr.msu.edu",
         "phone": "(517) 353-7832",
         "st_address": "775 Woodlot Dr. ",
-        "room": "4313"
+        "room": "4313",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Zhaojian Li": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "lizhaoj1@egr.msu.edu",
         "phone": "517-432-1821",
         "st_address": "428 S. Shaw Lane",
-        "room": "3260"
+        "room": "3260",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Wei Liao": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "liaow@msu.edu",
         "phone": "(517) 432-7205",
         "st_address": "524 S. Shaw Lane",
-        "room": "202"
+        "room": "202",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1323"
     },
     "Kyle Liechty": {
         "title": "Co-op / Intern Coordinator",
+        "department": "Undergraduate Studies",
         "email": "liechtyk@msu.edu",
         "phone": "(517) 355-5163, 517.432.6572",
         "st_address": "428 S. Shaw Lane",
-        "room": "1340"
+        "room": "1340",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Peter Lillehoj": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "lillehoj@egr.msu.edu",
         "phone": "(517) 432-2976",
         "st_address": "428 S. Shaw Lane",
-        "room": "2461"
+        "room": "2461",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Brenda Lippincott": {
         "title": "Executive Assistant",
+        "department": "Biomedical Engineering",
         "email": "robinsob@msu.edu",
         "phone": "517-884-6978",
         "st_address": "775 Woodlot Drive",
-        "room": "4030"
+        "room": "4030",
+        "city": "East Lansing",
+        "state": "",
+        "zip_code": ""
     },
     "Carl Lira": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "lira@egr.msu.edu",
         "phone": "(517) 355-9731",
         "st_address": "428 S. Shaw Lane",
-        "room": "2261"
+        "room": "2261",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Dahsin Liu": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "liu@egr.msu.edu",
         "phone": "(517) 353-6716",
         "st_address": "2727 Alliance Drive",
-        "room": "Suite B"
+        "room": "Suite B",
+        "city": "Lansing",
+        "state": "MI                            ",
+        "zip_code": "48910"
     },
     "Kevin J. Liu": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "kjl@cse.msu.edu",
         "phone": "(517)355-5240",
         "st_address": "428 S. Shaw Lane",
-        "room": "2128"
+        "room": "2128",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Xiang-Yang Alex Liu": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "alexliu@cse.msu.edu",
         "phone": "(517) 353-5152",
         "st_address": "428 S. Shaw Lane",
-        "room": "2132"
+        "room": "2132",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Xiaoming Liu": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "liuxm@cse.msu.edu",
         "phone": "(517) 355-2359",
         "st_address": "428 S. Shaw Lane",
-        "room": "1126"
+        "room": "1126",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Yan \"Susie\" Liu": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "liuyan6@msu.edu",
         "phone": "(517) 432-7387",
         "st_address": "524 S. Shaw Lane",
-        "room": "203"
+        "room": "203",
+        "city": "EAST LANSING",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Yunhao Liu": {
         "title": "MSU Foundation Professor and Chairperson",
+        "department": "Computer Science and Engineering",
         "email": "",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Lloyd": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "lloyd@msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328D"
+        "room": "2328D",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "David Long": {
         "title": "Professor; Adjunct Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "long@egr.msu.edu",
         "phone": "(517) 353-9618",
         "st_address": "288 Farm Lane",
-        "room": "141"
+        "room": "141",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Alfred Loos": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "aloos@egr.msu.edu",
         "phone": "(517) 432-0844",
         "st_address": "2727 Alliance Drive",
-        "room": "Suite B"
+        "room": "Suite B",
+        "city": "Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Renfu Lu": {
         "title": "Adjunct Professor ",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "lur@msu.edu",
         "phone": "(517) 432-8062",
         "st_address": "524 S. Shaw Lane",
-        "room": "224"
+        "room": "224",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Weiyi Lu": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "wylu@egr.msu.edu",
         "phone": "(517) 353-6448",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3571"
+        "room": "3571",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Luginsland ": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "luginsla@msu.edu",
         "phone": "",
         "st_address": "428 S Shaw Ln",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Richard Lunt": {
         "title": "Johansen Crosby Endowed Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "rlunt@egr.msu.edu",
         "phone": "(517) 432-2132",
         "st_address": "428 S. Shaw Lane",
-        "room": "4135"
+        "room": "4135",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Sophia Lunt": {
         "title": "Adjunct Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "sophia@msu.edu",
         "phone": "(517) 432-4886",
         "st_address": "603 Wilson Rd.",
-        "room": "522A"
+        "room": "522A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Nihar Mahapatra": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "nrm@egr.msu.edu",
         "phone": "(517) 432-4617",
         "st_address": "428 S. Shaw Lane",
-        "room": "1211"
+        "room": "1211",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Titun Roy Maiti": {
         "title": "Specialist--Advisor for CSE",
+        "department": "Computer Science and Engineering",
         "email": "titun@egr.msu.edu",
         "phone": "(517) 353-5455",
         "st_address": "428 S. Shaw Lane",
-        "room": "3201"
+        "room": "3201",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Rachel Mangiavellano": {
         "title": "Career Consultant",
+        "department": "Undergraduate Studies",
         "email": "leonerac@vps.msu.edu",
         "phone": "(517) 432-6575",
         "st_address": "428 S. Shaw Lane",
-        "room": "1340"
+        "room": "1340",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Phanikumar Mantha": {
         "title": "Professor/Associate Chair for Graduate Studies",
+        "department": "Civil and Environmental Engineering",
         "email": "phani@egr.msu.edu",
         "phone": "(517) 432-0851",
         "st_address": "1449 Engineering Research Court",
-        "room": "A130"
+        "room": "A130",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Bradley Marks": {
         "title": "Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "marksbp@egr.msu.edu",
         "phone": "(517) 432-7703",
         "st_address": "524 S. Shaw Lane",
-        "room": "210"
+        "room": "210",
+        "city": "EAST LANSING",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jamie Lynn Marks": {
         "title": "Administrative Assistant",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "marksjam@anr.msu.edu",
         "phone": "(517) 355-4722",
         "st_address": "524 S. Shaw Lane",
-        "room": "216"
+        "room": "216",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Steve Marquie ": {
         "title": "Research Assistant I",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "wb9tow@egr.msu.edu",
         "phone": "(517) 355-8128",
         "st_address": "524 S. Shaw Lane",
-        "room": "126"
+        "room": "126",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Kelli Martin": {
         "title": "Director",
+        "department": "Division of Engineering Research",
         "email": "kelli@egr.msu.edu",
         "phone": "(517) 353-9492",
         "st_address": "428 S Shaw Ln",
-        "room": "2527A"
+        "room": "2527A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Tomoko Marumo": {
         "title": "Visiting Scholar-Fixed Term",
+        "department": "Biomedical Engineering",
         "email": "marumoto@msu.edu",
         "phone": "",
         "st_address": "775 Woodlot Drive",
-        "room": "4000"
+        "room": "4000",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1226"
     },
     "Andrew Mason": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "mason@egr.msu.edu",
         "phone": "(517) 355-6502",
         "st_address": "428 S. Shaw Lane",
-        "room": "1217"
+        "room": "1217",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Darren Mason": {
         "title": "Adjunct Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "masond@egr.msu.edu",
         "phone": "(517) 355-5107",
         "st_address": "428 S. Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Susan Masten": {
         "title": "Professor/Associate Chair for Undergraduate Studies",
+        "department": "Civil and Environmental Engineering",
         "email": "masten@egr.msu.edu",
         "phone": "(517) 355-2254",
         "st_address": "428 S. Shaw Lane",
-        "room": "3505 Engineering"
+        "room": "3505 Engineering",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kim McClung": {
         "title": "Research Administrator I",
+        "department": "Chemical Engineering and Materials Science",
         "email": "mcclungk@egr.msu.edu",
         "phone": "(517) 355-5135",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Mark McCullen": {
         "title": "Specialist; Teacher",
+        "department": "Computer Science and Engineering",
         "email": "mccullen@cse.msu.edu",
         "phone": "(517) 355-2354",
         "st_address": "428 S. Shaw Lane",
-        "room": "2142"
+        "room": "2142",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Adam Mcdougall": {
         "title": "Network Administrator",
+        "department": "Division of Engineering Computing Services",
         "email": "mcdouga9@egr.msu.edu",
         "phone": "(517) 353-4844",
         "st_address": "428 S. Shaw Lane",
-        "room": "2203"
+        "room": "2203",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Robert McGough": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "mcgough@egr.msu.edu",
         "phone": "(517) 432-3333",
         "st_address": "428 S. Shaw Lane",
-        "room": "1213"
+        "room": "1213",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "John McGrath": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "mcgrath@msu.edu",
         "phone": "",
         "st_address": "428 S.Shaw Lane",
-        "room": "2328A"
+        "room": "2328A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Philip Mckinley": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "mckinley@cse.msu.edu",
         "phone": "(517) 353-4396",
         "st_address": "428 S. Shaw Lane",
-        "room": "1133"
+        "room": "1133",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ilce Medina Meza": {
         "title": "Assistant Professor, Biosystems and Agricultural Engineering, Health Engineering",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "ilce@msu.edu",
         "phone": "",
         "st_address": "469 Wilson Rd",
-        "room": "302C"
+        "room": "302C",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "Ricardo Mejia-Alvarez": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "rimejal@msu.edu",
         "phone": "217-649-6583",
         "st_address": "1449 Engineering Research Complex",
-        "room": "A117"
+        "room": "A117",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Nathan P. Mellott": {
         "title": "Teaching Specialist",
+        "department": "Chemical Engineering and Materials Science",
         "email": "mellott3@egr.msu.edu",
         "phone": "(517) 353-6715",
         "st_address": "428 S. Shaw Lane",
-        "room": "3522 "
+        "room": "3522 ",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Dennis Miller": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "millerd@egr.msu.edu",
         "phone": "(517) 353-3928",
         "st_address": "428 S. Shaw Lane",
-        "room": "1243"
+        "room": "1243",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Steve Miller": {
         "title": "Specialist",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "mill1229@msu.edu",
         "phone": "(517) 353-4456",
         "st_address": "524 S. Shaw Lane",
-        "room": "218"
+        "room": "218",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jade Mitchell": {
         "title": "Assistant Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "jade@msu.edu",
         "phone": "(517) 353-4544",
         "st_address": "524 S. Shaw Lane",
-        "room": "206"
+        "room": "206",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Vanessa Mitchner": {
         "title": "Web Developer",
+        "department": "Division of Engineering Computing Services",
         "email": "mitchvlr@egr.msu.edu",
         "phone": "(517) 355-3817",
         "st_address": "428 S. Shaw Lane",
-        "room": "2316"
+        "room": "2316",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Joydeep Mitra": {
         "title": "Associate Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "mitraj@egr.msu.edu",
         "phone": "(517) 353-8528",
         "st_address": "1439 Engineering Research CT",
-        "room": "C105"
+        "room": "C105",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Hamidreza Modares": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "modaresh@msu.edu",
         "phone": "",
         "st_address": "428 S.Shaw Lane",
-        "room": "2328E Engineering"
+        "room": "2328E Engineering",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jill Moore": {
         "title": "Research Administrator ",
+        "department": "Mechanical Engineering",
         "email": "densmo14@egr.msu.edu",
         "phone": "517-353-3995",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Sharlissa Moore": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "moores60@msu.edu",
         "phone": "(517) 432\u20101158",
         "st_address": "842 Chestnut Rd",
-        "room": "S369L"
+        "room": "S369L",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Kevin Moran": {
         "title": "Specialist - Research",
+        "department": "Mechanical Engineering",
         "email": "morank@msu.edu",
         "phone": "517-884-1544",
         "st_address": "1449 Engineering Research CT",
-        "room": "C9-G"
+        "room": "C9-G",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Donald Morelli": {
         "title": "Chairperson and Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "dmorelli@egr.msu.edu",
         "phone": "(517) 884-1603",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jenahvive K. Morgan": {
         "title": "Specialist - Teacher-Fixed Term",
+        "department": "Undergraduate Studies",
         "email": "jenahviv@msu.edu",
         "phone": "(517) 884-8765",
         "st_address": "219 Wilson Rd",
-        "room": "G79C"
+        "room": "G79C",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Daniel Morris": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "dmorris@msu.edu",
         "phone": "(517) 432-4427",
         "st_address": "469 Wilson Rd",
-        "room": "334"
+        "room": "334",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Garth Motschenbacher": {
         "title": "Director of Employer Relations",
+        "department": "Undergraduate Studies",
         "email": "motschen@egr.msu.edu",
         "phone": "(517) 355-5163",
         "st_address": "428 S. Shaw Lane",
-        "room": "1340"
+        "room": "1340",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Patricia Mroczek": {
         "title": "Communications Manager",
+        "department": "Dean's Office",
         "email": "mroczekp@egr.msu.edu",
         "phone": "(517) 432-1303",
         "st_address": "428 S. Shaw Lane",
-        "room": "3415"
+        "room": "3415",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Norbert Mueller": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "mueller@egr.msu.edu",
         "phone": "(517) 432-9139",
         "st_address": "428 S. Shaw Lane",
-        "room": "2448"
+        "room": "2448",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ranjan Mukherjee": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "mukherji@egr.msu.edu",
         "phone": "(517) 355-1834",
         "st_address": "428 S. Shaw Lane",
-        "room": "2430"
+        "room": "2430",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ramakrishna Mukkamala": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "rama@egr.msu.edu",
         "phone": "(517) 353-3120",
         "st_address": "428 S. Shaw Lane",
-        "room": "2216"
+        "room": "2216",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Michael S. Murillo": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "murillom@msu.edu",
         "phone": "(517) 432-0196",
         "st_address": "428 S Shaw Ln",
-        "room": "Room 1508C EB"
+        "room": "Room 1508C EB",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Matt Mutka": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "mutka@cse.msu.edu",
         "phone": "(517) 353-6484",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ahmed Naguib": {
         "title": "Professor ",
+        "department": "Mechanical Engineering",
         "email": "naguib@egr.msu.edu",
         "phone": "(517) 432-1616",
         "st_address": "1439 Engineering Research CT",
-        "room": "C128"
+        "room": "C128",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Joshua Nahum": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "nahumjos@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "3504"
+        "room": "3504",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jeffrey Nanzer": {
         "title": "Dennis P. Nyquist Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "nanzer@msu.edu",
         "phone": "517-432-8089",
         "st_address": "428 S. Shaw Lane",
-        "room": "2214E"
+        "room": "2214E",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Ramani Narayan": {
         "title": "University Distinguished Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "narayan@egr.msu.edu",
         "phone": "(517) 432-0775",
         "st_address": "3815 Technology Blvd.",
-        "room": "Suite A109"
+        "room": "Suite A109",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Lindsay Naylor": {
         "title": "Specialist - Advisor-Fixed Term",
+        "department": "Chemical Engineering and Materials Science",
         "email": "naylorli@msu.edu",
         "phone": "(517) 432-4916",
         "st_address": "428 S. Shaw Lane",
-        "room": "3512"
+        "room": "3512",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Pouyan Nejadhashemi": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "pouyan@msu.edu",
         "phone": "(517) 432-7653",
         "st_address": "524 S. Shaw Lane",
-        "room": "225"
+        "room": "225",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "4882401323"
     },
     "Robert Nelsen": {
         "title": "Research Administrator",
+        "department": "Division of Engineering Research",
         "email": "rnelsen@egr.msu.edu",
         "phone": "(517) 355-5103",
         "st_address": "428 S Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Joseph Nguyen": {
         "title": "INSTEQ&SUP Tech II",
+        "department": "Civil and Environmental Engineering",
         "email": "nguyenj@egr.msu.edu",
         "phone": "(517) 353-0688",
         "st_address": "428 S. Shaw Lane",
-        "room": "3570"
+        "room": "3570",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jason Nicholas": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "jdn@egr.msu.edu",
         "phone": "(517) 355-1615",
         "st_address": "1498 Engineering Research CT",
-        "room": "C9C"
+        "room": "C9C",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Stacey L. Nye": {
         "title": "Administrative Business Professional/S",
+        "department": "Computer Science and Engineering",
         "email": "",
         "phone": "(517) 353-6484",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Odoherty": {
         "title": "Consultant",
+        "department": "Civil and Environmental Engineering",
         "email": "odohert1@egr.msu.edu",
         "phone": "(517) 432-8220",
         "st_address": "2857 Jolly Road",
-        "room": "3546"
+        "room": "3546",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Robert Ofoli": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "ofoli@egr.msu.edu",
         "phone": "(517) 432-1575",
         "st_address": "428 S. Shaw Lane",
-        "room": "1248"
+        "room": "1248",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Charles Ofria": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "ofria@cse.msu.edu",
         "phone": "(517) 355-8389",
         "st_address": "567 Wilson Road",
-        "room": "1441C"
+        "room": "1441C",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kevin Ohl": {
         "title": "Specialist",
+        "department": "Computer Science and Engineering",
         "email": "ohlk@cse.msu.edu",
         "phone": "(517) 353-0682",
         "st_address": "428 S. Shaw Lane",
-        "room": "1107"
+        "room": "1107",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sebnem Onsay": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "onsayse@cse.msu.edu",
         "phone": "(517) 353-3177",
         "st_address": "438 S. Shaw Lane",
-        "room": "3503"
+        "room": "3503",
+        "city": "East Lansing ",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Charles Owen": {
         "title": "Associate Professor",
+        "department": "Computer Science and Engineering",
         "email": "cbowen@cse.msu.edu",
         "phone": "(517) 353-6488",
         "st_address": "428 S. Shaw Lane",
-        "room": "1138"
+        "room": "1138",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Tiffany Owen": {
         "title": "Academic Program Coordinator",
+        "department": "Biomedical Engineering",
         "email": "owentif2@egr.msu.edu",
         "phone": "(517) 884-6976",
         "st_address": "775 Woodlot Drive",
-        "room": "4000"
+        "room": "4000",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "David Palme": {
         "title": "Research Administrator",
+        "department": "Division of Engineering Research",
         "email": "dpalme@egr.msu.edu",
         "phone": "(517) 355-5103",
         "st_address": "428 S Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Fei Pan": {
         "title": "Assistant Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "feipan@msu.edu",
         "phone": "(517) 432-1257",
         "st_address": "524 S. Shaw Lane",
-        "room": "223"
+        "room": "223",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1323"
     },
     "Yanlyang Pan": {
         "title": "Research Tech/Lab Manager",
+        "department": "Civil and Environmental Engineering",
         "email": "pany@egr.msu.edu",
         "phone": "(517) 353-1836",
         "st_address": "1449 Engineering Research Court",
-        "room": "A129"
+        "room": "A129",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "John Papapolymerou": {
         "title": "Chairperson/MSU Foundation Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "jpapapol@egr.msu.edu",
         "phone": "(517)-355-5066",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Roxanne Peacock": {
         "title": "Research/Instructional Equipment Technician I",
+        "department": "Electrical and Computer Engineering",
         "email": "peacock@egr.msu.edu",
         "phone": "(517) 432-3336",
         "st_address": "428 S. Shaw Lane",
-        "room": "2215"
+        "room": "2215",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Mary Pease": {
         "title": "Office Coordinator II",
+        "department": "Undergraduate Studies",
         "email": "peasem@egr.msu.edu",
         "phone": "(517) 432-7749",
         "st_address": "428 S. Shaw Lane",
-        "room": "1415"
+        "room": "1415",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Lars Peereboom": {
         "title": "Research Associate",
+        "department": "Chemical Engineering and Materials Science",
         "email": "peereboo@egr.msu.edu",
         "phone": "(517) 355-5130",
         "st_address": "428 S. Shaw Lane",
-        "room": "2246"
+        "room": "2246",
+        "city": "EAST LANSING",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Galit Pelled": {
         "title": "Professor, Biomedical Engineering and Neuroscience",
+        "department": "Biomedical Engineering",
         "email": "pelledga@msu.edu",
         "phone": "517-884-7464",
         "st_address": "775 Woodlot Drive",
-        "room": "2112"
+        "room": "2112",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Thomas Pence": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "pence@egr.msu.edu",
         "phone": "(517) 353-3889",
         "st_address": "428 S. Shaw Lane",
-        "room": "2452"
+        "room": "2452",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Fang Z. Peng": {
         "title": "University Distinguished Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "fzpeng@egr.msu.edu",
         "phone": "(517) 355-1608",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Charles Petty": {
         "title": "Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "petty@egr.msu.edu",
         "phone": "(517) 353-5486",
         "st_address": "428 S. Shaw Lane",
-        "room": "1245"
+        "room": "1245",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Geralynn Phelps": {
         "title": "Assistant Director, Women in Engineering, Recruitment and K-12 Outreach",
+        "department": "Undergraduate Studies",
         "email": "geralynn@egr.msu.edu",
         "phone": "(517) 884-0055",
         "st_address": "428 S. Shaw Lane",
-        "room": "1410D"
+        "room": "1410D",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Dennis Phillilps": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "dennisp@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "3502"
+        "room": "3502",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Percy Pierre": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "pierre@egr.msu.edu",
         "phone": "(517) 432-5148",
         "st_address": "428 S. Shaw Lane",
-        "room": "2325B"
+        "room": "2325B",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Yadu Pokhrel": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "ypokhrel@egr.msu.edu",
         "phone": "(517) 355-2360",
         "st_address": "1449 Engineering Research Ct.",
-        "room": "A134"
+        "room": "A134",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "Vijayabarathi Ponnambalam": {
         "title": "Research Associate",
+        "department": "Chemical Engineering and Materials Science",
         "email": "vijaypon@msu.edu",
         "phone": "",
         "st_address": "1497 Engineering Research CT",
-        "room": "E172"
+        "room": "E172",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Laura Post": {
         "title": "Secretary III",
+        "department": "Civil and Environmental Engineering",
         "email": "lpost@egr.msu.edu",
         "phone": "(517) 355-5108",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3546"
+        "room": "3546",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Merle Potter": {
         "title": "Professor - Emeritus",
+        "department": "Mechanical Engineering",
         "email": "merlecp@att.net",
         "phone": "",
         "st_address": "428 S.Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Shahram Pouya": {
         "title": "Post Doc",
+        "department": "Mechanical Engineering",
         "email": "pouya@egr.msu.edu",
         "phone": "(517) 353-8738",
         "st_address": "1449 Engineering Research Court",
-        "room": "A22"
+        "room": "A22",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Meredith Prince": {
         "title": "Research Administrator I",
+        "department": "Biomedical Engineering",
         "email": "princeme@egr.msu.edu",
         "phone": "517-884-6981",
         "st_address": "775 Woodlot Drive",
-        "room": "2040"
+        "room": "2040",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Nicole Proctor-Kanyama": {
         "title": "Associate Director of Development",
+        "department": "Engineering Development and Alumni Relations",
         "email": "proctorn@egr.msu.edu",
         "phone": "(517) 355-8339",
         "st_address": "428 S. Shaw Lane",
-        "room": "3536"
+        "room": "3536",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "William Punch": {
         "title": "Associate Professor",
+        "department": "Computer Science and Engineering",
         "email": "punch@cse.msu.edu ",
         "phone": "(517) 353-3541",
         "st_address": "428 S. Shaw Lane",
-        "room": "3147"
+        "room": "3147",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Erin Purcell": {
         "title": "Assistant Professor, Biomedical Engineering and Electrical Engineering ",
+        "department": "Biomedical Engineering",
         "email": "epurcell@msu.edu",
         "phone": "517-432-8137",
         "st_address": "775 Woodlot Dr",
-        "room": "2119"
+        "room": "2119",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Yue Qi": {
         "title": "Associate Dean for Inclusion and Diversity; Professor, Chemical Engineering and Material Science",
+        "department": "Chemical Engineering and Materials Science",
         "email": "yueqi@egr.msu.edu",
         "phone": "(517) 432-1243",
         "st_address": "428 S. Shaw Lane",
-        "room": "3509 "
+        "room": "3509 ",
+        "city": "East Lansing",
+        "state": "MI ",
+        "zip_code": "48824"
     },
     "Zhen Qiu": {
         "title": "Assistant Professor, Biomedical Engineering",
+        "department": "Biomedical Engineering",
         "email": "qiuzhen@egr.msu.edu",
         "phone": "517-884-6942",
         "st_address": "775 Woodlot Drive",
-        "room": "4316"
+        "room": "4316",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": ""
     },
     "Clark Radcliffe": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "radcliffe@egr.msu.edu",
         "phone": "(517) 355-5198",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328D"
+        "room": "2328D",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Hayder Radha": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "radha@egr.msu.edu",
         "phone": "(517) 432-9958",
         "st_address": "428 S. Shaw Lane",
-        "room": "3219"
+        "room": "3219",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Kunwar Rajendra": {
         "title": "Adjunct Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "rajendr2@msu.edu",
         "phone": "(517) 353-9562",
         "st_address": "428 S. Shaw Lane",
-        "room": "2308G"
+        "room": "2308G",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Rajiv Ranganathan": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "rrangana@msu.edu",
         "phone": "517-353-6491",
         "st_address": "308 W Circle Drive",
-        "room": "203"
+        "room": "203",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Laurie Rashid": {
         "title": "Secretary II",
+        "department": "Electrical and Computer Engineering",
         "email": "rashidl@egr.msu.edu",
         "phone": "(517) 355-5067",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Sia Ravanbakhsh": {
         "title": "Research Assistant II/Lab Manager",
+        "department": "Civil and Environmental Engineering",
         "email": "ravanbak@egr.msu.edu",
         "phone": "(517) 432-4914",
         "st_address": "2851 Jolly Road",
-        "room": "-"
+        "room": "-",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Geoffrey Recktenwald": {
         "title": "Academic Specialist - Teaching",
+        "department": "Mechanical Engineering",
         "email": "GDR@egr.msu.edu",
         "phone": "(517) 432-3658",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328B"
+        "room": "2328B",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Luke Reese": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "reesel@msu.edu",
         "phone": "517-353-3258",
         "st_address": "524 S. Shaw Lane",
-        "room": "103C"
+        "room": "103C",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Dawn Reinhold": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "reinhold@egr.msu.edu",
         "phone": "(517) 432-7732",
         "st_address": "524 S. Shaw Lane",
-        "room": "205"
+        "room": "205",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1323"
     },
     "Jian Ren": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "renjian@egr.msu.edu",
         "phone": "(517) 353-4379",
         "st_address": "428 S. Shaw Lane",
-        "room": "2211"
+        "room": "2211",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "William Resh": {
         "title": " Professor",
+        "department": "Mechanical Engineering",
         "email": "reshwill@egr.msu.edu",
         "phone": "(517) 432-3920",
         "st_address": "428 S.Shaw Lane",
-        "room": "2328H"
+        "room": "2328H",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Aimee Reynolds": {
         "title": "Office Assistant III",
+        "department": "Undergraduate Studies",
         "email": "reyaimee@egr.msu.edu",
         "phone": "(517) 355-6616 Ext. 2",
         "st_address": "219 Wilson Road",
-        "room": "W8A"
+        "room": "W8A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Michael Rich": {
         "title": "Senior Specialist and Laboratory Manager/Outreach",
+        "department": "Composite Materials and Structures Center",
         "email": "rich@egr.msu.edu",
         "phone": "(517) 353-4696",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sara Roccabianca": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "roccabis@egr.msu.edu",
         "phone": "517-432-3185",
         "st_address": "428 S.Shaw Lane",
-        "room": "2463"
+        "room": "2463",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Aljoscha Roch": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "rochaljo@msu.edu",
         "phone": "",
         "st_address": "428 S Shaw Ln",
-        "room": "2120 "
+        "room": "2120 ",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Brian Rook": {
         "title": "Research Assistant II",
+        "department": "Composite Materials and Structures Center",
         "email": "rook@egr.msu.edu",
         "phone": "(517) 432-4939",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Joan Rose": {
         "title": "Homer Nowlin Chair In Water Research",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "rosejo@msu.edu",
         "phone": "(517) 432-4412",
         "st_address": "480 Wilson Road",
-        "room": "-"
+        "room": "-",
+        "city": "EAST LANSING",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Ronald Rosenberg": {
         "title": "Associate Dean Emeritus",
+        "department": "Mechanical Engineering",
         "email": "rosenber@egr.msu.edu",
         "phone": "(517) 355-3425",
         "st_address": "428 S. Shaw Lane",
-        "room": "1422"
+        "room": "1422",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Arun A. Ross": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "rossarun@cse.msu.edu",
         "phone": "(517) 353-9731",
         "st_address": "428 S. Shaw Lane",
-        "room": "3142"
+        "room": "3142",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Edward Rothwell": {
         "title": "Dennis P. Nyquist Endowed Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "rothwell@egr.msu.edu",
         "phone": "(517) 355-5231",
         "st_address": "428 S. Shaw Lane",
-        "room": "2114A"
+        "room": "2114A",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Steven Safferman": {
         "title": "Associate Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "steves@msu.edu",
         "phone": "(517) 432-0812",
         "st_address": "524 S. Shaw Lane",
-        "room": "212"
+        "room": "212",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Christopher Saffron": {
         "title": "Associate Professor; Adjunct Faculty of ChEMS",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "saffronc@msu.edu",
         "phone": "(517) 432-7414",
         "st_address": "524 S. Shaw Lane",
-        "room": "204"
+        "room": "204",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824-1323"
     },
     "Himanshu Sahasrabudhe": {
         "title": "Assistant professor",
+        "department": "Mechanical Engineering",
         "email": "sahasra1@egr.msu.edu",
         "phone": "517-432-0189",
         "st_address": "428 S. Shaw Lane",
-        "room": "2241"
+        "room": "2241",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Fathi Salem": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "salem@egr.msu.edu",
         "phone": "(517) 355-7695",
         "st_address": "428 S. Shaw Lane",
-        "room": "2308D"
+        "room": "2308D",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Joyce Chechamma Samuel": {
         "title": "Specialist - Advisor-Continuing | Assistant Director of Advising ",
+        "department": "Undergraduate Studies",
         "email": "samueljo@msu.edu",
         "phone": "(517) 432-1352",
         "st_address": "428 S. Shaw Lane",
-        "room": "3508"
+        "room": "3508",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Debjani Sarkar": {
         "title": "Specialist - Advisor-Continuing | Promotions Coordinator, CoRe Experience",
+        "department": "Undergraduate Studies",
         "email": "sarkarde@egr.msu.edu",
         "phone": "(517) 353-9266",
         "st_address": "219 Wilson Rd",
-        "room": "G79C"
+        "room": "G79C",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Paul Satoh": {
         "title": "Adjunct Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "satoh@egr.msu.edu",
         "phone": "(517) 372-9200 Ext.277  ",
         "st_address": "1129 Farm Lane",
-        "room": "165"
+        "room": "165",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Peter Savolainen": {
         "title": "MSU Foundation Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "pete@msu.edu",
         "phone": "517/355-5107",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3502"
+        "room": "3502",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Arthur Schober": {
         "title": "Systems Administrator",
+        "department": "Division of Engineering Computing Services",
         "email": "schober2@egr.msu.edu",
         "phone": "(517) 432-0384",
         "st_address": "428 S. Shaw Lane",
-        "room": "2203"
+        "room": "2203",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Harold Schock": {
         "title": "Professor, Director Energy and Automotive Research Labs",
+        "department": "Mechanical Engineering",
         "email": "schock@egr.msu.edu",
         "phone": "(517) 353-9328",
         "st_address": "1497 Engineering Research CT",
-        "room": "150"
+        "room": "150",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Thomas Schuelke": {
         "title": "Professor and Center Executive Director; Adjunct Faculty of ChEMS",
+        "department": "Electrical and Computer Engineering",
         "email": "tschuelke@fraunhofer.org",
         "phone": "(517) 432-8173",
         "st_address": "1449 Engineering Research CT",
-        "room": "B100"
+        "room": "B100",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Daniel Segalman": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "segalman@egr.msu.edu",
         "phone": "517-432-4462",
         "st_address": "428 S.Shaw Lane",
-        "room": "3422"
+        "room": "3422",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Robert Selden": {
         "title": "Rsc./Inst. Eq. Tech. 2",
+        "department": "Chemical Engineering and Materials Science",
         "email": "selden@egr.msu.edu",
         "phone": "(517) 353-7074",
         "st_address": "428 S. Shaw Lane",
-        "room": "1262"
+        "room": "1262",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Nelson Sep\u00falveda": {
         "title": "Associate Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "sepulve6@msu.edu",
         "phone": "(517) 432-2130",
         "st_address": "Engineering Research Complex",
-        "room": "C127"
+        "room": "C127",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Erik M. Shapiro": {
         "title": "Adjunct Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "shapir86@msu.edu",
         "phone": "(517) 884-3270",
         "st_address": "846 Service Rd.",
-        "room": "184"
+        "room": "184",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Steven Shaw": {
         "title": "University Distinguished Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "shawsw@egr.msu.edu",
         "phone": "(517) 432-3920",
         "st_address": "428 S. Shaw Lane",
-        "room": "2328H"
+        "room": "2328H",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Nicole Shook": {
         "title": "Administrative Associate",
+        "department": "Dean's Office",
         "email": "marsh136@egr.msu.edu",
         "phone": "(517) 432-5265",
         "st_address": "428 S. Shaw Lane",
-        "room": "3410"
+        "room": "3410",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jacque Shoppell": {
         "title": "Assistant Director",
+        "department": "Division of Engineering Research",
         "email": "shoppell@egr.msu.edu",
         "phone": "(517) 353-5084",
         "st_address": "428 S. Shaw Lane",
-        "room": "2527"
+        "room": "2527",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Bryan Smith": {
         "title": "Associate Professor",
+        "department": "Biomedical Engineering",
         "email": "smit2901@msu.edu",
         "phone": "(517) 353-7073",
         "st_address": "775 Woodlot Drive",
-        "room": "1116"
+        "room": "1116",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jason S. Smith": {
         "title": "Teaching Specialist",
+        "department": "Undergraduate Studies",
         "email": "smith840@msu.edu",
         "phone": "(517) 884-8767",
         "st_address": "219 Wilson Road",
-        "room": "G58"
+        "room": "G58",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48825"
     },
     "Robin S. Smith": {
         "title": "Secretary",
+        "department": "Diversity Programs Office",
         "email": "smit2185@egr.msu.edu",
         "phone": "(517) 355-8310",
         "st_address": "428 S. Shaw Lane",
-        "room": "1108"
+        "room": "1108",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Steve Smith": {
         "title": "Graduate Secretary",
+        "department": "Computer Science and Engineering",
         "email": "smit2745@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Parviz Soroushian": {
         "title": "Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "soroushi@egr.msu.edu",
         "phone": "(517) 355-2216",
         "st_address": "428 S. Shaw Lane",
-        "room": "3576"
+        "room": "3576",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Dana Spence": {
         "title": "Professor, Biomedical Engineering and Chemistry, Associate Chair for Graduate Studies, BME",
+        "department": "Biomedical Engineering",
         "email": "dspence@chemistry.msu.edu",
         "phone": "(517)-353-1116",
         "st_address": "775 Woodlot Drive",
-        "room": "4319"
+        "room": "4319",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "8823"
     },
     "Ajit Srivastava": {
         "title": "Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "srivasta@egr.msu.edu",
         "phone": "(517) 432-4826",
         "st_address": "524 S. Shaw Lane",
-        "room": "216"
+        "room": "216",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Vaibhav Srivastava": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "vaibhav@egr.msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "1210"
+        "room": "1210",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Robert Stedtfeld": {
         "title": "Visiting Research Associate",
+        "department": "Civil and Environmental Engineering",
         "email": "stedtfel@egr.msu.edu",
         "phone": "(517) 355-0228",
         "st_address": "1449 Engineering Research Court",
-        "room": "A18"
+        "room": "A18",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Katherine Stevenson": {
         "title": "Academic Specialist - Teaching",
+        "department": "Mechanical Engineering",
         "email": "kstevens@egr.msu.edu",
         "phone": "(517) 432-5260",
         "st_address": "428 W.Shaw",
-        "room": "2467"
+        "room": "2467",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Michelle Stewart": {
         "title": "Secretary",
+        "department": "Electrical and Computer Engineering",
         "email": "stewa578@egr.msu.edu",
         "phone": "517-884-7958",
         "st_address": "428  S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "George Stockman": {
         "title": "Professor Emeritus",
+        "department": "Computer Science and Engineering",
         "email": "stockman@cse.msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Elias Strangas": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "strangas@egr.msu.edu",
         "phone": "(517) 353-3517",
         "st_address": "428 S. Shaw Lane",
-        "room": "1218"
+        "room": "1218",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Tom Stuecken": {
         "title": "Research Assistant III",
+        "department": "Mechanical Engineering",
         "email": "stuecken@egr.msu.edu",
         "phone": "517 432-2698",
         "st_address": "1449 Engineering Research CT",
-        "room": "C9-J"
+        "room": "C9-J",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Truman Surbrook": {
         "title": "Professor",
+        "department": "Biosystems and Agricultural Engineering",
         "email": "surbrook@egr.msu.edu",
         "phone": "(517) 353-3232",
         "st_address": "524 S. Shaw Lane",
-        "room": "120B"
+        "room": "120B",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Greg M. Swain": {
         "title": "Adjunct Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "swain@chemistry.msu.edu",
         "phone": "(517) 353-1090",
         "st_address": "578 S Shaw Ln",
-        "room": "314 CEM"
+        "room": "314 CEM",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "Rodney Tabaczynski": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "rtabaczy@msu.edu",
         "phone": "(517) 884-1551",
         "st_address": "1497 Engineering Research CT",
-        "room": "146"
+        "room": "146",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Wei-Che Tai": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "taiweich@msu.edu",
         "phone": "(206)331-1080",
         "st_address": "428 S.Shaw Lane",
-        "room": "4142 Engineering"
+        "room": "4142 Engineering",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Antonello Tamburrino": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "tamburr1@egr.msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120"
+        "room": "2120",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Pang-Ning Tan": {
         "title": "Associate Professor",
+        "department": "Computer Science and Engineering",
         "email": "ptan@cse.msu.edu",
         "phone": "(517) 432-9240",
         "st_address": "428 S. Shaw Lane",
-        "room": "2129"
+        "room": "2129",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Xiaobo Tan": {
         "title": "MSU Foundation Professor, Professor Electrical and Computer Engineering/Adjunct Professor Mechanical Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "xbtan@egr.msu.edu",
         "phone": "(517) 432-5671",
         "st_address": "428 S. Shaw Lane",
-        "room": "3213"
+        "room": "3213",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jiliang Tang": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "",
         "phone": "(517)432-0608",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Xing Yang (Dennis) Tang": {
         "title": "Information Technology Professional",
+        "department": "Civil and Environmental Engineering",
         "email": "tangdenn@egr.msu.edu",
         "phone": "(517) 432-8220",
         "st_address": "2857 Jolly Rd.",
-        "room": "104"
+        "room": "104",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Tetyana Tarabara": {
         "title": "Software Developer",
+        "department": "Division of Engineering Computing Services",
         "email": "tarabar1@egr.msu.edu",
         "phone": "(517) 432-0380",
         "st_address": "428 S. Shaw Lane",
-        "room": "2312"
+        "room": "2312",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Volodymyr Tarabara": {
         "title": "Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "tarabara@msu.edu",
         "phone": "(517) 432-1755",
         "st_address": "428 S. Shaw Lane",
-        "room": "3564"
+        "room": "3564",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Laura Taylor": {
         "title": "Administrative Assistant III/S",
+        "department": "Civil and Environmental Engineering",
         "email": "taylorl@egr.msu.edu",
         "phone": "(517) 355-5111",
         "st_address": "428 S. Shaw Lane",
-        "room": "3546"
+        "room": "3546",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Brian Thompson": {
         "title": "Professor Emeritus",
+        "department": "Mechanical Engineering",
         "email": "thompson@egr.msu.edu",
         "phone": "(517) 355-2179",
         "st_address": "428 S. Shaw Lane",
-        "room": "2450"
+        "room": "2450",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Brad Tobin": {
         "title": "Administrative Assistant",
+        "department": "Chemical Engineering and Materials Science",
         "email": "tobinbra@egr.msu.edu",
         "phone": "(517) 884-7937",
         "st_address": "428 S Shaw Ln",
-        "room": "2100"
+        "room": "2100",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Francie Todd": {
         "title": "Director of Marketing",
+        "department": "Dean's Office",
         "email": "toddfr@egr.msu.edu",
         "phone": "(517) 353-8512",
         "st_address": "428 S. Shaw Lane",
-        "room": "3415"
+        "room": "3415",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Yiying Tong": {
         "title": "Associate Professor",
+        "department": "Computer Science and Engineering",
         "email": "ytong@cse.msu.edu",
         "phone": "(517) 353-0831",
         "st_address": "428 S. Shaw Lane",
-        "room": "1140"
+        "room": "1140",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Eric Torng": {
         "title": "Associate Professor; Graduate Director",
+        "department": "Computer Science and Engineering",
         "email": "torng@cse.msu.edu",
         "phone": "(517) 353-3543",
         "st_address": "428 S. Shaw Lane",
-        "room": "2144"
+        "room": "2144",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Elisa Toulson ": {
         "title": "Associate Professor",
+        "department": "Mechanical Engineering",
         "email": "toulson@msu.edu",
         "phone": "(517) 884-1549",
         "st_address": "1497 Engineering Research Court",
-        "room": "143"
+        "room": "143",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Ciera Trice": {
         "title": "Program Assistant",
+        "department": "Diversity Programs Office",
         "email": "mageewig@egr.msu.edu",
         "phone": "(517) 355-8310",
         "st_address": "428 S. Shaw Ln",
-        "room": "1108"
+        "room": "1108",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Zachary Trost": {
         "title": "Information Technology Professional",
+        "department": "Civil and Environmental Engineering",
         "email": "trostz@msu.edu",
         "phone": "517-432-8220",
         "st_address": "2857 Jolly Rd.",
-        "room": "105"
+        "room": "105",
+        "city": "Okemos",
+        "state": "MI",
+        "zip_code": "48864"
     },
     "Jeffrey Tsang": {
         "title": "Specialist Advisor-Fixed Term",
+        "department": "Undergraduate Studies",
         "email": "tsangjef@egr.msu.edu",
         "phone": "(517) 355-6616 Ext. 2",
         "st_address": "219 Wilson Road",
-        "room": "W6"
+        "room": "W6",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Guan-Hua (Scott) Tu": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "ghtu@cse.msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "3115"
+        "room": "3115",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Lalita Udpa": {
         "title": "Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "udpal@egr.msu.edu",
         "phone": "(517) 355-9261",
         "st_address": "428 S. Shaw Lane",
-        "room": "2100C"
+        "room": "2100C",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Satish Udpa": {
         "title": "Executive Vice President for Administrative Services",
+        "department": "Electrical and Computer Engineering",
         "email": "udpa@adminsv.msu.edu",
         "phone": "(517) 355-5014",
         "st_address": "426 Auditorium Road",
-        "room": "Room 412"
+        "room": "Room 412",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "A. Cagri Ulusoy": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "ulusoy@msu.edu",
         "phone": "(517)-884-8833",
         "st_address": "428 S. Shaw Lane",
-        "room": "3207"
+        "room": "3207",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "R Vandam": {
         "title": "Program Presenter",
+        "department": "Civil and Environmental Engineering",
         "email": "vandamr@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "3546"
+        "room": "3546",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Teresa Isela VanderSloot": {
         "title": "Director, Women in Engineering, Recruitment and K-12 Outreach",
+        "department": "Undergraduate Studies",
         "email": "iselava1@msu.edu",
         "phone": "(517) 884-0054",
         "st_address": "428 S. Shaw Lane",
-        "room": "1410A"
+        "room": "1410A",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Pauline Vandyke": {
         "title": "Administrative Assistant/Supervisor",
+        "department": "Electrical and Computer Engineering",
         "email": "vandyke@egr.msu.edu",
         "phone": "(517) 355-5230",
         "st_address": "428 S. Shaw Lane",
-        "room": "2120C"
+        "room": "2120C",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "John Verboncoeur": {
         "title": "Associate Dean for Research and Graduate Studies; Professor, Electrical & Computer Engineering; Computational Mathematics, Science and Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "johnv@egr.msu.edu",
         "phone": "(517) 355-5133",
         "st_address": "428 S. Shaw Lane",
-        "room": "3410"
+        "room": "3410",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": ""
     },
     "Thomas Voice": {
         "title": "Associate Dean for Administrative Affairs; Professor, Civil and Environmental Engineering",
+        "department": "Civil and Environmental Engineering",
         "email": "voice@msu.edu",
         "phone": "(517) 355-5133",
         "st_address": "428 S. Shaw Lane",
-        "room": "3410"
+        "room": "3410",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Justin Vrooman": {
         "title": "Systems Administrator",
+        "department": "Division of Engineering Computing Services",
         "email": "vroomanj@egr.msu.edu",
         "phone": "(517) 432-1217",
         "st_address": "428 S. Shaw Lane",
-        "room": "2203"
+        "room": "2203",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": ""
     },
     "Jonathan Wakeman": {
         "title": "Research Administration",
+        "department": "Biomedical Engineering",
         "email": "wakeman5@msu.edu",
         "phone": "517-353-3813",
         "st_address": "775 Woodlot Drive",
-        "room": "2040"
+        "room": "2040",
+        "city": "East Lansing",
+        "state": "",
+        "zip_code": ""
     },
     "Cora Walby": {
         "title": "Administrative Assistant",
+        "department": "Division of Engineering Computing Services",
         "email": "bebiakco@egr.msu.edu",
         "phone": "(517) 432-4135",
         "st_address": "428 S. Shaw Lane",
-        "room": "1338"
+        "room": "1338",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jonathan Walby": {
         "title": "Hardware Support",
+        "department": "Division of Engineering Computing Services",
         "email": "walbyjon@egr.msu.edu",
         "phone": "(517) 353-9769",
         "st_address": "428 S. Shaw Lane",
-        "room": "1325C"
+        "room": "1325C",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Mary Anne Walker": {
         "title": "Director, Global Engineering Office",
+        "department": "Dean's Office",
         "email": "mawalker@msu.edu",
         "phone": "(517) 432-3536",
         "st_address": "428 S. Shaw Lane",
-        "room": "3511"
+        "room": "3511",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "S. Patrick Walton": {
         "title": "C. Robert and Kathryn M. Weir Associate Professor; Associate Chair, ChEMS",
+        "department": "Chemical Engineering and Materials Science",
         "email": "spwalton@egr.msu.edu",
         "phone": "(517) 432-8733",
         "st_address": "428 S. Shaw Lane",
-        "room": "3249"
+        "room": "3249",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Bingsen Wang": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "bingsen@egr.msu.edu",
         "phone": "(517) 355-0911",
         "st_address": "Engineering Research Complex",
-        "room": "C133"
+        "room": "C133",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Chang Wang": {
         "title": "Adjunct Professor Mechanical Engineering/Professor Mathematics",
+        "department": "Mechanical Engineering",
         "email": "cywang@mth.msu.edu",
         "phone": "(517) 353-3837",
         "st_address": "619 Red Cedar Road",
-        "room": "A322"
+        "room": "A322",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Yuping Wang": {
         "title": "Academic Specialist",
+        "department": "Mechanical Engineering",
         "email": "yupingw@msu.edu",
         "phone": "",
         "st_address": "428 S.Shaw Lane",
-        "room": "2328G"
+        "room": "2328G",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Robert Watson": {
         "title": "Robotics Coordinator",
+        "department": "K-12 Outreach",
         "email": "watso119@msu.edu",
         "phone": "(517) 353-7282",
         "st_address": "428 S. Shaw Lane",
-        "room": "1410"
+        "room": "1410",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Bailey Weber": {
         "title": "Secretary II",
+        "department": "Civil and Environmental Engineering",
         "email": "weberbai@msu.edu",
         "phone": "(517) 355-5107",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3546"
+        "room": "3546",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Guowei Wei": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "wei@math.msu.edu",
         "phone": "(517) 353-4689",
         "st_address": "619 Red Cedar Road",
-        "room": "D301"
+        "room": "D301",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Juyang Weng": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "weng@cse.msu.edu",
         "phone": "(517) 353-4388",
         "st_address": "428 S. Shaw Lane",
-        "room": "3144"
+        "room": "3144",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Tim Whitehead": {
         "title": "Associate Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "taw@egr.msu.edu",
         "phone": "(517) 432-2097",
         "st_address": "775 Woodlot Dr",
-        "room": "4th Floor"
+        "room": "4th Floor",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Indrek Wichman": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "wichman@egr.msu.edu  ",
         "phone": "(517) 353-9180",
         "st_address": "1497 Engineering Research CT",
-        "room": "147"
+        "room": "147",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Gregory Wierzba": {
         "title": "Associate Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "wierzba@egr.msu.edu",
         "phone": "(517) 355-5225",
         "st_address": "428 S. Shaw Lane",
-        "room": "3215"
+        "room": "3215",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Sharita Williamson": {
         "title": "Specialist; Academic Advisor",
+        "department": "Civil and Environmental Engineering",
         "email": "",
         "phone": "(517) 355-3274",
         "st_address": "428 S. Shaw Lane",
-        "room": "3579"
+        "room": "3579",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Adam Willis": {
         "title": "Adjunct Professor Mechanical Engineering",
+        "department": "Mechanical Engineering",
         "email": "adam.matthew.willis@gmail.com",
         "phone": "517-355-5132",
         "st_address": "428 S.Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "William Woehrle": {
         "title": "Program Presenter",
+        "department": "Civil and Environmental Engineering",
         "email": "woehrle@egr.msu.edu",
         "phone": "(517) 355-3270",
         "st_address": "2857 Jolly Road",
-        "room": "3546"
+        "room": "3546",
+        "city": "Okemos",
+        "state": "MI                            ",
+        "zip_code": "48864"
     },
     "Shirley Wohlfert": {
         "title": "Secretary II",
+        "department": "Mechanical Engineering",
         "email": "wohlfe16@egr.msu.edu",
         "phone": "(517) 884-7944",
         "st_address": "428 S. Shaw Lane",
-        "room": "2555"
+        "room": "2555",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Thomas Wolff": {
         "title": "Associate Professor Emeritus",
+        "department": "Civil and Environmental Engineering",
         "email": "wolff@egr.msu.edu",
         "phone": "(517) 355-5110",
         "st_address": "428 S. Shaw Lane",
-        "room": "3550"
+        "room": "3550",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Jennifer Woods": {
         "title": "Secretary",
+        "department": "Electrical and Computer Engineering",
         "email": "woodsj@egr.msu.edu",
         "phone": "(517) 432-3064",
         "st_address": "428 S. Shaw Lane",
-        "room": "2114"
+        "room": "2114",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48823"
     },
     "Robert Worden": {
         "title": "Professor, Biomedical Engineering and Chemical Engineering",
+        "department": "Biomedical Engineering",
         "email": "worden@egr.msu.edu",
         "phone": "(517) 353-9015",
         "st_address": "428 S. Shaw Lane",
-        "room": "2263"
+        "room": "2263",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Brian Wright": {
         "title": "Research/Instructional Equipment Technician II/Supervisor",
+        "department": "Electrical and Computer Engineering",
         "email": "wrightb@egr.msu.edu",
         "phone": "(517) 355-5233",
         "st_address": "428 S. Shaw Lane",
-        "room": "3231"
+        "room": "3231",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Neil Wright": {
         "title": "Associate Professor ",
+        "department": "Mechanical Engineering",
         "email": "ntwright@egr.msu.edu",
         "phone": "(517) 432-4917",
         "st_address": "428 S. Shaw Lane",
-        "room": "2242"
+        "room": "2242",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     " Marilyn Wulfekulher": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "wulfekuh@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "1107"
+        "room": "1107",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Irene Xagoraraki": {
         "title": "Associate Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "xagorara@egr.msu.edu",
         "phone": "(517) 353-8539",
         "st_address": "1449 Engineering Research Court",
-        "room": "A124"
+        "room": "A124",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Li Xiao": {
         "title": "Professor",
+        "department": "Computer Science and Engineering",
         "email": "lxiao@cse.msu.edu",
         "phone": "(517) 353-4386",
         "st_address": "428 S. Shaw Lane",
-        "room": "1128"
+        "room": "1128",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Xinran Xiao": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "xinran@msu.edu",
         "phone": "(517) 884-1606",
         "st_address": "2727 Alliance Drive",
-        "room": "Suite B"
+        "room": "Suite B",
+        "city": "Lansing",
+        "state": "MI",
+        "zip_code": "48910"
     },
     "Guoliang Xing": {
         "title": "Associate Professor",
+        "department": "Computer Science and Engineering",
         "email": "glxing@cse.msu.edu",
         "phone": "(517) 353-4392",
         "st_address": "428 S. Shaw Lane",
-        "room": "3224"
+        "room": "3224",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Junghoon Yeom": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "jyeom@msu.edu",
         "phone": "517-432-9132",
         "st_address": "428 S. Shaw Lane",
-        "room": "2465"
+        "room": "2465",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Sangmin Yoo": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "syoo@egr.msu.edu",
         "phone": "",
         "st_address": "428 S. Shaw Lane",
-        "room": "2308H"
+        "room": "2308H",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Hui-Chia Yu": {
         "title": "Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "hcy@msu.edu",
         "phone": "(517) 432-0608",
         "st_address": "428 S Shaw Ln",
-        "room": "2507C EB"
+        "room": "2507C EB",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Junlin Yuan": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "junlin@egr.msu.edu",
         "phone": "517-353-6733",
         "st_address": "428 S.Shaw Lane",
-        "room": "2439"
+        "room": "2439",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Imen Zaabar": {
         "title": "Teaching Specialist",
+        "department": "Computer Science and Engineering",
         "email": "zaabarim@cse.msu.edu",
         "phone": "",
         "st_address": "438 S. Shaw Lane",
-        "room": "3581"
+        "room": "3581",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Mohsen Zayernouri": {
         "title": "Assistant Professor",
+        "department": "Mechanical Engineering",
         "email": "zayern@egr.msu.edu",
         "phone": "517-432-0464",
         "st_address": "428 S.Shaw Lane",
-        "room": "2502"
+        "room": "2502",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Alexandra Zevalkink": {
         "title": "Assistant Professor",
+        "department": "Chemical Engineering and Materials Science",
         "email": "alexzev@msu.edu",
         "phone": "(517) 432-7393",
         "st_address": "428 S. Shaw Lane",
-        "room": "3519"
+        "room": "3519",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Mi Zhang": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "mizhang@egr.msu.edu",
         "phone": "(517) 432-4682",
         "st_address": "428  S. Shaw Street",
-        "room": "3530"
+        "room": "3530",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Peng Zhang": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "pz@egr.msu.edu",
         "phone": "517-353-3654",
         "st_address": "428 S. Shaw Lane",
-        "room": "3213"
+        "room": "3213",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Jiayu Zhou": {
         "title": "Assistant Professor",
+        "department": "Computer Science and Engineering",
         "email": "jiayuz@cse.msu.edu",
         "phone": "(517) 353-4389",
         "st_address": "428 S. Shaw Ln  Rm 3115",
-        "room": "2134"
+        "room": "2134",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48912"
     },
     "David Zhu": {
         "title": "Professor of Radiology, Psychology and Electrical & Computer Engineering",
+        "department": "Electrical and Computer Engineering",
         "email": "zhuda@msu.edu",
         "phone": "(517) 884-3345",
         "st_address": "Michigan State University ",
-        "room": "Room 124"
+        "room": "Room 124",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Guoming Zhu": {
         "title": "Professor",
+        "department": "Mechanical Engineering",
         "email": "zhug@egr.msu.edu",
         "phone": "(517) 884-1552",
         "st_address": "1449 Engineering Research CT",
-        "room": "148"
+        "room": "148",
+        "city": "East Lansing",
+        "state": "MI                            ",
+        "zip_code": "48824"
     },
     "Tom Zimmermann": {
         "title": "Assistant Professor",
+        "department": "Electrical and Computer Engineering",
         "email": "tomzim@egr.msu.edu",
         "phone": "517-353-3624",
         "st_address": "1449 Engineering Research CT",
-        "room": "C131"
+        "room": "C131",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     },
     "Kurt Zinn": {
         "title": "Professor, Biomedical Engineering and Radiology",
+        "department": "Biomedical Engineering",
         "email": "zinnkurt@msu.edu",
         "phone": "517-884-8802",
         "st_address": "775 Woodlot Drive",
-        "room": "4119"
+        "room": "4119",
+        "city": "East Lansing",
+        "state": "Michigan",
+        "zip_code": "48824"
     },
     "Ali Zockaie": {
         "title": "Assistant Professor",
+        "department": "Civil and Environmental Engineering",
         "email": "zockaiea@egr.msu.edu",
         "phone": "(517) 355-8422",
         "st_address": "428 S. Shaw Ln.",
-        "room": "3552"
+        "room": "3552",
+        "city": "East Lansing",
+        "state": "MI",
+        "zip_code": "48824"
     }
 }

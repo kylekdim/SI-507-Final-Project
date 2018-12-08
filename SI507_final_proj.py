@@ -68,6 +68,13 @@ def get_history_data():
         except:
             phone = ""
 
+        #get staff member's department
+        try:
+            department_section = details_page_soup.find(class_ = "field field-name-taxonomy-vocabulary-10 field-type-taxonomy-term-reference field-label-hidden")
+            department = department_section.find(class_ = "field-item even").text
+        except:
+            department = ""
+
         #get the staff member's street address
         try:
             st_address_section = details_page_soup.find(class_ = "views-field views-field-field-ep-address-rm")
@@ -82,9 +89,30 @@ def get_history_data():
         except:
             room = ""
 
+        #get the staff member's city
+        try:
+            city_section = details_page_soup.find(class_ = "views-field views-field-field-ep-city")
+            city = city_section.find(class_ = "field-content").text
+        except:
+            city = ""
+
+        #get the staff member's state
+        try:
+            state_section = details_page_soup.find(class_ = "views-field views-field-field-ep-state")
+            state = state_section.find(class_ = "field-content").text
+        except:
+            state = ""
+
+        #get the staff member's zip
+        try:
+            zip_section = details_page_soup.find(class_ = "views-field views-field-field-ep-zip-code")
+            zip_code = zip_section.find(class_ = "field-content").text
+        except:
+            zip_code = ""
+
 
         # create instance for staff member
-        results_list.append(Member(name, title, email, phone, st_address, room))
+        results_list.append(Member(name, title, email, phone, department, st_address, room, city, state, zip_code))
 
     return results_list
 
@@ -132,13 +160,17 @@ def make_request_using_cache(url):
 
 # Staff Member Class Declaration
 class Member:
-    def __init__(self, name, title, email, phone, st_address, room):
+    def __init__(self, name, title, email, phone, department, st_address, room, city, state, zip_code):
         self.name = name
         self.title = title
         self.email = email
         self.phone = phone
+        self.department = department
         self.st_address = st_address
         self.room = room
+        self.city = city
+        self.state = state
+        self.zip_code = zip_code
 
 
 #==========================================
@@ -158,7 +190,7 @@ def setup_db():
     cur.execute(statement)
 
     statement = '''
-        DROP TABLE IF EXISTS 'Address';
+        DROP TABLE IF EXISTS 'Building';
     '''
     
     cur.execute(statement)
@@ -173,6 +205,9 @@ def setup_db():
             'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
             'Name' TEXT NOT NULL,
             'Title' TEXT NOT NULL,
+            'StreetAddress' TEXT,
+            'Room' TEXT,
+            'Department' TEXT,
             'Email' TEXT,
             'Phone' TEXT
             );
@@ -189,16 +224,19 @@ def setup_db():
     # ==================================
 
     statement = '''
-        CREATE TABLE 'Address' (
+        CREATE TABLE 'Building' (
             'Id' INTEGER PRIMARY KEY AUTOINCREMENT,
+            'BuildingName' TEXT,
             'StreetAddress' TEXT,
-            'Room' TEXT
+            'City' TEXT,
+            'State' TEXT,
+            'ZipCode' TEXT
             );
         '''
     try:
         cur.execute(statement)
     except:
-        print("Table creation failed at 'Address'. Please try again.")
+        print("Table creation failed at 'Building'. Please try again.")
         
     conn.commit()
             
@@ -223,36 +261,121 @@ def setup_db():
     except:
         print("Failure. Please try again.")
 
-
+    addresses =""
 
     for name in json_data:
         #print(name)
         Name = name
         Title = json_data[name]["title"]
+        Department = json_data[name]["department"]
         #print(Title)
+        StreetAddress = json_data[name]["st_address"] 
+        if "Engineering Research Complex" in StreetAddress: #filter out any entries with this address; it is referring to the main complex
+            StreetAddress = "1449 Engineering Research Ct."
+
+        Room = json_data[name]["room"]
         Email = json_data[name]["email"]
         #print(Email)
         Phone = json_data[name]["phone"]
 
         insert_statement = '''
-            INSERT INTO Staff(Name, Title, Email, Phone) VALUES (?, ?, ?, ?);
+            INSERT INTO Staff(Name, Title, Department, StreetAddress, Room, Email, Phone) VALUES (?, ?, ?, ?, ?, ?, ?);
         '''
 
         # execute + commit
-        cur.execute(insert_statement, [Name, Title, Email, Phone])
+        cur.execute(insert_statement, [Name, Title, Department, StreetAddress, Room, Email, Phone])
         conn.commit()
 
     for name in json_data:
         StreetAddress = json_data[name]["st_address"]
-        Room = json_data[name]["room"]
+        if "428" in StreetAddress:
+            BuildingName = "College of Engineering - Main Building"
+        elif "524" in StreetAddress:
+            BuildingName = "Farrall Agricultural Engineering Hall"
+        elif "775" in StreetAddress:
+            BuildingName = "Bio Engineering Facility"
+        elif "1497" in StreetAddress:
+            BuildingName = "Engineering Research Complex - South"
+        elif "1449" in StreetAddress:
+            BuildingName = "Engineering Research Complex - Main"
+        elif "438" in StreetAddress:
+            BuildingName = "Biosystems and Agricultural Engineering Building"
+        elif "3815" in StreetAddress:
+            BuildingName = "Michigan Biotechnology Institute"
+        elif "2857" in StreetAddress:
+            BuildingName = "MSU Engineering Research Facility"
+        elif "248" in StreetAddress:
+            BuildingName = "College of Engineering - Building 2"
+        elif "448" in StreetAddress:
+            BuildingName = "School of Packaging"
+        elif "219" in StreetAddress:
+            BuildingName = "Wilson Hall"
+        elif "208" in StreetAddress:
+            BuildingName = "Trout Building"
+        elif "567" in StreetAddress:
+            BuildingName = "Biomedical and Physical Science Building"
+        elif "408" in StreetAddress:
+            BuildingName = "Olds Hall"
+        elif "469" in StreetAddress:
+            BuildingName = "FSHN Buiding"
+        elif "1439" in StreetAddress:
+            BuildingName = "Engineering Research Complex - West"
+        elif "640" in StreetAddress:
+            BuildingName = "Cyclotron Building"
+        elif "474" in StreetAddress:
+            BuildingName = "Anthony Hall"
+        elif "939" in StreetAddress:
+            BuildingName = "West Fee Hall"
+        elif "427" in StreetAddress:
+            BuildingName = "International Center"
+        elif "578" in StreetAddress:
+            BuildingName = "Chemistry Building"
+        elif "423" in StreetAddress:
+            BuildingName = "Engineering Library"
+        elif "2727" in StreetAddress:
+            BuildingName = "MSU Foundation Building"
+        elif "288" in StreetAddress:
+            BuildingName = "Natural Science Building"
+        elif "603" in StreetAddress:
+            BuildingName = "Molecular Plant Sciences Building"
+        elif "842" in StreetAddress:
+            BuildingName = "Case Hall"
+        elif "308" in StreetAddress:
+            BuildingName = "IM Sports Circle"
+        elif "480" in StreetAddress:
+            BuildingName = "Natural Resources Building"
+        elif "1129" in StreetAddress:
+            BuildingName = "Food Safety And Toxicology Building"
+        elif "846" in StreetAddress:
+            BuildingName = "MSU Clinical Center"
+        elif "426" in StreetAddress:
+            BuildingName = "Hannah Administration Building"
+        elif "619" in StreetAddress:
+            BuildingName = "Wells Hall"
+        elif "Michigan" in StreetAddress:
+            StreetAddress = "220 Trowbridge Rd"
+            BuildingName = "Michigan State University - Main"
 
-        insert_statement = '''
-            INSERT INTO Address(StreetAddress, Room) VALUES (?, ?);
-        '''
 
-        # execute + commit
-        cur.execute(insert_statement, [StreetAddress, Room])
-        conn.commit()
+        City = json_data[name]["city"]
+        State = json_data[name]["state"]
+        ZipCode = json_data[name]["zip_code"]
+
+        if StreetAddress[:3] not in addresses: #added this part to change address table to unique entries only
+            addresses= addresses + StreetAddress
+
+            insert_statement = '''
+                INSERT INTO Building(BuildingName, StreetAddress, City, State, ZipCode) VALUES (?, ?, ?, ?, ?);
+            '''
+
+            print(StreetAddress[:2])
+
+            # execute + commit
+            cur.execute(insert_statement, [BuildingName, StreetAddress, City, State, ZipCode])
+            conn.commit()
+
+        else:
+            print("will not add address:" + StreetAddress)
 
     conn.close()
 
@@ -260,32 +383,44 @@ def setup_db():
 # Function Calls 
 #----------------------------
 
-#### Execute funciton, get_umsi_data, here ####
-egr_titles = {}
+#Try to expedite code when json file already exists:
+try:
+    setup_db()
+    print("Database has been successfully populated")
 
-results = get_history_data()
+except:
 
-#print(results) results are class instances
+    print("Could not instantly create database with json file")
+    #### Execute funciton, get_umsi_data, here ####
+    egr_titles = {}
 
-for person in results:
-    egr_titles[person.name]  = {
-        "title": person.title,
-        "email": person.email,
-        "phone": person.phone,
-        "st_address": person.st_address,
-        "room": person.room
-    }
+    results = get_history_data()
 
-#### Write out file here ####
-print("Creating a file...")
-egr_staff_file = open("staff.json", "w") # create a json file
-egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
-egr_staff_file.close() # close the file
-print("The file has been created successfully.")
+    #print(results) results are class instances
 
-setup_db()
-print("Database has been successfully populated")
+    for person in results:
+        egr_titles[person.name]  = {
+            "title": person.title,
+            "department": person.department,
+            "email": person.email,
+            "phone": person.phone,
+            "st_address": person.st_address,
+            "room": person.room,
+            "city": person.city,
+            "state": person.state,
+            "zip_code": person.zip_code
+        }
 
-#-----------------------------
-# END OF CODE
-#-----------------------------
+    #### Write out file here ####
+    print("Creating a file...")
+    egr_staff_file = open("staff.json", "w") # create a json file
+    egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
+    egr_staff_file.close() # close the file
+    print("The file has been created successfully.")
+
+    setup_db()
+    print("Database has been successfully populated")
+
+    #-----------------------------
+    # END OF CODE
+    #-----------------------------
