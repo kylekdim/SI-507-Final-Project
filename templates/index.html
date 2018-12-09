@@ -1,1 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h2>UNESCO Heritage Sites</h2>
+
+<p>TODO: add overview later.</p>
+
  <h1>Welcome!</h1>
+
+
+ {% for item in data %}
+
+ <p><tr>
+ 	<td>{{item[0]}}</td>
+ 	<td>{{item[1]}}</td>
+ 	<!--<td>{{item[2]}}</td>-->
+ 	<td>{{item[3]}}</td>
+ </tr></p>
+
+ {% endfor %}
+
+{% endblock content%}

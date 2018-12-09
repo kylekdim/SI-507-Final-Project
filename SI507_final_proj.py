@@ -509,7 +509,10 @@ def setup_db():
         if City == "EAST LANSING":
             City = "East Lansing"
 
-        State = json_data[name]["state"]
+        #strip trailing whitespace from zip entries
+        raw_state = json_data[name]["state"]
+        State = raw_state.strip()
+
         ZipCode = json_data[name]["zip_code"]
 
         if StreetAddress[:5] not in addresses: #added this part to change address table to unique entries only
@@ -555,8 +558,25 @@ def close_connection(exception):
 
 @app.route('/')
 def index():
-    cur = get_db().cursor()
-    return render_template('index.html')
+    #cur = get_db().cursor()
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+        
+    statement= '''
+        SELECT FirstName, LastName, Title, Department FROM Staff
+        ORDER BY LastName ASC;
+        '''
+    data= cur.execute(statement).fetchall()
+
+
+    type(data)
+    print(data)
+
+    return render_template('index.html', data=data)
 
     
 #----------------------------
