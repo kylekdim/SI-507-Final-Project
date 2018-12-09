@@ -10,6 +10,8 @@ from bs4 import BeautifulSoup
 import sqlite3
 import csv
 from flask import Flask, render_template, url_for, g
+import plotly.plotly as py
+import plotly
 
 app = Flask(__name__)
 
@@ -238,7 +240,9 @@ def setup_db():
             'StreetAddress' TEXT,
             'City' TEXT,
             'State' TEXT,
-            'ZipCode' TEXT
+            'ZipCode' TEXT,
+            'Latitude' DECIMAL,
+            'Longitude' DECIMAL
             );
         '''
     try:
@@ -431,105 +435,173 @@ def setup_db():
         if "428" in StreetAddress:
             BuildingName = "College of Engineering - Main Building"
             StreetAddress = "428 S Shaw Ln"
+            Latitude = 42.724560    # Obtained Lat/Long values manually from https://www.latlong.net/convert-address-to-lat-long.html
+            Longitude = -84.481490
         elif "524" in StreetAddress:
             BuildingName = "Farrall Agricultural Engineering Hall"
             StreetAddress = "524 S Shaw Ln"
+            Latitude = 42.724670
+            Longitude = -84.477170
         elif "775" in StreetAddress:
             BuildingName = "Bio Engineering Facility"
             StreetAddress = "775 Woodlot Dr"
+            Latitude = 42.717300
+            Longitude = -84.467520
         elif "1497" in StreetAddress:
             BuildingName = "Engineering Research Complex - South"
             StreetAddress = "1497 Engineering Research Ct"
+            Latitude = 42.716930
+            Longitude = -84.470210
         elif "1439" in StreetAddress:
             BuildingName = "Engineering Research Complex - Aux"
             StreetAddress = "1439 Engineering Research Ct"
+            Latitude = 42.716120
+            Longitude = -84.470260
         elif "1449" in StreetAddress:
             BuildingName = "Engineering Research Complex - Main"
             StreetAddress = "1449 Engineering Research Ct"
+            Latitude = 42.716560
+            Longitude = -84.468210
         elif "438" in StreetAddress:
             BuildingName = "Biosystems and Agricultural Engineering Building"
             StreetAddress = "438 S Shaw Ln"
+            Latitude = 42.725220
+            Longitude = -84.480730
         elif "3815" in StreetAddress:
             BuildingName = "Michigan Biotechnology Institute"
             StreetAddress = "3815 Technology Blvd"
+            Latitude = 42.693180
+            Longitude = -84.500790
         elif "2857" in StreetAddress:
             BuildingName = "MSU Engineering Research Facility"
             StreetAddress = "2857 Jolly Rd"
+            Latitude = 42.682780
+            Longitude = -84.471320
         elif "248" in StreetAddress: #this is a typo, 248 does not exist
             BuildingName = "College of Engineering - Main Building"
             StreetAddress = "428 S Shaw Ln"
+            Latitude = 42.724560
+            Longitude = -84.481490
         elif "448" in StreetAddress:
             BuildingName = "School of Packaging"
             StreetAddress = "448 Wilson Rd"
+            Latitude = 42.723190
+            Longitude = -84.480030
         elif "219" in StreetAddress:
             BuildingName = "Wilson Hall"
             StreetAddress = "219 Wilson Rd"
+            Latitude = 42.721940
+            Longitude = -84.488980
         elif "208" in StreetAddress: #this is a typo, there was no street address, only building
             BuildingName = "GM Trout Building"
             StreetAddress = "469 Wilson Rd"
+            Latitude = 42.723320
+            Longitude = -84.480030
         elif "567" in StreetAddress:
             BuildingName = "Biomedical and Physical Science Building"
             StreetAddress = "567 Wilson Rd"
+            Latitude = 42.723310
+            Longitude = -84.476550
         elif "408" in StreetAddress:
             BuildingName = "Olds Hall"
             StreetAddress = "408 W Circle Dr"
+            Latitude = 42.730840
+            Longitude = -84.481110
         elif "469" in StreetAddress:
             BuildingName = "GM Trout Building"
             StreetAddress = "469 Wilson Rd"
+            Latitude = 42.723320
+            Longitude = -84.480030
         elif "1439" in StreetAddress:
             BuildingName = "Engineering Research Complex - West"
             StreetAddress = "1439 Engineering Research Ct"
+            Latitude = 42.716122
+            Longitude = -84.470261
         elif "640" in StreetAddress:
             BuildingName = "Cyclotron Building"
             StreetAddress = "640 S Shaw Ln"
+            Latitude = 42.724450
+            Longitude = -84.473450
         elif "474" in StreetAddress:
             BuildingName = "Anthony Hall"
             StreetAddress = "474 S Shaw Ln"
+            Latitude = 42.724990
+            Longitude = -84.479120
         elif "939" in StreetAddress:
             BuildingName = "West Fee Hall"
             StreetAddress = "939 Fee Rd"
+            Latitude = 42.721800
+            Longitude = -84.464800
         elif "427" in StreetAddress:
             BuildingName = "International Center"
             StreetAddress = "427 N Shaw Ln"
+            Latitude = 42.726520
+            Longitude = -84.480610
         elif "578" in StreetAddress:
             BuildingName = "Chemistry Building"
             StreetAddress = "578 S Shaw Ln"
+            Latitude = 42.724820
+            Longitude = -84.475420
         elif "423" in StreetAddress:
             BuildingName = "Engineering Library"
             StreetAddress = "423 S Shaw Ln"
+            Latitude = 42.725220
+            Longitude = -84.477900
         elif "2727" in StreetAddress:
             BuildingName = "MSU Foundation Building"
             StreetAddress = "2727 Alliance Dr"
+            Latitude = 42.703590
+            Longitude = -84.500050
         elif "288" in StreetAddress:
             BuildingName = "Natural Science Building"
             StreetAddress = "288 Farm Ln"
+            Latitude = 42.731060
+            Longitude = -84.476800
         elif "603" in StreetAddress:
             BuildingName = "Molecular Plant Sciences Building"
             StreetAddress = "603 Wilson Rd"
+            Latitude = 42.723310
+            Longitude = -84.475290
         elif "842" in StreetAddress:
             BuildingName = "Case Hall"
             StreetAddress = "842 Chestnut Rd"
+            Latitude = 42.724630
+            Longitude = -84.487770
         elif "308" in StreetAddress:
             BuildingName = "IM Sports Circle"
             StreetAddress = "308 W Circle Dr"
+            Latitude = 42.731780
+            Longitude = -84.484060
         elif "480" in StreetAddress:
             BuildingName = "Natural Resources Building"
             StreetAddress = "480 Wilson Rd"
+            Latitude = 42.723210
+            Longitude = -84.478720
         elif "1129" in StreetAddress:
             BuildingName = "Food Safety And Toxicology Building"
             StreetAddress = "1129 Farm Ln"
+            Latitude = 42.721310
+            Longitude = -84.475140
         elif "846" in StreetAddress:
             BuildingName = "MSU Clinical Center"
             StreetAddress = "846 Service Rd"
+            Latitude = 42.717480
+            Longitude = -84.466880
         elif "426" in StreetAddress:
             BuildingName = "Hannah Administration Building"
             StreetAddress = "426 Auditorium Rd"
+            Latitude = 42.729720
+            Longitude = -84.481490
         elif "619" in StreetAddress:
             BuildingName = "Wells Hall"
             StreetAddress = "619 Red Cedar Rd"
+            Latitude = 42.727020
+            Longitude = -84.481570
         elif "Michigan" in StreetAddress:
             StreetAddress = "220 Trowbridge Rd"
             BuildingName = "Michigan State University - Main"
+            Latitude = 42.719560
+            Longitude = -84.489100
 
 
         City = json_data[name]["city"]
@@ -546,13 +618,13 @@ def setup_db():
             addresses= addresses + StreetAddress
 
             insert_statement = '''
-                INSERT INTO Building(BuildingName, StreetAddress, City, State, ZipCode) VALUES (?, ?, ?, ?, ?);
+                INSERT INTO Building(BuildingName, StreetAddress, City, State, ZipCode, Latitude, Longitude) VALUES (?, ?, ?, ?, ?, ?, ?);
             '''
 
             #print(StreetAddress[:2])
 
             # execute + commit
-            cur.execute(insert_statement, [BuildingName, StreetAddress, City, State, ZipCode])
+            cur.execute(insert_statement, [BuildingName, StreetAddress, City, State, ZipCode, Latitude, Longitude])
             conn.commit()
 
 
@@ -658,6 +730,8 @@ def staff():
     type(members)
     #print(data)
 
+
+
     return render_template('staff.html', members=members)
 
 @app.route('/staff/<int:id>')
@@ -725,8 +799,19 @@ def building_staff(id=None):
         WHERE Building.BuildingId ={};
         '''.format(id)
 
+    latlong_statement= '''
+        SELECT Building.BuildingName, Building.Latitude, Building.Longitude FROM Building
+        WHERE Building.BuildingId ={};
+        '''.format(id)
+
     members = cur.execute(members_statement).fetchall()
     building = cur.execute(building_statement).fetchall()
+    latlong = cur.execute(latlong_statement).fetchall()
+
+    print(latlong[0][0], latlong[0][1], latlong[0][2])
+
+    #plot = plot_building(latlong[0][0], latlong[0][1], latlong[0][2])
+    #plot=plot
 
     return render_template('buildingstaff.html', members= members, building=building, id=id)
 
@@ -781,7 +866,74 @@ def dept_staff(id=None):
 
     return render_template('deptstaff.html', members= members, dept=dept, id=id)
 
-    
+def plot_building(name, lat, lon):
+
+    # plotly code
+
+    plot1 = dict(
+            type = 'scattergeo',
+            locationmode = 'USA-states',
+            lon = lon,
+            lat = lat,
+            text = name,
+            mode = 'markers',
+            marker = dict(
+                size = 25,
+                symbol = 'star',
+                color = 'red'
+            ))
+
+    data = [plot1]
+
+    #min_lat = 10000
+    #max_lat = -10000
+    #min_lon = 10000
+    #max_lon = -10000
+
+    #lat_vals = lat
+    #lon_vals = lng
+    #for str_v in lat_vals:
+        #v = float(str_v)
+        #if v < min_lat:
+            #min_lat = v
+        #if v > max_lat:
+            #max_lat = v
+    #for str_v in lon_vals:
+        #v = float(str_v)
+        #if v < min_lon:
+            #min_lon = v
+        #if v > max_lon:
+            #max_lon = v
+
+    center_lat = .07
+    center_lon = .05
+
+    max_range = .1
+    padding = .10
+    lat_axis = [42.68 - padding,  42.75 + padding]
+    lon_axis = [-84.5 - padding, -84.4 + padding]
+
+    layout = dict(
+            geo = dict(
+                scope='usa',
+                projection=dict( type='albers usa' ),
+                showland = True,
+                landcolor = "rgb(250, 250, 210)", #yellow
+                subunitcolor = "rgb(0, 0, 0)", #black
+                countrycolor = "rgb(0, 0, 0)",
+                lataxis = {'range': lat_axis},
+                lonaxis = {'range': lon_axis},
+                center = {'lat': center_lat, 'lon': center_lon },
+                countrywidth = 5,
+                subunitwidth = 2
+            ),
+        )
+
+    fig = dict(data=data, layout=layout)
+    #py.plot(fig, validate=False, filename='usa - national sites')
+    div = plotly.offline.plot(fig, show_link=False, output_type="div", include_plotlyjs=True)
+    return div
+
 #----------------------------
 # Function Calls 
 #----------------------------
