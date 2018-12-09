@@ -190,6 +190,13 @@ def setup_db():
     '''
     
     cur.execute(statement)
+
+    statement = '''
+        DROP TABLE IF EXISTS 'Department';
+    '''
+    
+    cur.execute(statement)
+
     conn.commit()
 
     # ==================================
@@ -206,9 +213,11 @@ def setup_db():
             'BuildingId' INTEGER,
             'Room' TEXT,
             'Department' TEXT,
+            'DepartmentId' INTEGER,
             'Email' TEXT,
             'Phone' TEXT,
-            FOREIGN KEY(BuildingId) REFERENCES Building(BuildingId)
+            FOREIGN KEY(BuildingId) REFERENCES Building(BuildingId),
+            FOREIGN KEY(DepartmentId) REFERENCES Department(DepartmentId)
             );
         '''
     try:
@@ -238,6 +247,23 @@ def setup_db():
         print("Table creation failed at 'Building'. Please try again.")
         
     conn.commit()
+
+    # ==================================
+    # -------- Create Department Table -
+    # ==================================
+
+    statement = '''
+        CREATE TABLE 'Department' (
+            'DepartmentId' INTEGER PRIMARY KEY AUTOINCREMENT,
+            'DepartmentName' TEXT
+            );
+        '''
+    try:
+        cur.execute(statement)
+    except:
+        print("Table creation failed at 'Department'. Please try again.")
+
+    conn.commit()
             
 
     #===========================================
@@ -255,6 +281,7 @@ def setup_db():
         print("Failure. Please try again.")
 
     addresses =""
+    departments =""
 
     #------------ Load the Staff Table ----------
 
@@ -528,8 +555,31 @@ def setup_db():
             cur.execute(insert_statement, [BuildingName, StreetAddress, City, State, ZipCode])
             conn.commit()
 
+
+
+
         #else:
             #print("will not add address:" + StreetAddress)
+
+
+    for name in json_data:
+
+            DepartmentName = json_data[name]["department"]
+
+            if DepartmentName not in departments: #added this part to change address table to unique entries only
+                departments= departments + DepartmentName
+
+                insert_statement = '''
+                    INSERT INTO Department(DepartmentName) VALUES (?);
+                '''
+
+                #print(StreetAddress[:2])
+
+                # execute + commit
+                cur.execute(insert_statement, [DepartmentName])
+                conn.commit()
+
+
 
     #populate the BuildingId column in the "Staff" table to populate the foreign key field with "Building"
     add_BuildingId = '''
@@ -539,6 +589,15 @@ def setup_db():
 
     cur.execute(add_BuildingId)
     conn.commit()
+
+    add_DepartmentId = '''
+        UPDATE Staff
+        SET (DepartmentId) = (SELECT Department.DepartmentId FROM Department WHERE Staff.Department = Department.DepartmentName)
+    '''
+
+    cur.execute(add_DepartmentId)
+    conn.commit()
+
 
     conn.close()
 
@@ -610,14 +669,14 @@ def profile(id=None):
 
     except:
         print("failed to connect database to web output")
-        
+
     statement = '''
         SELECT * FROM Staff WHERE StaffId = {};
     '''.format(id)
 
-    data= cur.execute(statement).fetchall()
+    person= cur.execute(statement).fetchall()
 
-    return render_template('profile.html', data= data, id=id)
+    return render_template('profile.html', person= person, id=id)
 
 @app.route('/buildings')
 def buildings():
@@ -630,7 +689,7 @@ def buildings():
         print("failed to connect database to web output")
 
     statement= '''
-        SELECT Building.BuildingName, Building.StreetAddress, count(Staff.StaffId) as "Staff Count"
+        SELECT Building.BuildingName, Building.StreetAddress, count(Staff.StaffId) as "Staff Count", Building.BuildingId
         FROM Staff
         LEFT JOIN Building ON Staff.BuildingId = Building.BuildingId
         GROUP BY Building.BuildingName
@@ -643,6 +702,26 @@ def buildings():
     print(data)
 
     return render_template('buildings.html', data=data)
+
+@app.route('/buildings/<int:id>')
+def building_staff(id=None):
+
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+
+    statement= '''
+        SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
+        WHERE BuildingID ={}
+        ORDER BY LastName ASC;
+        '''.format(id)
+
+    members = cur.execute(statement).fetchall()
+
+    return render_template('buildingstaff.html', members= members, id=id)
 
 @app.route('/depts')
 def depts():
@@ -667,6 +746,26 @@ def depts():
     print(data)
 
     return render_template('depts.html', data=data)
+
+@app.route('/depts/<int:id>')
+def dept_staff(id=None):
+
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+
+    statement= '''
+        SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
+        WHERE BuildingID ={}
+        ORDER BY LastName ASC;
+        '''.format(id)
+
+    members = cur.execute(statement).fetchall()
+
+    return render_template('buildingstaff.html', members= members, id=id)
 
     
 #----------------------------

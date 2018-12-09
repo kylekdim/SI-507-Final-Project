@@ -1,0 +1,16 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% for member in members %}
+
+<p><tr>
+ <td><a href="{{ url_for('profile', id=member[4]) }}">{{ member[0] }} {{ member[1] }}</a></td>
+ <td>|</td> 
+ <td>{{ member[3] }}</td>
+</tr></p>
+
+{% endfor %}
+
+{% endblock content %}
