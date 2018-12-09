@@ -105,3 +105,6 @@ backups-good-output/
 
 # mypy
 .mypy_cache/
+
+# Block Venv folder
+507f/

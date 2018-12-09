@@ -9,10 +9,15 @@ import urllib
 from bs4 import BeautifulSoup
 import sqlite3
 import csv
+from flask import Flask, render_template, url_for, g
+
+app = Flask(__name__)
 
 STAFFJSON = 'staff.json'
 DBNAME = 'staff.db'
 CACHE_FNAME = 'cache.json'
+
+
 
 def get_history_data():    
     base_url = "https://www.egr.msu.edu"
@@ -22,15 +27,6 @@ def get_history_data():
     # scrape with Beautiful Soup
     page_content = make_request_using_cache(url) #dictonary with html
     soup_content = BeautifulSoup(page_content, "html.parser")
-
-    #print(soup_content) 
-
-    #get the Contact details
-    #div_content = soup_content.find(class_ = "view-content")
-
-    #print(div_content)
-    #table_body = div_content.find("tbody")
-    #table_rows = table_body.find_all("tr")
 
     person_class = soup_content.find_all("td", class_ = "views-field views-field-title views-align-left")
     #print(person_class)
@@ -243,12 +239,6 @@ def setup_db():
         
     conn.commit()
             
-            #'Street Address' TEXT,
-            #'Room' REAL,
-            #'City' TEXT,
-            #'State' INTEGER,
-            #'Zip' REAL,
-            #'Phone' TEXT,
 
     #===========================================
     #------------ Load Json Data ---------------
@@ -265,6 +255,8 @@ def setup_db():
         print("Failure. Please try again.")
 
     addresses =""
+
+    #------------ Load the Staff Table ----------
 
     for name in json_data:
         #print(name)
@@ -301,6 +293,8 @@ def setup_db():
 
         Department = json_data[name]["department"]
         #print(Title)
+
+        #Normalize the formatting of Street Addresses for staff members
         StreetAddress = json_data[name]["st_address"] 
         if "Engineering Research Complex" in StreetAddress: #filter out any entries with this address; it is referring to the main complex
             StreetAddress = "1449 Engineering Research Ct"
@@ -378,6 +372,8 @@ def setup_db():
         Email = json_data[name]["email"]
         #print(Email)
         temp_num =[]
+
+        #Consistently format phone numbers by removing inconsistent symbols
         RawPhone = json_data[name]["phone"]
         PhoneA = RawPhone.replace('-', '')
         PhoneB = PhoneA.replace(')', '')
@@ -393,7 +389,7 @@ def setup_db():
         if Phone == "() -":
             Phone =''
 
-
+        #SQL INSERT statement
         insert_statement = '''
             INSERT INTO Staff(FirstName, LastName, Title, Department, StreetAddress, Room, Email, Phone) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
         '''
@@ -403,6 +399,7 @@ def setup_db():
         conn.commit()
 
     for name in json_data:
+        #Normalize the formatting of Street Addresses and Building Names (I looked these buildings up in Google Maps)
         StreetAddress = json_data[name]["st_address"]
         if "428" in StreetAddress:
             BuildingName = "College of Engineering - Main Building"
@@ -528,8 +525,8 @@ def setup_db():
             cur.execute(insert_statement, [BuildingName, StreetAddress, City, State, ZipCode])
             conn.commit()
 
-        else:
-            print("will not add address:" + StreetAddress)
+        #else:
+            #print("will not add address:" + StreetAddress)
 
     #populate the BuildingId column in the "Staff" table to populate the foreign key field with "Building"
     add_BuildingId = '''
@@ -542,6 +539,26 @@ def setup_db():
 
     conn.close()
 
+
+
+def get_db():
+    db = getattr(g, '_database', None)
+    if db is None:
+        db = g._database = sqlite3.connect(DBNAME)
+    return db
+
+@app.teardown_appcontext
+def close_connection(exception):
+    db = getattr(g, '_database', None)
+    if db is not None:
+        db.close()
+
+@app.route('/')
+def index():
+    cur = get_db().cursor()
+    return render_template('index.html')
+
+    
 #----------------------------
 # Function Calls 
 #----------------------------
@@ -550,6 +567,9 @@ def setup_db():
 try:
     setup_db()
     print("Database has been successfully populated")
+
+    if __name__ == '__main__':
+        app.run(debug=True)
 
 except:
     print("Could not instantly create database with json file")
