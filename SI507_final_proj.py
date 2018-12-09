@@ -590,16 +590,34 @@ def staff():
         print("failed to connect database to web output")
 
     statement= '''
-        SELECT FirstName, LastName, Title, Department FROM Staff
+        SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
         ORDER BY LastName ASC;
         '''
+    members = cur.execute(statement).fetchall()
+
+
+    type(members)
+    #print(data)
+
+    return render_template('staff.html', members=members)
+
+@app.route('/staff/<int:id>')
+def profile(id=None):
+
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+        
+    statement = '''
+        SELECT * FROM Staff WHERE StaffId = {};
+    '''.format(id)
+
     data= cur.execute(statement).fetchall()
 
-
-    type(data)
-    print(data)
-
-    return render_template('staff.html', data=data)
+    return render_template('profile.html', data= data, id=id)
 
 @app.route('/buildings')
 def buildings():

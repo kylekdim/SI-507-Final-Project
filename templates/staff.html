@@ -3,13 +3,12 @@
 
 {% block content %}
 
-{% for item in data %}
+{% for member in members %}
 
 <p><tr>
- <td>{{item[0]}}</td>
- <td>{{item[1]}}</td> | 
- <!--<td>{{item[2]}}</td>-->
- <td>{{item[3]}}</td>
+ <td><a href="{{ url_for('profile', id=member[4]) }}">{{ member[0] }} {{ member[1] }}</a></td>
+ <td>|</td> 
+ <td>{{ member[3] }}</td>
 </tr></p>
 
 {% endfor %}
