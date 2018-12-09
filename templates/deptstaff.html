@@ -2,6 +2,14 @@
 
 {% block content %}
 
+{% for item in dept %}
+
+<h2>{{ item[0] }} Staff</h2>
+
+{% endfor %}
+
+<br>
+
 {% for member in members %}
 
 <p><tr>

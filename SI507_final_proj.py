@@ -764,15 +764,22 @@ def dept_staff(id=None):
     except:
         print("failed to connect database to web output")
 
-    statement= '''
+    members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
         WHERE DepartmentId ={}
         ORDER BY LastName ASC;
         '''.format(id)
 
-    members = cur.execute(statement).fetchall()
+    dept_statement= '''
+        SELECT DepartmentName FROM Department
+        WHERE DepartmentId ={};
+        '''.format(id)
 
-    return render_template('deptstaff.html', members= members, id=id)
+
+    members = cur.execute(members_statement).fetchall()
+    dept = cur.execute(dept_statement).fetchall()
+
+    return render_template('deptstaff.html', members= members, dept=dept, id=id)
 
     
 #----------------------------
