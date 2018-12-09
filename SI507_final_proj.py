@@ -565,7 +565,7 @@ def index():
 
     except:
         print("failed to connect database to web output")
-        
+
     statement= '''
         SELECT FirstName, LastName, Title, Department FROM Staff
         ORDER BY LastName ASC;
@@ -577,6 +577,78 @@ def index():
     print(data)
 
     return render_template('index.html', data=data)
+
+
+@app.route('/staff')
+def staff():
+    #cur = get_db().cursor()
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+
+    statement= '''
+        SELECT FirstName, LastName, Title, Department FROM Staff
+        ORDER BY LastName ASC;
+        '''
+    data= cur.execute(statement).fetchall()
+
+
+    type(data)
+    print(data)
+
+    return render_template('staff.html', data=data)
+
+@app.route('/buildings')
+def buildings():
+    #cur = get_db().cursor()
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+
+    statement= '''
+        SELECT Building.BuildingName, Building.StreetAddress, count(Staff.StaffId) as "Staff Count"
+        FROM Staff
+        LEFT JOIN Building ON Staff.BuildingId = Building.BuildingId
+        GROUP BY Building.BuildingName
+        ORDER BY "Staff Count" DESC;
+        '''
+    data= cur.execute(statement).fetchall()
+
+
+    type(data)
+    print(data)
+
+    return render_template('buildings.html', data=data)
+
+@app.route('/depts')
+def depts():
+    #cur = get_db().cursor()
+    try:
+        conn = sqlite3.connect(DBNAME)
+        cur = conn.cursor()
+
+    except:
+        print("failed to connect database to web output")
+
+    statement= '''
+        SELECT Staff.Department as "Department", COUNT(Staff.StaffId) as "Staff Count"
+        FROM Staff
+        GROUP BY "Department"
+        ORDER BY "Department";
+        '''
+    data= cur.execute(statement).fetchall()
+
+
+    type(data)
+    print(data)
+
+    return render_template('depts.html', data=data)
 
     
 #----------------------------

@@ -23,16 +23,16 @@
     <!-- A grey horizontal navbar that becomes vertical on small screens -->
     <nav class="navbar navbar-expand-sm navbar-dark navbar-custom sticky-top px-4 py-2">
       <div class="row">
-        <a class="navbar-brand" href="">MSU ENG Staff Directory</a>
+        <a class="navbar-brand" href="{{ url_for('index') }}">MSU ENG Staff Directory</a>
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="">Staff List</a>
+              <a class="nav-link" href="{{ url_for('staff') }}">Staff List</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Building List</a>
+              <a class="nav-link" href="{{ url_for('buildings') }}">Building List</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Department List</a>
+              <a class="nav-link" href="{{ url_for('depts') }}">Department List</a>
             </li>
           </ul>
       </div>
