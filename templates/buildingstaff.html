@@ -3,6 +3,22 @@
 
 {% block content %}
 
+{% for item in building %}
+
+<h2> {{ item[0] }} </h2>
+
+<h5> {{ item[1] }} </h5>
+
+<h5> {{ item[2] }}, {{ item[3] }} {{ item[4] }} </h5>
+
+{% endfor %}
+
+<br>
+<br>
+
+<h3>Staff Members in this building:</h3>
+<br>
+
 {% for member in members %}
 
 <p><tr>

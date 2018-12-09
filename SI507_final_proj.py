@@ -713,15 +713,22 @@ def building_staff(id=None):
     except:
         print("failed to connect database to web output")
 
-    statement= '''
-        SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
-        WHERE BuildingID ={}
+    members_statement= '''
+        SELECT FirstName, LastName, Title, Department, StaffId, Building.BuildingName, Building.StreetAddress, Building.City, Building.State, Building.ZipCode FROM Staff
+        LEFT JOIN Building ON Staff.BuildingId = Building.BuildingId
+        WHERE Staff.BuildingId ={}
         ORDER BY LastName ASC;
         '''.format(id)
 
-    members = cur.execute(statement).fetchall()
+    building_statement= '''
+        SELECT Building.BuildingName, Building.StreetAddress, Building.City, Building.State, Building.ZipCode FROM Building
+        WHERE Building.BuildingId ={};
+        '''.format(id)
 
-    return render_template('buildingstaff.html', members= members, id=id)
+    members = cur.execute(members_statement).fetchall()
+    building = cur.execute(building_statement).fetchall()
+
+    return render_template('buildingstaff.html', members= members, building=building, id=id)
 
 @app.route('/depts')
 def depts():
@@ -734,7 +741,7 @@ def depts():
         print("failed to connect database to web output")
 
     statement= '''
-        SELECT Staff.Department as "Department", COUNT(Staff.StaffId) as "Staff Count"
+        SELECT Staff.Department as "Department", COUNT(Staff.StaffId) as "Staff Count", Staff.DepartmentId
         FROM Staff
         GROUP BY "Department"
         ORDER BY "Department";
@@ -759,13 +766,13 @@ def dept_staff(id=None):
 
     statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
-        WHERE BuildingID ={}
+        WHERE DepartmentId ={}
         ORDER BY LastName ASC;
         '''.format(id)
 
     members = cur.execute(statement).fetchall()
 
-    return render_template('buildingstaff.html', members= members, id=id)
+    return render_template('deptstaff.html', members= members, id=id)
 
     
 #----------------------------

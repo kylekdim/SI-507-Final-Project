@@ -3,10 +3,15 @@
 
 {% block content %}
 
+<h2>Department List</h2>
+
+<p>Click on a department name to see a list of staff members associated with that department.</p>
+<br>
+
 {% for item in data %}
 
 <p><tr>
- <td>{{item[0]}} | </td>
+<td><a href="{{ url_for('dept_staff', id=item[2]) }}">{{ item[0] }}</a>| </td>
  <!--<td>{{item[1]}}</td>--> 
  <!--<td>{{item[2]}}</td>-->
 <td>Staff Count: {{item[1]}}</td>

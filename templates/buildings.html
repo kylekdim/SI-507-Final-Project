@@ -3,14 +3,17 @@
 
 {% block content %}
 
-<h2>Building Directory</h2>
+<h2>Building List</h2>
 
-<p>Click on a building name to see a list of staff members with an office in that building</p>
+<p>Click on a building name to see a list of staff members with an office in that building. Each building entry also generates a map of the location in Plotly.</p>
+<br>
+
+
 
 {% for item in data %}
 
 <p><tr>
- <td><a href="{{ url_for('building_staff', id=item[3]) }}">{{ item[0] }} {{ item[1] }}</a>| </td>
+ <td><a href="{{ url_for('building_staff', id=item[3]) }}">{{ item[0] }} ({{ item[1] }})</a>| </td>
  <!--<td>{{item[1]}}</td>--> 
  <!--<td>{{item[2]}}</td>-->
  <td>Staff Count: {{item[2]}}</td>
