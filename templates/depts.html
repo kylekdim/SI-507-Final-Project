@@ -8,6 +8,45 @@
 <p>Click on a department name to see a list of staff members associated with that department.</p>
 <br>
 
+
+<p><h3>Staff Distribution by Department</h3></p>
+
+<div id="myDiv" style="width:900px; height:600px;"></div>
+<script>
+
+
+var x_list = {{ x_values | safe }}
+var y_list = {{ y_values | safe }}
+
+
+var data = [
+  {
+    x: x_list,
+    y: y_list,
+    type: 'bar'
+  }
+];
+
+var layout = {
+  autosize: false,
+  width: 900,
+  height: 600,
+  margin: {
+    l: 50,
+    r: 50,
+    b: 170,
+    t: 50,
+    pad: 2
+  },
+};
+
+Plotly.newPlot('myDiv', data, layout);
+</script>
+<br><br>
+
+<h3>Staff Members in this building:</h3>
+<br>
+
 {% for item in data %}
 
 <p><tr>

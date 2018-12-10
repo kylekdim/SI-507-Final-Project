@@ -6,9 +6,10 @@
 <h2>Building List</h2>
 
 <p>Click on a building name to see a list of staff members with an office in that building. Each building entry also generates a map of the location in Plotly.</p>
-<br>
 
-<div id="myDiv" style="width:400px; height:400px;"></div>
+<p><h3>Staff Distribution by Building</h3></p>
+
+<div id="myDiv" style="width:800px; height:600px;"></div>
 <script>
 
 
@@ -24,9 +25,25 @@ var data = [
   }
 ];
 
-Plotly.newPlot('myDiv', data);
+var layout = {
+  autosize: false,
+  width: 800,
+  height: 600,
+  margin: {
+    l: 50,
+    r: 20,
+    b: 300,
+    t: 50,
+    pad: 4
+  },
+};
+
+Plotly.newPlot('myDiv', data, layout);
 </script>
 
+<br><br>
+
+<p><h3>Buildings:</h3></p>
 
 {% for item in data %}
 

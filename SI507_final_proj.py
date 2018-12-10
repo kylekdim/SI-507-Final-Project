@@ -831,6 +831,10 @@ def building_staff(id=None):
 @app.route('/depts')
 def depts():
     #cur = get_db().cursor()
+
+    x_values= []
+    y_values= []
+
     try:
         conn = sqlite3.connect(DBNAME)
         cur = conn.cursor()
@@ -846,11 +850,15 @@ def depts():
         '''
     data= cur.execute(statement).fetchall()
 
+    for dept in data:
+        x_values.append(dept[0])
+        y_values.append(dept[1])
 
-    type(data)
-    print(data)
 
-    return render_template('depts.html', data=data)
+    print(x_values)
+    print(y_values)
+
+    return render_template('depts.html', data=data, x_values=x_values, y_values=y_values)
 
 @app.route('/depts/<int:id>')
 def dept_staff(id=None):
