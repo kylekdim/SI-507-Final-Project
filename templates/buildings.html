@@ -8,6 +8,24 @@
 <p>Click on a building name to see a list of staff members with an office in that building. Each building entry also generates a map of the location in Plotly.</p>
 <br>
 
+<div id="myDiv" style="width:400px; height:400px;"></div>
+<script>
+
+
+var x_list = {{ x_values | safe }}
+var y_list = {{ y_values | safe }}
+
+
+var data = [
+  {
+    x: x_list,
+    y: y_list,
+    type: 'bar'
+  }
+];
+
+Plotly.newPlot('myDiv', data);
+</script>
 
 
 {% for item in data %}

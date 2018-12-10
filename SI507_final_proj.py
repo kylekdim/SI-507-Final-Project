@@ -755,6 +755,10 @@ def profile(id=None):
 @app.route('/buildings')
 def buildings():
     #cur = get_db().cursor()
+
+    x_values= []
+    y_values= []
+
     try:
         conn = sqlite3.connect(DBNAME)
         cur = conn.cursor()
@@ -771,11 +775,19 @@ def buildings():
         '''
     data= cur.execute(statement).fetchall()
 
+    for building in data:
+        x_values.append(building[0])
+        y_values.append(building[2])
 
-    type(data)
-    print(data)
+    print(x_values)
+    print(y_values)
 
-    return render_template('buildings.html', data=data)
+
+
+    #type(data)
+    #print(data)
+
+    return render_template('buildings.html', data=data, x_values=x_values, y_values=y_values)
 
 @app.route('/buildings/<int:id>')
 def building_staff(id=None):
@@ -808,12 +820,13 @@ def building_staff(id=None):
     building = cur.execute(building_statement).fetchall()
     latlong = cur.execute(latlong_statement).fetchall()
 
-    print(latlong[0][0], latlong[0][1], latlong[0][2])
+    #print(latlong[0][0], latlong[0][1], latlong[0][2])
 
     #plot = plot_building(latlong[0][0], latlong[0][1], latlong[0][2])
     #plot=plot
+    #print(plot)
 
-    return render_template('buildingstaff.html', members= members, building=building, id=id)
+    return render_template('buildingstaff.html', members= members, building=building, id=id, latlong=latlong)
 
 @app.route('/depts')
 def depts():
@@ -870,20 +883,22 @@ def plot_building(name, lat, lon):
 
     # plotly code
 
-    plot1 = dict(
+    data = [ dict(
             type = 'scattergeo',
             locationmode = 'USA-states',
-            lon = lon,
-            lat = lat,
-            text = name,
+            lon = [lon],
+            lat = [lat],
+            text = [name],
             mode = 'markers',
             marker = dict(
                 size = 25,
                 symbol = 'star',
                 color = 'red'
-            ))
+            )
+            )
+    ]
 
-    data = [plot1]
+
 
     #min_lat = 10000
     #max_lat = -10000
@@ -924,15 +939,16 @@ def plot_building(name, lat, lon):
                 lataxis = {'range': lat_axis},
                 lonaxis = {'range': lon_axis},
                 center = {'lat': center_lat, 'lon': center_lon },
-                countrywidth = 5,
-                subunitwidth = 2
+                countrywidth = .5,
+                subunitwidth = .5
             ),
         )
 
     fig = dict(data=data, layout=layout)
-    #py.plot(fig, validate=False, filename='usa - national sites')
-    div = plotly.offline.plot(fig, show_link=False, output_type="div", include_plotlyjs=True)
-    return div
+    #plot = py.plot(fig, validate=False, filename='msu_building')
+    plot = plotly.offline.plot(fig, show_link=False, output_type="div", include_plotlyjs=True)
+    print(plot)
+    return plot
 
 #----------------------------
 # Function Calls 

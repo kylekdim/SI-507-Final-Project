@@ -13,19 +13,59 @@
 
 {% endfor %}
 
-<br>
+<br><br>
+
+
+<h2>Map:</h2>
+
+{% for building in latlong %}
+
 <br>
 
-<div id="tester" style="width:600px;height:250px;"></div>
+<div id="myDiv" style="width:400px; height:400px;"></div>
 <script>
-	TESTER = document.getElementById('tester');
-	Plotly.plot( TESTER, [{
-	x: [1, 2, 3, 4, 5],
-	y: [1, 2, 4, 8, 16] }], {
-	margin: { t: 0 } } );
+var data = [{
+  type:'scattermapbox',
+  lat:[{{ building[1] }}],
+  lon:[{{ building[2] }}],
+  mode:'markers',
+  marker: {
+    size:14
+  },
+  text:['Building Location']
+}]
+
+var layout = {
+  autosize: false,
+  width: 400,
+  height: 400,
+  margin: {
+  	l: 5,
+  	r: 5,
+  	t: 5,
+  	b: 5,
+  },
+  hovermode:'closest',
+  mapbox: {
+    bearing:0,
+    center: {
+      lat:42.7,
+      lon:-84.48
+    },
+    pitch:0,
+    zoom:11
+  },
+}
+
+Plotly.setPlotConfig({
+  mapboxAccessToken: 'pk.eyJ1Ijoia3lsZWtjaCIsImEiOiJjam80Mnk2YmkxMGNuM3FyemZkOWwyZ3Z4In0.y8WAD7tOovzNe_cpzT1f2Q'
+})
+
+Plotly.plot('myDiv', data, layout)
 </script>
 <br>
 <br>
+{% endfor %}
 
 <h3>Staff Members in this building:</h3>
 <br>
