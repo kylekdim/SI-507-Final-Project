@@ -726,10 +726,6 @@ def index():
         ORDER BY LastName ASC;
         '''
     data= cur.execute(statement).fetchall()
-
-
-    type(data)
-    print(data)
     
     conn.close()
 
