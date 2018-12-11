@@ -31,7 +31,7 @@ Fall 2018 SI 507 Final Project
 5. Launch SI507_final_proj.py.
 6. Navigate to http://127.0.0.1:5000/ in your browser when prompted.
 
-<p>Test Cases:</p>
+<b>Test Cases:</b>
 1. Ensure that steps 1-3 in "How to run" have been completed.
 2. Launch SI507_final_proj_test.py. Comments explaining tests are contained in the .py file. There are no other file dependencies for the test file except for the SI507_final_proj.py file.
 
