@@ -9,7 +9,7 @@ Fall 2018 SI 507 Final Project
 
 <p><b>Cached Data:</b> cache.json<br>
 <b>Formatted Scraping Data:</b> staff.json<br>
-<b>SQL Database:</b> staff.db</p>
+<b>SQL Database:</b> staff.db (Excluded from Repo, but will be generated when project is run)</p>
 
 <b>Program purpose:</b>
 1. Crawl and Scrape MSU's Engineering Staff Directory <a href="https://www.egr.msu.edu/people/directory/all/">Data Source</a>
