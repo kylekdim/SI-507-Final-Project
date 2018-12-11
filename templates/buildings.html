@@ -3,9 +3,15 @@
 
 {% block content %}
 
+<a href="{{ url_for('index') }}"><< Back to Homepage</a>
+<br>
+<br>
+
 <h2>Building List</h2>
 
 <p>Click on a building name to see a list of staff members with an office in that building. Each building entry also generates a map of the location in Plotly.</p>
+
+<br>
 
 <p><h3>Staff Distribution by Building</h3></p>
 
@@ -40,7 +46,6 @@ var layout = {
 
 Plotly.newPlot('myDiv', data, layout);
 </script>
-
 <br><br>
 
 <p><h3>Buildings:</h3></p>

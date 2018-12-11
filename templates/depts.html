@@ -3,6 +3,10 @@
 
 {% block content %}
 
+<a href="{{ url_for('index') }}"><< Back to Homepage</a>
+<br>
+<br>
+
 <h2>Department List</h2>
 
 <p>Click on a department name to see a list of staff members associated with that department.</p>
@@ -45,7 +49,7 @@ Plotly.newPlot('myDiv', data, layout);
 <br><br>
 
 <h3>Departments:</h3>
-<br>
+
 
 {% for item in data %}
 

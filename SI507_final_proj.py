@@ -2,7 +2,7 @@
 #Name: Kyle Chang
 #Section: Wed 10 AM
 
-
+import sys
 import requests
 import json
 import urllib
@@ -120,6 +120,9 @@ def get_egr_data():
 # ---------------------------
 # Cache Code:
 # ---------------------------
+
+####### IMPORTANT ######### This 'Try/Except' statement is the first thing executed in this program; it is grouped with cache-
+#related functions below.
 
 #Open and load the cache if it exists
 try:
@@ -698,19 +701,6 @@ def setup_db():
     conn.close()
 
 
-
-def get_db():
-    db = getattr(g, '_database', None)
-    if db is None:
-        db = g._database = sqlite3.connect(DBNAME)
-    return db
-
-@app.teardown_appcontext
-def close_connection(exception):
-    db = getattr(g, '_database', None)
-    if db is not None:
-        db.close()
-
 @app.route('/')
 def index():
     #cur = get_db().cursor()
@@ -900,46 +890,57 @@ def dept_staff(id=None):
 # Main Body w/ Function Calls 
 #============================
 
-#Try to expedite code when json file already exists:
-try:
-    setup_db()
-    print("Database has been successfully populated")
+dc_error = "Connection to flask site interrupted. Closing program. Re-execute program to continue using the 'MSU EGR Directory'." 
 
+
+try: #try to run the flask app if the db file exists
     if __name__ == '__main__':
         app.run(debug=True)
 
-except:
-    print("Could not instantly create database with json file")
-    #### Execute funciton, get_umsi_data, here ####
-    egr_titles = {}
 
-    results = get_egr_data() #results is a list of class instances
+except: #If no db file exists, try to expedite code when json file already exists:
+    try:
+        print("Trying to set up database from parsed json file generated with past use.")
+        setup_db()
+        print("Database has been successfully populated")
 
-    for person in results: #format json file for output to create db
-        egr_titles[person.name]  = {
-            "title": person.title,
-            "department": person.department,
-            "email": person.email,
-            "phone": person.phone,
-            "st_address": person.st_address,
-            "room": person.room,
-            "city": person.city,
-            "state": person.state,
-            "zip_code": person.zip_code
-        }
+        if __name__ == '__main__':
+            app.run(debug=True)
 
-    #### Write out file here ####
-    print("Creating a file...")
-    egr_staff_file = open("staff.json", "w") # create a json file
-    egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
-    egr_staff_file.close() # close the file
-    print("The file has been created successfully.")
 
-    setup_db()
-    print("Database has been successfully populated")
-    if __name__ == '__main__':
-        app.run(debug=True)
+    except: #If a parsed json file doesn't exist, start fresh with getting the scraping data (Call to 'get_egr_data' will check for cache data)
+        print("Could not instantly create database with json file")
 
-    #-----------------------------
-    # END OF CODE
-    #-----------------------------
+        egr_titles = {}
+
+        results = get_egr_data() #results is a list of class instances filled with parsed scraping information
+
+        for person in results: #format json file for output to create db
+            egr_titles[person.name]  = {
+                "title": person.title,
+                "department": person.department,
+                "email": person.email,
+                "phone": person.phone,
+                "st_address": person.st_address,
+                "room": person.room,
+                "city": person.city,
+                "state": person.state,
+                "zip_code": person.zip_code
+            }
+
+        #### Write out Json file here ####
+        print("Creating a json database source file...")
+        egr_staff_file = open("staff.json", "w") # create a json file
+        egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
+        egr_staff_file.close() # close the file
+        print("The json file has been created successfully.")
+
+        setup_db()
+        print("Database has been successfully populated")
+        if __name__ == '__main__':
+            app.run(debug=True)
+
+
+        #------------------------------
+        # END OF CODE
+        #-----------------------------

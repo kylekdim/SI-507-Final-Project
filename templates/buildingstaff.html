@@ -3,6 +3,10 @@
 
 {% block content %}
 
+<a href="{{ url_for('buildings') }}"><< Back to Building List</a>
+<br>
+<br>
+
 {% for item in building %}
 
 <h2> {{ item[0] }} </h2>
@@ -13,14 +17,11 @@
 
 {% endfor %}
 
-<br><br>
-
+<br>
 
 <h2>Map:</h2>
 
 {% for building in latlong %}
-
-<br>
 
 <div id="myDiv" style="width:400px; height:400px;"></div>
 <script>
@@ -68,7 +69,6 @@ Plotly.plot('myDiv', data, layout)
 {% endfor %}
 
 <h3>Staff Members in this building:</h3>
-<br>
 
 {% for member in members %}
 

@@ -2,13 +2,15 @@
 
 {% block content %}
 
+<a href="{{ url_for('depts') }}"><< Back to Department List</a>
+<br>
+<br>
+
 {% for item in dept %}
 
 <h2>{{ item[0] }} Staff</h2>
 
 {% endfor %}
-
-<br>
 
 {% for member in members %}
 
