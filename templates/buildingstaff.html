@@ -68,7 +68,11 @@ Plotly.plot('myDiv', data, layout)
 <br>
 {% endfor %}
 
-<h3>Staff Members in this building:</h3>
+{% for count in mcount %}
+
+<h3>Staff Members in this building: {{ count[0] }}</h3>
+
+{% endfor %}
 
 {% for member in members %}
 

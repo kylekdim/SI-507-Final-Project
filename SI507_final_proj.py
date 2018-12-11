@@ -300,7 +300,6 @@ def setup_db():
     #------------ Load the Staff Table ----------
 
     for name in json_data:
-        #print(name)
         raw_name = name
         non_space_name = raw_name.strip()
         name_list = non_space_name.split()
@@ -863,6 +862,12 @@ def building_staff(id=None):
     except:
         print("failed to connect database to web output")
 
+    #this query used to find staff count for the building
+    mcount_statement = '''
+        SELECT count(Staff.StaffId) FROM Staff
+        WHERE Staff.BuildingId ={};
+        '''.format(id)
+
     #this query used to find all staff members in a specific building
     members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId, Building.BuildingName, Building.StreetAddress, Building.City, Building.State, Building.ZipCode FROM Staff
@@ -886,10 +891,11 @@ def building_staff(id=None):
     members = cur.execute(members_statement).fetchall()
     building = cur.execute(building_statement).fetchall()
     latlong = cur.execute(latlong_statement).fetchall()
+    mcount = cur.execute(mcount_statement).fetchall()
 
     conn.close()
 
-    return render_template('buildingstaff.html', members= members, building=building, id=id, latlong=latlong)
+    return render_template('buildingstaff.html', members= members, building=building, id=id, latlong=latlong, mcount=mcount)
 
 #=================================
 
