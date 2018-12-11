@@ -8,17 +8,19 @@
 
 {% for item in dept %}
 
-<h2>{{ item[0] }} Staff</h2>
+<h2>{{ item[0] }} Staff
 
 {% endfor %}
 
+{% for item in mcount %}
+
+ ({{ item[0] }})</h2>
+
+ {% endfor %}
+
 {% for member in members %}
 
-<p><tr>
- <td><a href="{{ url_for('profile', id=member[4]) }}">{{ member[0] }} {{ member[1] }}</a></td>
- <td>|</td> 
- <td>{{ member[3] }}</td>
-</tr></p>
+<p><a href="{{ url_for('profile', id=member[4]) }}">{{ member[0] }} {{ member[1] }}</a> | {{ member[2] }}</p>
 
 {% endfor %}
 

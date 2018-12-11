@@ -327,80 +327,123 @@ def setup_db():
 
         raw_title = json_data[name]["title"]
         Title = raw_title.strip() #get rid of leading whitespace in titles to get rid of dups
+        if "Contag" in name_list: #Hardcording a shorter title for the man with the longest title
+            Title="Chair, Biomedical Engineering; Director, Institute for Quantitative Health Science & Engineering"
 
         Department = json_data[name]["department"]
         #print(Title)
 
         #Normalize the formatting of Street Addresses for staff members
         StreetAddress = json_data[name]["st_address"] 
+
         if "Engineering Research Complex" in StreetAddress: #filter out any entries with this address; it is referring to the main complex
             StreetAddress = "1449 Engineering Research Ct"
+        
         elif "428" in StreetAddress:
             StreetAddress = "428 S Shaw Ln"
+        
         elif "524" in StreetAddress:
             StreetAddress = "524 S Shaw Ln"
+        
         elif "775" in StreetAddress:
             StreetAddress = "775 Woodlot Dr"
+        
         elif "1497" in StreetAddress:
             StreetAddress = "1497 Engineering Research Ct"
+        
         elif "1439" in StreetAddress:
             StreetAddress = "1439 Engineering Research Ct"
+        
         elif "1449" in StreetAddress:
             StreetAddress = "1449 Engineering Research Ct"
+        
         elif "438" in StreetAddress:
             StreetAddress = "438 S Shaw Ln"
+        
         elif "3815" in StreetAddress:
             StreetAddress = "3815 Technology Blvd"
+        
         elif "2857" in StreetAddress:
             StreetAddress = "2857 Jolly Rd"
+        
         elif "248" in StreetAddress: #this is a typo, 248 does not exist
             StreetAddress = "428 S Shaw Ln"
+        
         elif "448" in StreetAddress:
             StreetAddress = "448 Wilson Rd"
+        
         elif "219" in StreetAddress:
             StreetAddress = "219 Wilson Rd"
+        
         elif "208" in StreetAddress: #this is a typo, there was no street address, only building
             StreetAddress = "469 Wilson Rd"
+        
         elif "567" in StreetAddress:
             StreetAddress = "567 Wilson Rd"
+        
         elif "408" in StreetAddress:
             StreetAddress = "408 W Circle Dr"
+        
         elif "469" in StreetAddress:
             StreetAddress = "469 Wilson Rd"
+        
         elif "1439" in StreetAddress:
             StreetAddress = "1439 Engineering Research Ct"
+        
         elif "640" in StreetAddress:
             StreetAddress = "640 S Shaw Ln"
+        
         elif "474" in StreetAddress:
             StreetAddress = "474 S Shaw Ln"
+        
         elif "939" in StreetAddress:
             StreetAddress = "939 Fee Rd"
+        
         elif "427" in StreetAddress:
             StreetAddress = "427 N Shaw Ln"
+        
         elif "578" in StreetAddress:
             StreetAddress = "578 S Shaw Ln"
+        
         elif "423" in StreetAddress:
             StreetAddress = "423 S Shaw Ln"
+        
         elif "2727" in StreetAddress:
             StreetAddress = "2727 Alliance Dr"
+        
         elif "288" in StreetAddress:
             StreetAddress = "288 Farm Ln"
+        
         elif "603" in StreetAddress:
             StreetAddress = "603 Wilson Rd"
+        
         elif "842" in StreetAddress:
             StreetAddress = "842 Chestnut Rd"
+        
         elif "308" in StreetAddress:
             StreetAddress = "308 W Circle Dr"
+        
         elif "480" in StreetAddress:
             StreetAddress = "480 Wilson Rd"
+        
         elif "1129" in StreetAddress:
             StreetAddress = "1129 Farm Ln"
+        
         elif "846" in StreetAddress:
             StreetAddress = "846 Service Rd"
+        
         elif "426" in StreetAddress:
             StreetAddress = "426 Auditorium Rd"
+        
         elif "619" in StreetAddress:
             StreetAddress = "619 Red Cedar Rd"
+        
+        elif "1498" in StreetAddress:
+            StreetAddress = "1498 Engineering Research Ct"
+
+        elif "2851" in StreetAddress:
+            StreetAddress = "2851 Jolly Rd"
+
         elif "Michigan" in StreetAddress:
             StreetAddress = "220 Trowbridge Rd"
 
@@ -461,12 +504,6 @@ def setup_db():
             StreetAddress = "1497 Engineering Research Ct"
             Latitude = 42.716930
             Longitude = -84.470210
-
-        elif "1439" in StreetAddress:
-            BuildingName = "Engineering Research Complex - Aux"
-            StreetAddress = "1439 Engineering Research Ct"
-            Latitude = 42.716120
-            Longitude = -84.470260
 
         elif "1449" in StreetAddress:
             BuildingName = "Engineering Research Complex - Main"
@@ -636,6 +673,18 @@ def setup_db():
             Latitude = 42.727020
             Longitude = -84.481570
 
+        elif "1498" in StreetAddress:
+            BuildingName = "Engineering Research Complex - North"
+            StreetAddress = "1498 Engineering Research Ct"
+            Latitude = 42.716960
+            Longitude = -84.470330
+
+        elif "2851" in StreetAddress:
+            BuildingName = "MSU Engineering Research Facility II"
+            StreetAddress = "2851 Jolly Rd"
+            Latitude = 42.682780
+            Longitude = -84.47132
+
         elif "Michigan" in StreetAddress:
             StreetAddress = "220 Trowbridge Rd"
             BuildingName = "Michigan State University - Main"
@@ -664,7 +713,7 @@ def setup_db():
             conn.commit()
 
 
-    for name in json_data:
+    for name in json_data: #Populate the department table for joining later
 
             DepartmentName = json_data[name]["department"]
 
@@ -733,14 +782,18 @@ def staff():
     except:
         print("failed to connect database to web output")
 
-    statement= '''
+    mcount_statement = 'SELECT count(Staff.StaffId) FROM Staff;'
+
+    members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
         ORDER BY LastName ASC;
         '''
-    members = cur.execute(statement).fetchall()
+    members = cur.execute(members_statement).fetchall()
+    mcount = cur.execute(mcount_statement).fetchall()
+
     conn.close()
 
-    return render_template('staff.html', members=members)
+    return render_template('staff.html', members=members, mcount=mcount)
 
 @app.route('/staff/<int:id>')
 def profile(id=None):
@@ -763,7 +816,6 @@ def profile(id=None):
 
 @app.route('/buildings')
 def buildings():
-    #cur = get_db().cursor()
 
     x_values= []
     y_values= []
@@ -775,22 +827,26 @@ def buildings():
     except:
         print("failed to connect database to web output")
 
-    statement= '''
+    bcount_statement = 'SELECT count(Building.BuildingId) FROM Building;'
+
+    buildings_statement= '''
         SELECT Building.BuildingName, Building.StreetAddress, count(Staff.StaffId) as "Staff Count", Building.BuildingId
         FROM Staff
         LEFT JOIN Building ON Staff.BuildingId = Building.BuildingId
         GROUP BY Building.BuildingName
         ORDER BY "Staff Count" DESC;
         '''
-    data= cur.execute(statement).fetchall()
+    
+    buildings = cur.execute(buildings_statement).fetchall()
+    bcount = cur.execute(bcount_statement).fetchall()
 
-    for building in data:
-        x_values.append(building[0])
-        y_values.append(building[2])
+    for item in buildings:
+        x_values.append(item[0])
+        y_values.append(item[2])
 
     conn.close()
 
-    return render_template('buildings.html', data=data, x_values=x_values, y_values=y_values)
+    return render_template('buildings.html', buildings=buildings, x_values=x_values, y_values=y_values, bcount=bcount)
 
 @app.route('/buildings/<int:id>')
 def building_staff(id=None):
@@ -841,21 +897,24 @@ def depts():
     except:
         print("failed to connect database to web output")
 
-    statement= '''
+    dcount_statement = 'SELECT count(Department.DepartmentId) FROM Department;'
+
+    dept_statement= '''
         SELECT Staff.Department as "Department", COUNT(Staff.StaffId) as "Staff Count", Staff.DepartmentId
         FROM Staff
         GROUP BY "Department"
         ORDER BY "Department";
         '''
-    data= cur.execute(statement).fetchall()
+    depts= cur.execute(dept_statement).fetchall()
+    dept_count= cur.execute(dcount_statement).fetchall()
 
-    for dept in data:
-        x_values.append(dept[0])
-        y_values.append(dept[1])
+    for item in depts:
+        x_values.append(item[0])
+        y_values.append(item[1])
 
     conn.close()
 
-    return render_template('depts.html', data=data, x_values=x_values, y_values=y_values)
+    return render_template('depts.html', depts=depts, dept_count=dept_count, x_values=x_values, y_values=y_values)
 
 @app.route('/depts/<int:id>')
 def dept_staff(id=None):
@@ -866,6 +925,8 @@ def dept_staff(id=None):
 
     except:
         print("failed to connect database to web output")
+
+    mcount_statement='SELECT count(Staff.StaffId) FROM Staff WHERE DepartmentId ={}'.format(id)
 
     members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
@@ -881,66 +942,61 @@ def dept_staff(id=None):
 
     members = cur.execute(members_statement).fetchall()
     dept = cur.execute(dept_statement).fetchall()
+    mcount= cur.execute(mcount_statement).fetchall()
 
     conn.close()
 
-    return render_template('deptstaff.html', members= members, dept=dept, id=id)
+    return render_template('deptstaff.html', members= members, mcount=mcount, dept=dept, id=id)
 
 #============================
 # Main Body w/ Function Calls 
 #============================
 
-dc_error = "Connection to flask site interrupted. Closing program. Re-execute program to continue using the 'MSU EGR Directory'." 
 
 
-try: #try to run the flask app if the db file exists
+#try to expedite code when json file already exists:
+try:
+    print("Trying to set up database from parsed json file generated with past use.")
+    setup_db()
+    print("Database has been successfully populated")
+
     if __name__ == '__main__':
         app.run(debug=True)
 
 
-except: #If no db file exists, try to expedite code when json file already exists:
-    try:
-        print("Trying to set up database from parsed json file generated with past use.")
-        setup_db()
-        print("Database has been successfully populated")
+except: #If a parsed json file doesn't exist, start fresh with getting the scraping data (Call to 'get_egr_data' will check for cache data)
+    print("Could not instantly create database with json file")
 
-        if __name__ == '__main__':
-            app.run(debug=True)
+    egr_titles = {}
 
+    results = get_egr_data() #results is a list of class instances filled with parsed scraping information
 
-    except: #If a parsed json file doesn't exist, start fresh with getting the scraping data (Call to 'get_egr_data' will check for cache data)
-        print("Could not instantly create database with json file")
+    for person in results: #format json file for output to create db
+        egr_titles[person.name]  = {
+            "title": person.title,
+            "department": person.department,
+            "email": person.email,
+            "phone": person.phone,
+            "st_address": person.st_address,
+            "room": person.room,
+            "city": person.city,
+            "state": person.state,
+            "zip_code": person.zip_code
+        }
 
-        egr_titles = {}
+    #### Write out Json file here ####
+    print("Creating a json database source file...")
+    egr_staff_file = open("staff.json", "w") # create a json file
+    egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
+    egr_staff_file.close() # close the file
+    print("The json file has been created successfully.")
 
-        results = get_egr_data() #results is a list of class instances filled with parsed scraping information
-
-        for person in results: #format json file for output to create db
-            egr_titles[person.name]  = {
-                "title": person.title,
-                "department": person.department,
-                "email": person.email,
-                "phone": person.phone,
-                "st_address": person.st_address,
-                "room": person.room,
-                "city": person.city,
-                "state": person.state,
-                "zip_code": person.zip_code
-            }
-
-        #### Write out Json file here ####
-        print("Creating a json database source file...")
-        egr_staff_file = open("staff.json", "w") # create a json file
-        egr_staff_file.write(json.dumps(egr_titles, indent = 4)) # dump the dictionary and format it
-        egr_staff_file.close() # close the file
-        print("The json file has been created successfully.")
-
-        setup_db()
-        print("Database has been successfully populated")
-        if __name__ == '__main__':
-            app.run(debug=True)
+    setup_db()
+    print("Database has been successfully populated")
+    if __name__ == '__main__':
+        app.run(debug=True)
 
 
-        #------------------------------
-        # END OF CODE
-        #-----------------------------
+    #------------------------------
+    # END OF CODE
+    #-----------------------------

@@ -7,7 +7,11 @@
 <br>
 <br>
 
-<h2>Staff List</h2>
+{% for item in mcount %}
+
+<h2>Staff List ({{ item[0] }} Members)</h2>
+
+{% endfor %}
 
 <p>This is an exhaustive list of all MSU ENG staff. Clicking on a staff member's name will take you to their profile.</p>
 <br>

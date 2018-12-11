@@ -16,6 +16,7 @@
 <p><h3>Staff Distribution by Building</h3></p>
 
 <div id="myDiv" style="width:800px; height:600px;"></div>
+
 <script>
 
 
@@ -46,17 +47,18 @@ var layout = {
 
 Plotly.newPlot('myDiv', data, layout);
 </script>
+
 <br><br>
 
-<p><h3>Buildings:</h3></p>
+{% for entry in bcount %}
+<p><h3>Buildings:  {{ entry[0] }} </h3></p>
 
-{% for item in data %}
+{% endfor %}
 
-<p><a href="{{ url_for('building_staff', id=item[3]) }}">{{ item[0] }} ({{ item[1] }})</a> |
- <!--<td>{{item[1]}}</td>--> 
- <!--<td>{{item[2]}}</td>-->
- Staff Count: {{item[2]}}
-</p>
+
+{% for item in buildings %}
+
+<p><a href="{{ url_for('building_staff', id= item[3]) }}">{{ item[0] }} ({{ item[1] }})</a> | Staff Count: {{ item[2] }}</p>
 
 {% endfor %}
 

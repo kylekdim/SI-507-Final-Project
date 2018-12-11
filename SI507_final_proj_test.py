@@ -133,128 +133,41 @@ class TestDatabase(unittest.TestCase):
         result_list = results.fetchall()
         self.assertIn(('Michigan Biotechnology Institute',), result_list)
         conn.close()
-
-TEST_DB = 'test.db'
  
  
 class FlaskTests(unittest.TestCase):
- 
-        ############################
-        #### setup and teardown ####
-        ############################
      
         # executed prior to each test
         def setUp(self):
             self.app = app.test_client()
-            #db.drop_all()
-            #db.create_all()
-     
-            # Disable sending emails during unit testing
-            #mail.init_app(app)
             self.assertEqual(app.debug, False)
      
-        # executed after each test
-        #def tearDown(self):
-            #pass
-     
-     
-    ###############
-    #### tests ####
-    ###############
-     
-        def test_page_routes(self):
+        def test_page_index(self):
             response = self.app.get('/', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
 
+        def test_page_staff(self):
             response = self.app.get('/staff', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
- 
+        
+        def test_page_buildings(self):
             response = self.app.get('/buildings', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
 
+        def test_page_depts(self):
             response = self.app.get('/depts', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
 
+        def test_page_staff_profile(self):
             response = self.app.get('/staff/34', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
 
+        def test_page_building_staff(self):
             response = self.app.get('/buildings/7', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
 
+        def test_page_dept_staff(self):
             response = self.app.get('/depts/4', follow_redirects=True)
             self.assertEqual(response.status_code, 200)
 
-    #if __name__ == "__main__":
-        #unittest.main()
-
-
-'''
-        self.name = name
-        self.title = title
-        self.email = email
-        self.phone = phone
-        self.department = department
-        self.st_address = st_address
-        self.room = room
-        self.city = city
-        self.state = state
-        self.zip_code = zip_code
-        '''
-
-'''
-class TestBarSearch(unittest.TestCase):
-
-    def test_bar_search(self):
-        results = process_command('bars ratings top=1')
-        self.assertEqual(results[0][0], 'Chuao')
-
-        results = process_command('bars cocoa bottom=10')
-        self.assertEqual(results[0][0], 'Guadeloupe')
-
-        results = process_command('bars sellcountry=CA ratings top=5')
-        self.assertEqual(results[0][3], 4.0)
-
-        results = process_command('bars sourceregion=Africa ratings top=5')
-        self.assertEqual(results[0][3], 4.0)
-
-
-class TestCompanySearch(unittest.TestCase):
-
-    def test_company_search(self):
-        results = process_command('companies region=Europe ratings top=5')
-        self.assertEqual(results[1][0], 'Idilio (Felchlin)')
-
-        results = process_command('companies country=US bars_sold top=5')
-        self.assertTrue(results[0][0] == 'Fresco' and results[0][2] == 26)
-
-        results = process_command('companies cocoa top=5')
-        self.assertEqual(results[0][0], 'Videri')
-        self.assertGreater(results[0][2], 0.79)
-
-class TestCountrySearch(unittest.TestCase):
-
-    def test_country_search(self):
-        results = process_command('countries sources ratings bottom=5')
-        self.assertEqual(results[1][0],'Uganda')
-
-        results = process_command('countries sellers bars_sold top=5')
-        self.assertEqual(results[0][2], 764)
-        self.assertEqual(results[1][0], 'France')
-
-
-class TestRegionSearch(unittest.TestCase):
-
-    def test_region_search(self):
-        results = process_command('regions sources bars_sold top=5')
-        self.assertEqual(results[0][0], 'Americas')
-        self.assertEqual(results[3][1], 66)
-        self.assertEqual(len(results), 4)
-
-        results = process_command('regions sellers ratings top=10')
-        self.assertEqual(len(results), 5)
-        self.assertEqual(results[0][0], 'Oceania')
-        self.assertGreater(results[3][1], 3.0)
-
-
-'''
 unittest.main()

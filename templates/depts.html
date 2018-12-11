@@ -48,15 +48,17 @@ Plotly.newPlot('myDiv', data, layout);
 </script>
 <br><br>
 
-<h3>Departments:</h3>
+{% for item in dept_count %}
+
+<h3>Departments: {{ item[0] }}</h3>
+
+{% endfor %}
 
 
-{% for item in data %}
+{% for item in depts %}
 
 <p><tr>
 <td><a href="{{ url_for('dept_staff', id=item[2]) }}">{{ item[0] }}</a> |</td>
- <!--<td>{{item[1]}}</td>--> 
- <!--<td>{{item[2]}}</td>-->
 <td> Staff Count: {{item[1]}}</td>
 </tr></p>
 
