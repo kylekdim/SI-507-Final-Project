@@ -17,7 +17,7 @@ Fall 2018 SI 507 Final Project
 3. Generate a flask website with SQL database query results populating the website's content
 
 <b>How to run:</b> 
-1. Clone this repository or duplicate the files and directories contained within it.
+1. Clone this repository or duplicate the files and directories contained within it. (Ensure that you also have the contents of 'templates' and 'static')
 2. Launch a virtual machine in your terminal.
 3. Install Requirements.txt
 4. Decide how quickly you'd like the flask website to deploy, based on how much data this program is processing.
@@ -31,7 +31,12 @@ Fall 2018 SI 507 Final Project
 5. Launch SI507_final_proj.py.
 6. Navigate to http://127.0.0.1:5000/ in your browser when prompted.
 
-(No need to sign up for Plotly, as the graphs inserted into the site use plotly's javascript CDN)
+<p>Test Cases:</p>
+1. Ensure that steps 1-3 in "How to run" have been completed.
+2. Launch SI507_final_proj_test.py. Comments explaining tests are contained in the .py file. There are no other file dependencies for the test file except for the SI507_final_proj.py file.
+
+<b>Due to tests that pull data from cache, or even make new requests if no cache exists, tests take ~2 minutes to run.</b>
+
 
 <b>Detailed Workflow:</b> (More granular comments in SI507_final_proj.py and SI507_final_proj_test.py)
 1. Check for cache, and open it for future processing if it exists. Create a new dictionary that will hold contents for a cache of a request.get from the Data Source.
