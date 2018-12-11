@@ -752,24 +752,7 @@ def setup_db():
 
 @app.route('/')
 def index():
-    #cur = get_db().cursor()
-    try:
-        conn = sqlite3.connect(DBNAME)
-        cur = conn.cursor()
-
-    except:
-        print("failed to connect database to web output")
-
-    statement= '''
-        SELECT FirstName, LastName, Title, Department FROM Staff
-        ORDER BY LastName ASC;
-        '''
-    data= cur.execute(statement).fetchall()
-    
-    conn.close()
-
-    return render_template('index.html', data=data)
-
+    return render_template('index.html')
 
 
 @app.route('/staff')
