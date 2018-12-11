@@ -16,7 +16,7 @@ Fall 2018 SI 507 Final Project
 2. Insert scraping data into SQL database
 3. Generate a flask website with SQL database query results populating the website's content
 
-<b>How to run:</b>
+<b>How to run:</b> 
 1. Clone this repository or duplicate the files and directories contained within it.
 2. Launch a virtual machine in your terminal.
 3. Install Requirements.txt
@@ -30,6 +30,8 @@ Fall 2018 SI 507 Final Project
 
 5. Launch SI507_final_proj.py.
 6. Navigate to http://127.0.0.1:5000/ in your browser when prompted.
+
+(No need to sign up for Plotly, as the graphs inserted into the site use plotly's javascript CDN)
 
 <b>Detailed Workflow:</b> (More granular comments in SI507_final_proj.py and SI507_final_proj_test.py)
 1. Check for cache, and open it for future processing if it exists. Create a new dictionary that will hold contents for a cache of a request.get from the Data Source.

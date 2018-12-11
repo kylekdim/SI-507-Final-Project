@@ -188,6 +188,8 @@ def setup_db():
     except:
         print("Database creation failed at startup. Please try again.")
 
+    #DROP TABLE statements for the tables we intend to create to ensure no redundant data entry or strange database issues
+
     statement = '''
         DROP TABLE IF EXISTS 'Staff';
     '''
@@ -210,6 +212,8 @@ def setup_db():
     # ==================================
     # -------- Create Staff Table ------
     # ==================================
+
+    # Note the foreign key relationships with the Dept and Building IDs; will be used for Dept/Building Names later
 
     statement = '''
         CREATE TABLE 'Staff' (
@@ -301,6 +305,7 @@ def setup_db():
         non_space_name = raw_name.strip()
         name_list = non_space_name.split()
 
+        #Look out for tricky names, suffixes, certifications that mess up name parsing
         if "Jr." in name_list:
             FirstName = "Robert C."
             LastName = "Ferrier, Jr."
@@ -314,6 +319,7 @@ def setup_db():
             FirstName = "Patrick"
             LastName = "Kwon"
 
+        #If there's 2 strings in a name, split name by word. If more than 2, last name is last word. This works with the small amt of staff members there are.
         elif len(name_list) == 2:
             FirstName = name_list[0]
             LastName = name_list[1]
@@ -331,7 +337,6 @@ def setup_db():
             Title="Chair, Biomedical Engineering; Director, Institute for Quantitative Health Science & Engineering"
 
         Department = json_data[name]["department"]
-        #print(Title)
 
         #Normalize the formatting of Street Addresses for staff members
         StreetAddress = json_data[name]["st_address"] 
@@ -739,6 +744,7 @@ def setup_db():
     cur.execute(add_BuildingId)
     conn.commit()
 
+    #populate the DepartmentId column in the "Staff" table to populate the foreign key field with "Department"
     add_DepartmentId = '''
         UPDATE Staff
         SET (DepartmentId) = (SELECT Department.DepartmentId FROM Department WHERE Staff.Department = Department.DepartmentName)
@@ -748,16 +754,20 @@ def setup_db():
     conn.commit()
 
     conn.close()
+#close the connection to the database
 
+#==============================================
+#-----------Flask App Routes ------------------
+#==============================================
 
 @app.route('/')
 def index():
     return render_template('index.html')
 
+#=================================
 
-@app.route('/staff')
+@app.route('/staff') #Exhaustive list of staff
 def staff():
-    #cur = get_db().cursor()
     try:
         conn = sqlite3.connect(DBNAME)
         cur = conn.cursor()
@@ -765,8 +775,9 @@ def staff():
     except:
         print("failed to connect database to web output")
 
-    mcount_statement = 'SELECT count(Staff.StaffId) FROM Staff;'
+    mcount_statement = 'SELECT count(Staff.StaffId) FROM Staff;' #Used for displaying total staff members
 
+    #this statement used for populating list of staff, and links to profiles
     members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
         ORDER BY LastName ASC;
@@ -778,6 +789,8 @@ def staff():
 
     return render_template('staff.html', members=members, mcount=mcount)
 
+#=================================
+
 @app.route('/staff/<int:id>')
 def profile(id=None):
 
@@ -788,6 +801,7 @@ def profile(id=None):
     except:
         print("failed to connect database to web output")
 
+    #get all information in the staff table for use in the profile page
     statement = '''
         SELECT * FROM Staff WHERE StaffId = {};
     '''.format(id)
@@ -796,6 +810,8 @@ def profile(id=None):
     conn.close()
 
     return render_template('profile.html', person= person, id=id)
+
+#=================================
 
 @app.route('/buildings')
 def buildings():
@@ -810,8 +826,11 @@ def buildings():
     except:
         print("failed to connect database to web output")
 
+    #This query used to show the building count
+
     bcount_statement = 'SELECT count(Building.BuildingId) FROM Building;'
 
+    #this query used to get list of buildings, and associated staff counts for display
     buildings_statement= '''
         SELECT Building.BuildingName, Building.StreetAddress, count(Staff.StaffId) as "Staff Count", Building.BuildingId
         FROM Staff
@@ -823,6 +842,7 @@ def buildings():
     buildings = cur.execute(buildings_statement).fetchall()
     bcount = cur.execute(bcount_statement).fetchall()
 
+    #append these x and y values to lists declared above for plotly bar chart: buildings on x, num staff on y
     for item in buildings:
         x_values.append(item[0])
         y_values.append(item[2])
@@ -830,6 +850,8 @@ def buildings():
     conn.close()
 
     return render_template('buildings.html', buildings=buildings, x_values=x_values, y_values=y_values, bcount=bcount)
+
+#=================================
 
 @app.route('/buildings/<int:id>')
 def building_staff(id=None):
@@ -841,6 +863,7 @@ def building_staff(id=None):
     except:
         print("failed to connect database to web output")
 
+    #this query used to find all staff members in a specific building
     members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId, Building.BuildingName, Building.StreetAddress, Building.City, Building.State, Building.ZipCode FROM Staff
         LEFT JOIN Building ON Staff.BuildingId = Building.BuildingId
@@ -848,11 +871,13 @@ def building_staff(id=None):
         ORDER BY LastName ASC;
         '''.format(id)
 
+    #this query used to provide more detailed info about a building
     building_statement= '''
         SELECT Building.BuildingName, Building.StreetAddress, Building.City, Building.State, Building.ZipCode FROM Building
         WHERE Building.BuildingId ={};
         '''.format(id)
 
+    #this query meant to get lets/long for plotly map
     latlong_statement= '''
         SELECT Building.BuildingName, Building.Latitude, Building.Longitude FROM Building
         WHERE Building.BuildingId ={};
@@ -866,9 +891,10 @@ def building_staff(id=None):
 
     return render_template('buildingstaff.html', members= members, building=building, id=id, latlong=latlong)
 
+#=================================
+
 @app.route('/depts')
 def depts():
-    #cur = get_db().cursor()
 
     x_values= []
     y_values= []
@@ -880,8 +906,11 @@ def depts():
     except:
         print("failed to connect database to web output")
 
+    #this query gets the number of departments
+
     dcount_statement = 'SELECT count(Department.DepartmentId) FROM Department;'
 
+    #this query gets the number of staff members per department
     dept_statement= '''
         SELECT Staff.Department as "Department", COUNT(Staff.StaffId) as "Staff Count", Staff.DepartmentId
         FROM Staff
@@ -891,6 +920,7 @@ def depts():
     depts= cur.execute(dept_statement).fetchall()
     dept_count= cur.execute(dcount_statement).fetchall()
 
+    #append these x and y values to lists declared above for plotly bar chart: buildings on x, num staff on y
     for item in depts:
         x_values.append(item[0])
         y_values.append(item[1])
@@ -898,6 +928,8 @@ def depts():
     conn.close()
 
     return render_template('depts.html', depts=depts, dept_count=dept_count, x_values=x_values, y_values=y_values)
+
+#=================================
 
 @app.route('/depts/<int:id>')
 def dept_staff(id=None):
@@ -909,8 +941,10 @@ def dept_staff(id=None):
     except:
         print("failed to connect database to web output")
 
+    #Query gets the total number of staff members tied to a dept
     mcount_statement='SELECT count(Staff.StaffId) FROM Staff WHERE DepartmentId ={}'.format(id)
 
+    #Query gets all staff members to be listed as links to their staff profiles
     members_statement= '''
         SELECT FirstName, LastName, Title, Department, StaffId FROM Staff
         WHERE DepartmentId ={}
@@ -944,7 +978,7 @@ try:
     print("Database has been successfully populated")
 
     if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(debug=True) #run flask app
 
 
 except: #If a parsed json file doesn't exist, start fresh with getting the scraping data (Call to 'get_egr_data' will check for cache data)
@@ -977,7 +1011,7 @@ except: #If a parsed json file doesn't exist, start fresh with getting the scrap
     setup_db()
     print("Database has been successfully populated")
     if __name__ == '__main__':
-        app.run(debug=True)
+        app.run(debug=True) #run flask app
 
 
     #------------------------------
