@@ -49,7 +49,7 @@ The flask website I have created contains the following routes:
 2. staff: An exhaustive list of all Engineering staff members with their departments next to their name. The number of staff members is shown at the top header.
 3. profile: Contains a staff member's detailed information. Name, Phone, Email, etc.
 4. building: This is a list of buildings where Engineering staff members have offices. A plotly bar chart shows how many staff members are in each building. A number of buildings is shown above the list.
-5. building staff: This is a list of staff members in a building. It features a plotly map with the location of the building noted. The MapBox key exposed in the template is a read-only-privileged, public-facing key.
+5. building staff: This is a list of staff members in a building. It features a plotly map with the location of the building noted. <b>The MapBox access token exposed in the template is a read-only-privileged, public-facing token.</b>
 6. dept: This is a list of all departments that Engineering staff members are employed under. A plotly bar chart shows the distribution of staff members to departments. The number of departments is also displayed.
 7. dept staff: This is a list of all of the staff members aligned to a specific department. The name of the department featured is also displayed.
 
