@@ -290,8 +290,8 @@ def setup_db():
     except:
         print("Failure. Please try again.")
 
-    addresses =""
-    departments =""
+    addresses ="" #string to store processed addresses to extract unique addresses
+    departments ="" #string to store processed depts to extract unique depts
 
     #------------ Load the Staff Table ----------
 

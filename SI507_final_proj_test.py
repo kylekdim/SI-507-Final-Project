@@ -1,6 +1,61 @@
 import unittest
 from SI507_final_proj import *
 
+class TestMembersPullParse(unittest.TestCase):
+
+    def member_is_in_member_list(self, member_name, member_addr, member_list):
+        for member in member_list:
+            if member_name == member.name and member_addr == member.st_address:
+                return True
+        return False        
+
+    def get_member_from_list(self, member_name, member_list):
+        for member in member_list:
+            if member_name == member.name:
+                return member
+        return None
+
+    def setUp(self):
+        self.member_list = get_egr_data()
+        self.ricardo_ma = self.get_member_from_list('Ricardo Mejia-Alvarez', self.member_list)
+
+    def test_staff_pull(self):
+        self.assertEqual(len(self.member_list), 453)
+        self.assertTrue(self.member_is_in_member_list('Ricardo Mejia-Alvarez',
+            '1449 Engineering Research Complex', self.member_list))
+
+    def test_member(self):
+        self.assertEqual(self.ricardo_ma.name, 'Ricardo Mejia-Alvarez')
+        self.assertEqual(self.ricardo_ma.title, 'Assistant Professor')
+        self.assertEqual(self.ricardo_ma.email, 'rimejal@msu.edu')
+        self.assertEqual(self.ricardo_ma.phone, '217-649-6583')
+        self.assertEqual(self.ricardo_ma.department, 'Mechanical Engineering')
+        self.assertEqual(self.ricardo_ma.st_address, '1449 Engineering Research Complex')
+        self.assertEqual(self.ricardo_ma.room, 'A117')
+        self.assertEqual(self.ricardo_ma.city, 'East Lansing')
+        self.assertEqual(self.ricardo_ma.state, 'MI')
+        self.assertEqual(self.ricardo_ma.zip_code, '48824')
+
+class TestJsonOutput(unittest.TestCase):
+    
+    def test_read_json_data(self):
+
+        json_file = open(STAFFJSON, 'r')
+        json_content = json_file.read()
+        json_data = json.loads(json_content)
+        json_file.close()
+
+        count = 0
+        for name in json_data:
+
+            count = count + 1
+
+            if count == 122:
+                self.assertEqual(name, "John Foss")
+                self.assertEqual(json_data[name]["email"], "foss@egr.msu.edu") 
+
+
+
 class TestDatabase(unittest.TestCase):
 
     def test_building_table(self):
@@ -78,6 +133,74 @@ class TestDatabase(unittest.TestCase):
         result_list = results.fetchall()
         self.assertIn(('Michigan Biotechnology Institute',), result_list)
         conn.close()
+
+TEST_DB = 'test.db'
+ 
+ 
+class FlaskTests(unittest.TestCase):
+ 
+        ############################
+        #### setup and teardown ####
+        ############################
+     
+        # executed prior to each test
+        def setUp(self):
+            self.app = app.test_client()
+            #db.drop_all()
+            #db.create_all()
+     
+            # Disable sending emails during unit testing
+            #mail.init_app(app)
+            self.assertEqual(app.debug, False)
+     
+        # executed after each test
+        #def tearDown(self):
+            #pass
+     
+     
+    ###############
+    #### tests ####
+    ###############
+     
+        def test_page_routes(self):
+            response = self.app.get('/', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+
+            response = self.app.get('/staff', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+ 
+            response = self.app.get('/buildings', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+
+            response = self.app.get('/depts', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+
+            response = self.app.get('/staff/34', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+
+            response = self.app.get('/buildings/7', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+
+            response = self.app.get('/depts/4', follow_redirects=True)
+            self.assertEqual(response.status_code, 200)
+
+    #if __name__ == "__main__":
+        #unittest.main()
+
+
+'''
+        self.name = name
+        self.title = title
+        self.email = email
+        self.phone = phone
+        self.department = department
+        self.st_address = st_address
+        self.room = room
+        self.city = city
+        self.state = state
+        self.zip_code = zip_code
+        '''
+
 '''
 class TestBarSearch(unittest.TestCase):
 
