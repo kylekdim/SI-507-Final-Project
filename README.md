@@ -5,6 +5,7 @@ Fall 2018 SI 507 Final Project
 
 <p><b>Data Extraction Method:</b> Crawling and Scraping</p>
 <p><b>Data Source:</b> https://www.egr.msu.edu/people/directory/all/</p>
+<p><b>External credit:</b> base.html template with bootstrap navbar code used from template provided in SI664, creator/instructor: Anthony Whyte
 
 <p><b>Cached Data:</b> cache.json<br>
 <b>Formatted Scraping Data:</b> staff.json<br>
